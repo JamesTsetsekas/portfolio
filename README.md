@@ -7,7 +7,7 @@
     personal static website/portfolio hosted with GitHub Pages, built to showcase my recent projects.
     <br />
     <strong>Site URL / Demo » </strong>
-    <a href="https://jamestsetsekas.github.io/portfolio"> jamestsetsekas.github.io/portfolio</a>
+    <a href="https://jamestsetsekas.vercel.app/"> jamestsetsekas.github.io/portfolio</a>
     <br />
     <br />
     <a href="https://jamestsetsekas.com">About Me</a>
