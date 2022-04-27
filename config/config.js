@@ -48,7 +48,7 @@ export const about = {
     "I specialize in HTML, CSS, SCSS, JS, WordPress, and React. I am constantly studying and practicing to grow my skills. I have completed many reputable courses in subjects such as Front End Development Libraries, Back End Development and APIs,  and JavaScript Algorithms and Data Structures. Most nights, I am always looking to expand my skill set.",
     "I have Object Oriented Programming experience using JavaScript, PHP, and Python. I have design experience, wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop, Illustrator, Xd, and various other tools.",
     "I have experince in business, IT and management. I started my career at a big four accounting firm  working on the IT helpdesk. Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchiser of residential real estate brokerages. I was the IT Director and Property Manager at a construction & real estate development company. I managed and streamlined their IT systems, oversaw commercial and residential leasings. I went on to work for a IT Managed Service Provider where I was a VOIP Project Manager. Additionally, I work Freelance Web Development projects.",
-    "When I’m not programming, I focus on my hobbies which are: Bitcoin, Real Estate, Finance, Travel, Skiing, Dogs, building computers & servers, Self Hosting Websites & Media Servers.",
+    "When I’m not programming, I focus on my hobbies which are: Bitcoin, Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self Hosting Websites & Media Servers.",
 	],
 }
 
