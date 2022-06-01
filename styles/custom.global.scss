@@ -152,9 +152,9 @@ color: $primary;
 }
 
 .text-end {
-  position: absolute;
-  bottom: .25rem;
-  right: .25rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
 }
 
 .text-end a {
