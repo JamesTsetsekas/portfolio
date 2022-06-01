@@ -131,11 +131,22 @@ color: $primary;
 
 
 .card-work {
-	transition: box-shadow .3s;
+	transition: background-color .5s;
 }
 
-.card-work:hover {
+.card-work:hover,
+.card-work:active {
   box-shadow: 0 0 11px rgba(33,33,33,.2);
+  background-color: #f7f7f7;
+}
+
+.card-work .text-end a svg {
+  transition: color .5s;
+}
+
+.card-work .text-end a svg:hover,
+.card-work .text-end a svg:active {
+  color: #555555;
 }
 
 .card-image {
