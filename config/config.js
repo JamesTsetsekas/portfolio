@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "James Tsetsekas",
-  description: "A Full Stack Web Developer creating dynamic, responsive websites and web applications.",
+  description: "I'm a Full Stack Web Developer and I love to create dynamic, responsive web applications.",
 	image: profile.src,
 	buttons: [
 		{
@@ -45,9 +45,9 @@ export const intro = {
 export const about = {
 	title: "About Me",
 	description: [
-    "I specialize in HTML, CSS, SCSS, JS, WordPress, and React. I am constantly studying and practicing to grow my skills. I have completed many reputable courses in subjects such as Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures. Most nights, I am always looking to expand my skill set.",
-    "I have Object Oriented Programming experience using JavaScript, PHP, and Python.I have design experience, wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop, Illustrator, Xd, and various other tools.",
-    "I have experience in business, IT and management.I started my career at a big four accounting firm working on the IT helpdesk.Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchiser of residential real estate brokerages.I was the IT Director and Property Manager at a construction & real estate development company.I managed and streamlined their IT systems, oversaw commercial and residential leasing.I went on to work for a IT Managed Service Provider where I was a VOIP Project Manager.Additionally, I work Freelance Web Development projects.",
+    "I'm a self taught Full Stack Web Developer specializing in JavaScript, HTML, CSS and React. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses.",
+    "I have Object Oriented Programming experience using JavaScript, PHP, and Python as well as design experience, wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop, Illustrator, Xd, and Figma.",
+    "I have experience in business, IT and management.I started my career at a big four accounting firm working on the IT helpdesk. Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchisor of residential real estate brokerages. I was the IT Director and Property Manager at a construction & real estate development company .I managed and streamlined their IT systems, oversaw commercial and residential leasing. I went on to work for a IT Managed Service Provider where I was a VOIP Project Manager.",
     "When I’m not programming, I focus on my hobbies which are: Bitcoin, Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self Hosting Websites & Media Servers."
 	],
 }
@@ -57,14 +57,10 @@ export const work = {
 	cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I create responsive websites using Reactjs, Next.js, Node.js, Express.js, and Wordpress.",
+      description: "I create responsive websites using JavaScript, HTML, CSS, React, Bootstrap, and Node.js.",
       icons: null,
     },
-		{
-      title: "IT Systems Admin",
-      description: "I manage, configure, and operate computer systems, virtual machines, networks, and applications.",
-			icons: null,
-		}
+
 	],
 }
 
@@ -85,44 +81,72 @@ export const projects = {
 				},
 			]
 		},
+    {
+      title: "Movie Watchlist",
+      description: "Search omdb api for movies and add them to local storage and displays them on the watchlist.",
+      icons: [
+        {
+          icon: faChrome,
+          link: "https://movie-watchlist-nu.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Movie-Watchlist",
+        },
+      ]
+    },
 		{
-			title: "Minesweeper",
-      description: "A Windows XP Minesweeper in React + Hooks. with mobile support.",
+			title: "Color Scheme Generator",
+      description: "A Color Scheme Generator tool using thecolorapi.com.",
 			icons: [
 				{
           icon: faChrome,
-          link: "https://minesweeper-jamestsetsekas.vercel.app/",
+          link: "https://color-scheme-generator-tau.vercel.app/",
 				},
 				{
           icon: faGithub,
-          link: "https://github.com/JamesTsetsekas/Minesweeper",
+          link: "https://github.com/JamesTsetsekas/Password-Generator",
 				},
 			]
 		},
 		{
-			title: "Provably Fair Dice Game",
-      description: "A Provably Fair Dice game with chat box. Made with Node.JS, MongoDB and Socket.IO. Minimal frontend is written in pure Javascript (not optimized for mobile view.)",
+      title: "Password Generator",
+      description: "A Password Generator That can be used in webpage or chrome extension.",
 			icons: [
         {
           icon: faChrome,
-          link: "https://provefaircasino.thejamescloud.duckdns.org/",
+          link: "https://password-generator-nu-ruby.vercel.app/",
         },
         {
           icon: faGithub,
-          link: "https://github.com/JamesTsetsekas/Provably-Fair-Dice",
+          link: "https://github.com/JamesTsetsekas/Password-Generator",
         },
 			]
-		}
+		},
+    	{
+        title: "Invoice Creator",
+        description: "A Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
+      icons: [
+        {
+          icon: faChrome,
+          link: "https://invoice-creator.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Invoice-creator",
+        },
+      ]
+    },
 	],
 }
 
 export const contact = {
 	title: "Get in touch",
-	description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at Jtsetsekas@gmail.com.",
+  description: "Lets schedule a meeting, feel free to reach out directly by email at James@JamesTsetsekas.com.",
 	buttons: [
 		{
 			title: "Email Me",
-			link: "mailto:Jtsetsekas@gmail.com",
+      link: "mailto:James@JamesTsetsekas.com",
 			isPrimary: true,
 		},
 	]
@@ -131,15 +155,15 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
 	// 50 - 60 char
-  title: "James Tsetsekas | Full-Stack Web Dev | DevOps Engineer | System Administrator",
-	description: "I create websites and manage computer systems, servers, virtualization, and networks.",
+  title: "James Tsetsekas | Full Stack Web Developer",
+	description: "I create web apps.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
 	title: "@JamesTsetsekas",
-  description: "Full-Stack Web Developer | Reactjs Developer | IT Sys Admin | DevOps ",
+  description: "Full-Stack Web Developer",
 	cards: [
 		{
 			title: "My website",
