@@ -123,20 +123,20 @@ export const projects = {
         },
 			]
 		},
-    	{
-        title: "Invoice Creator",
-        description: "A Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
-      icons: [
-        {
-          icon: faChrome,
-          link: "https://invoice-creator.vercel.app/",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/JamesTsetsekas/Invoice-creator",
-        },
-      ]
-    },
+    {
+      title: "Invoice Creator",
+      description: "A Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
+    icons: [
+      {
+        icon: faChrome,
+        link: "https://invoice-creator.vercel.app/",
+      },
+      {
+        icon: faGithub,
+        link: "https://github.com/JamesTsetsekas/Invoice-creator",
+      },
+    ]
+  },
 	],
 }
 
