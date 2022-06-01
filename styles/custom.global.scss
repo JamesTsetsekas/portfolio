@@ -129,15 +129,15 @@ font-family: $font-family-sans-serif;
 color: $primary;
 }
 
-// .card-work .text-end a svg {
-//   transition: all .3s;
-// }
+.card-work .text-end a svg {
+  transition: all .3s;
+}
 
-// .card-work .text-end a svg:hover,
-// .card-work .text-end a svg:active {
-//   color: #555555;
-//   transform: scale(1.2);
-// }
+.card-work .text-end a svg:hover,
+.card-work .text-end a svg:active {
+  color: #555555;
+  transform: scale(1.2);
+}
 
 .card-image {
 	transition: all .3s;
