@@ -82,6 +82,20 @@ export const projects = {
 			]
 		},
     {
+      title: "Chrome New tab Extension",
+      description: "A Chrome extension to shows a random nature photo the time, weather and bitcoin price when you open a new tab Also works on a webpage.",
+      icons: [
+        {
+          icon: faChrome,
+          link: "https://new-tab-chrome-extension.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/New-Tab-Chrome-Extension",
+        },
+      ]
+    },
+    {
       title: "Movie Watchlist",
       description: "Search omdb api for movies and add them to local storage and displays them on the watchlist.",
       icons: [
