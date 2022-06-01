@@ -129,24 +129,14 @@ font-family: $font-family-sans-serif;
 color: $primary;
 }
 
-
-.card-work {
-	transition: background-color .5s;
-}
-
-.card-work:hover,
-.card-work:active {
-  box-shadow: 0 0 11px rgba(33,33,33,.2);
-  background-color: #f7f7f7;
-}
-
 .card-work .text-end a svg {
-  transition: color .5s;
+  transition: all .3s;
 }
 
 .card-work .text-end a svg:hover,
 .card-work .text-end a svg:active {
   color: #555555;
+  transform: scale(1.2)
 }
 
 .card-image {
@@ -155,7 +145,8 @@ color: $primary;
   box-shadow: 1rem 1rem $primary;
 }
 
-.card-image:hover {
+.card-image:hover,
+.card-image:active {
   transform: translate(-0.5rem, -0.5rem);
   box-shadow: 2rem 2rem $primary;
 }
