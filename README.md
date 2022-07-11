@@ -20,7 +20,7 @@
 
 [![GitHub forks](https://img.shields.io/github/forks/jamestsetsekas/portfolio?style=for-the-badge)](https://github.com/jamestsetsekas/portfolio/network)
 [![GitHub license](https://img.shields.io/github/license/jamestsetsekas/portfolio?style=for-the-badge)](https://github.com/jamestsetsekas/portfolio/blob/master/LICENSE)
-[![Twitter Follow](https://img.shields.io/twitter/follow/jamestsetsekas?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badgee)](https://twitter.com/jamestsetsekas)
+[![Twitter Follow](https://img.shields.io/twitter/follow/jamestsetsekas?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/jamestsetsekas)
 [![Node Version](https://img.shields.io/static/v1?label=Node&message=14.17.3&color=026e00&style=for-the-badge)](https://nodejs.org)
 [![npm Version](https://img.shields.io/static/v1?label=npm&message=7.19.1&color=cb0000&style=for-the-badge)](https://nodejs.org)
 
