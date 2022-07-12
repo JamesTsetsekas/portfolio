@@ -45,10 +45,10 @@ export const intro = {
 export const about = {
 	title: "About Me",
 	description: [
-    "I'm a self taught Full Stack Web Developer specializing in JavaScript, HTML, CSS and React. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses.",
+    "I'm a self taught Full Stack Web Developer specializing in JavaScript, HTML, CSS and React. I teach & mentor hundreds of students via coding course communities and meetups. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles.",
     "I have Object Oriented Programming experience using JavaScript, PHP, and Python as well as design experience, wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop, Illustrator, Xd, and Figma.",
     "I have experience in business, IT and management. I started my career at a big four accounting firm working on the IT helpdesk. Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchisor of residential real estate brokerages. I was the IT Director and Property Manager at a construction & real estate development company. I managed and streamlined their IT systems, oversaw commercial and residential leasing. I went on to work for a IT Managed Service Provider where I was a VOIP Project Manager.",
-    "When I’m not programming, I focus on my hobbies which are: Bitcoin, Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self Hosting Websites & Media Servers."
+    "When I’m not programming, I focus on my hobbies which are: Bitcoin, attending and organizing coding meetups and confrences, Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self Hosting Websites & Media Servers."
 	],
 }
 
@@ -60,6 +60,11 @@ export const work = {
       description: "I create responsive websites using JavaScript, HTML, CSS, React, Bootstrap, and Node.js.",
       icons: null,
     },
+    {
+      title: "Coding mentor",
+      description: "I teach & mentor hundreds of students via coding course communities and meetups.",
+      icons: null,
+    },
 
 	],
 }
@@ -67,9 +72,37 @@ export const work = {
 export const projects = {
 	title: "Projects",
 	cards: [
+    {
+      title: "Quizzical",
+      description: "A React Quiz application that utilizes fetch API requests to display multiple choice trivia questions and calculate scores.",
+      icons: [
+        {
+          icon: faChrome,
+          link: "https://github.com/JamesTsetsekas/Quizzical-React-Quiz/",
+        },
+        {
+          icon: faGithub,
+          link: "https://quizzical-react-quiz.vercel.app/",
+        },
+      ]
+    },
+    {
+      title: "PicSome",
+      description: "A React E-Commerce project that uses a fetch API call to display Images including functional components to favorite images, add them to the cart and checkout.",
+      icons: [
+        {
+          icon: faChrome,
+          link: "https://pic-some-beta.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/PicSome/",
+        },
+      ]
+    },
 		{
 			title: "StarGaze",
-			description: "A react application that lets you explore the most starred projects on GitHub and view their code.",
+      description: "A React Single page application that uses fetch API requests to explore the most starred projects on GitHub with filter by date range and languages functionality.",
 			icons: [
 				{
           icon: faChrome,
@@ -81,6 +114,20 @@ export const projects = {
 				},
 			]
 		},
+    {
+      title: "Meme Generator",
+      description: "A React application that makes a fetch API request to imgflip.com to get the top 100 memes and the functionality for the user to add text.",
+      icons: [
+        {
+          icon: faChrome,
+          link: "https://meme-generator-psi-six.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Meme-Generator/",
+        },
+      ]
+    },
     {
       title: "Chrome New tab Extension",
       description: "A Chrome extension to shows a random nature photo the time, weather and bitcoin price when you open a new tab Also works on a webpage.",
