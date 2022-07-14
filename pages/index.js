@@ -15,6 +15,7 @@ export default function Home() {
         links={navigation.links}
       />
       <Intro
+        greeting={intro.greeting}
         title={intro.title}
         description={intro.description}
         image={intro.image}

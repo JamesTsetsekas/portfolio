@@ -25,6 +25,7 @@ export const navigation = {
 	],
 }
 export const intro = {
+  greeting: ["👋Hey,","I'm "],
 	title: "James Tsetsekas",
   description: "I'm a Full Stack Web Developer and I love to create dynamic, responsive web applications.",
 	image: profile.src,
