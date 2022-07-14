@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
 import {  faGithub, faChrome } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "James Tsetsekas",
@@ -58,12 +58,26 @@ export const work = {
     {
       title: "Full Stack Web Developer",
       description: "I create responsive websites using JavaScript, HTML, CSS, React, Bootstrap, and Node.js.",
-      icons: null,
+      icons: [
+        {
+          icon: faCode,
+        },
+        {
+          icon: faDatabase,
+        },
+      ]
     },
     {
       title: "Coding mentor",
       description: "I teach & mentor hundreds of students via coding course communities and meetups.",
-      icons: null,
+      icons: [
+        {
+          icon: faChalkboardTeacher,
+        },
+        {
+          icon: faUsers,
+        },
+      ]
     },
 
 	],
@@ -75,7 +89,7 @@ export const projects = {
     {
       title: "Quizzical",
       description: "A React Quiz application that utilizes fetch API requests to display multiple choice trivia questions and calculate scores.",
-      icons: [
+      linkIcons: [
         {
           icon: faChrome,
           link: "https://github.com/JamesTsetsekas/Quizzical-React-Quiz/",
@@ -89,7 +103,7 @@ export const projects = {
     {
       title: "PicSome",
       description: "A React E-Commerce project that uses a fetch API call to display Images including functional components to favorite images, add them to the cart and checkout.",
-      icons: [
+      linkIcons: [
         {
           icon: faChrome,
           link: "https://pic-some-beta.vercel.app/",
@@ -103,7 +117,7 @@ export const projects = {
 		{
 			title: "StarGaze",
       description: "A React Single page application that uses fetch API requests to explore the most starred projects on GitHub with filter by date range and languages functionality.",
-			icons: [
+			linkIcons: [
 				{
           icon: faChrome,
           link: "https://stargaze-jamestsetsekas.vercel.app/",
@@ -117,7 +131,7 @@ export const projects = {
     {
       title: "Meme Generator",
       description: "A React application that makes a fetch API request to imgflip.com to get the top 100 memes and the functionality for the user to add text.",
-      icons: [
+      linkIcons: [
         {
           icon: faChrome,
           link: "https://meme-generator-psi-six.vercel.app/",
@@ -131,7 +145,7 @@ export const projects = {
     {
       title: "Chrome New tab Extension",
       description: "A Chrome extension to shows a random nature photo the time, weather and bitcoin price when you open a new tab Also works on a webpage.",
-      icons: [
+      linkIcons: [
         {
           icon: faChrome,
           link: "https://new-tab-chrome-extension.vercel.app/",
@@ -145,7 +159,7 @@ export const projects = {
     {
       title: "Movie Watchlist",
       description: "Search omdb api for movies and add them to local storage and displays them on the watchlist.",
-      icons: [
+      linkIcons: [
         {
           icon: faChrome,
           link: "https://movie-watchlist-nu.vercel.app/",
@@ -159,7 +173,7 @@ export const projects = {
 		{
 			title: "Color Scheme Generator",
       description: "A Color Scheme Generator tool using thecolorapi.com.",
-			icons: [
+			linkIcons: [
 				{
           icon: faChrome,
           link: "https://color-scheme-generator-tau.vercel.app/",
@@ -173,7 +187,7 @@ export const projects = {
 		{
       title: "Password Generator",
       description: "A Password Generator That can be used in webpage or chrome extension.",
-			icons: [
+			linkIcons: [
         {
           icon: faChrome,
           link: "https://password-generator-nu-ruby.vercel.app/",
@@ -187,7 +201,7 @@ export const projects = {
     {
       title: "Invoice Creator",
       description: "A Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
-    icons: [
+    linkIcons: [
       {
         icon: faChrome,
         link: "https://invoice-creator.vercel.app/",
