@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
-import {  faGithub, faChrome } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "James Tsetsekas",
@@ -82,6 +82,63 @@ export const work = {
     },
 
 	],
+}
+
+export const skills = {
+  title: "Skills & Certifications",
+  cards: [
+    {
+      title: "Scrimba Frontend Developer Bootcamp",
+      description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, Responsive design, UI design, Git, peer code review, & mentoring.",
+      icons: [
+        {
+          icon: faHtml5,
+        },
+        {
+          icon: faCss3,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faReact,
+        },
+      ]
+    },
+    {
+      title: "FreeCodeCamp.org Front End Libraries Developer Certification",
+      description: "Approximately 300 hours of coursework covering how to create powerful Single Page Applications (SPAs) with React and Redux, and style them with Bootstrap and Sass.",
+      icons: [
+        {
+          icon: faFreeCodeCamp,
+        },
+        {
+          icon: faReact,
+        },
+        {
+          icon: faBootstrap,
+        },
+        {
+          icon: faSass,
+        },
+      ]
+    },
+    {
+      title: "FreeCodeCamp.org JavaScript Algorithms and Data Structures Developer Certification",
+      description: "Approximately 300 hours of coursework covering the fundamentals of JavaScript including variables, arrays, objects, loops, and functions, & Object Oriented Programming (OOP) and Functional Programming (FP).",
+      icons: [
+        {
+          icon: faFreeCodeCamp,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faLayerGroup,
+        }
+      ]
+    },
+  ],
 }
 
 export const projects = {
