@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
 import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "James Tsetsekas",
@@ -90,6 +90,10 @@ export const skills = {
     {
       title: "Scrimba Frontend Developer Bootcamp",
       description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, Responsive design, UI design, Git, peer code review, & mentoring.",
+      certificate: [
+        {icon: faCertificate,
+        link: "https://scrimba.com/certificate/u3bwdkfb/gfrontende"}
+      ],
       icons: [
         {
           icon: faHtml5,
@@ -108,6 +112,12 @@ export const skills = {
     {
       title: "FreeCodeCamp.org Front End Libraries Developer Certification",
       description: "Approximately 300 hours of coursework covering how to create powerful Single Page Applications (SPAs) with React and Redux, and style them with Bootstrap and Sass.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.freecodecamp.org/certification/jamestsetsekas/front-end-development-libraries"
+        }
+      ],
       icons: [
         {
           icon: faFreeCodeCamp,
@@ -126,6 +136,12 @@ export const skills = {
     {
       title: "FreeCodeCamp.org JavaScript Algorithms and Data Structures Developer Certification",
       description: "Approximately 300 hours of coursework covering the fundamentals of JavaScript including variables, arrays, objects, loops, and functions, & Object Oriented Programming (OOP) and Functional Programming (FP).",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.freecodecamp.org/certification/jamestsetsekas/javascript-algorithms-and-data-structures"
+        },
+      ],
       icons: [
         {
           icon: faFreeCodeCamp,

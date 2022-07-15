@@ -32,7 +32,8 @@ export const Skills = ({ title, cards }) => {
               key={index}
               title={value.title}
               description={value.description}
-              icons = {value.icons} />
+              icons = {value.icons}
+              cert={value.certificate} />
           ))}
         </div>
       </div>
@@ -62,11 +63,22 @@ export const Projects = ({ title, cards }) => {
 	);
 }
 
-export const Card = ({ title, description, icons, linkIcons }) => {
+export const Card = ({ title, description, icons, linkIcons, cert }) => {
 	return (
-		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>
+    <div className="card py-3 px-3 mx-sm-3 my-3 card-work" style={{ width: "20rem" }}>
 			<h4 className="text-primary">{title}</h4>
       <p className="text-dark">{description}</p>
+
+      <div className="cert">
+        {cert && cert.map((value, index) => (
+          <Link key={index} href={value.link}>
+            <a target="_blank" rel="noreferrer">
+              <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="4x" />
+            </a>
+          </Link>
+        ))}
+      </div>
+
 			<div className="text-end">
 
         {icons && icons.map((value, index) => (

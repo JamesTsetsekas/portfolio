@@ -32,6 +32,7 @@ export default function Home() {
       <Skills
         title={skills.title}
         cards={skills.cards}
+        certificate={skills.cards[0].certificate.test}
       />
       <Projects
         title={projects.title}
