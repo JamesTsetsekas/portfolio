@@ -216,7 +216,7 @@ export const projects = {
     },
     {
       title: "Chrome New tab Extension",
-      description: "A Chrome extension to shows a random nature photo the time, weather and bitcoin price when you open a new tab Also works on a webpage.",
+      description: "A Chrome extension leveraging fetch API requests to get weather, Bitcoin price, and display the current time when you open a new tab.",
       linkIcons: [
         {
           icon: faChrome,
@@ -230,7 +230,7 @@ export const projects = {
     },
     {
       title: "Movie Watchlist",
-      description: "Search omdb api for movies and add them to local storage and displays them on the watchlist.",
+      description: "Search for movies using the OpenMovie Database API using a fetch request you can save items to a watchlist and store in local storage for persistence.",
       linkIcons: [
         {
           icon: faChrome,
@@ -258,7 +258,7 @@ export const projects = {
     },
 		{
 			title: "Color Scheme Generator",
-      description: "A Color Scheme Generator tool using thecolorapi.com.",
+      description: "A tool to generate color schemes by fetching them from thecolorapi.com and manipulating the DOM to display them.",
 			linkIcons: [
 				{
           icon: faChrome,
@@ -272,7 +272,7 @@ export const projects = {
 		},
 		{
       title: "Password Generator",
-      description: "A Password Generator That can be used in webpage or chrome extension.",
+      description: "A secure password generator tool that can be used in webpage or chrome extension. Never use an insecure password again!",
 			linkIcons: [
         {
           icon: faChrome,
@@ -286,7 +286,7 @@ export const projects = {
 		},
     {
       title: "Invoice Creator",
-      description: "A Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
+      description: "A Dynamic Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
     linkIcons: [
       {
         icon: faChrome,
