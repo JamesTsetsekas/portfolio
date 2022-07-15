@@ -145,6 +145,20 @@ export const projects = {
 	title: "Projects",
 	cards: [
     {
+      title: "React Note App",
+      description: "A React Markdown note taking app, with a simple, clean, and responsive UI. Featuers the ability to save and retrieve notes from local storage",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://notes-app-one-lemon.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Notes-App/",
+        },
+      ]
+    },
+    {
       title: "Quizzical",
       description: "A React Quiz application that utilizes fetch API requests to display multiple choice trivia questions and calculate scores.",
       linkIcons: [
