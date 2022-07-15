@@ -228,6 +228,20 @@ export const projects = {
         },
       ]
     },
+    {
+      title: "Tenzies",
+      description: "Fun dice game Roll untill all your dice are the same, click each die to freeze it between rolls.",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://tenzies-theta.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Tenzies/",
+        },
+      ]
+    },
 		{
 			title: "Color Scheme Generator",
       description: "A Color Scheme Generator tool using thecolorapi.com.",
