@@ -18,9 +18,22 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides
-$primary: #365B6D ;
-$secondary: #F7F7F7;
-$light: #FFFFFF;
+$primary: #576F72;
+$secondary: #F0EBE3;
+$tertiary: #7D9D9C;
+$light: #F0EBE3;
+
+// original colors
+// $primary: #365B6D;
+// $secondary: #F7F7F7;
+// $tertiary: #555555;
+// $light: #FFFFFF;
+
+//1
+// $primary: #576F72;
+// $secondary: #F0EBE3;
+// $tertiary: #7D9D9C;
+// $light: #F0EBE3;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -135,7 +148,7 @@ color: $primary;
 
 .card-work .text-end a svg:hover,
 .card-work .text-end a svg:active {
-  color: #555555;
+  color: $tertiary;
   transform: scale(1.2);
   transition: all .3s;
 }
