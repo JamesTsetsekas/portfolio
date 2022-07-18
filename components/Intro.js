@@ -11,7 +11,7 @@ export const Intro = ({ greeting, title, description, image, buttons }) => {
 			<div className="container">
 				<div className=" row align-items-center">
 					<div className="col-sm-6">
-            <h2 className="text-primary fw-bold display-3 greeting">{greeting[0]}<br />{greeting[1]}{title}</h2>
+            <h2 className="text-primary fw-bold display-3 greeting"><span className="wave">{greeting.emoji}</span>{greeting.text[0]}<br />{greeting.text[1]}{title}</h2>
 						<p>{description}</p>
 						<div className="text-center">
 							{buttons.map((value, index) => (
