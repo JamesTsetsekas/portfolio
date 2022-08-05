@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
 import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "James Tsetsekas",
@@ -61,7 +61,7 @@ export const work = {
 	cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I create responsive websites using JavaScript, HTML, CSS, React, Bootstrap, and Node.js.",
+      description: "I create responsive websites using JavaScript, HTML, CSS, React, Angular, Vue.js, Bootstrap, Chakra UI, and Node.js, Express, and MongoDB.",
       icons: [
         {
           icon: faCode,
@@ -72,8 +72,20 @@ export const work = {
       ]
     },
     {
+      title: "Bitcoin enthusiast",
+      description: "I love learning & teaching others about Bitcoin. I enjoy contribuing to many open source Bitcoin related projects, and organazing and attending Bitcoin meetups and confrences. I'm a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel or learn more.",
+      icons: [
+        {
+          icon: faBitcoinSign,
+        },
+        {
+          icon: faBoltLightning,
+        },
+      ]
+    },
+    {
       title: "Coding mentor",
-      description: "I teach & mentor hundreds of students via coding course communities and meetups.",
+      description: "I teach, mentor, provide coding reviews for hundreds of students via coding course communities and meetups.",
       icons: [
         {
           icon: faChalkboardTeacher,
@@ -83,7 +95,6 @@ export const work = {
         },
       ]
     },
-
 	],
 }
 
