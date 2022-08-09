@@ -106,7 +106,7 @@ export const skills = {
       description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, Responsive design, UI design, Git, peer code review, & mentoring.",
       certificate: [
         {icon: faCertificate,
-        link: "https://scrimba.com/certificate/u3bwdkfb/gfrontende"}
+        link: "https://scrimba.com/certificate/u3bwdkfb/gfrontend"}
       ],
       icons: [
         {
