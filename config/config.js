@@ -45,7 +45,7 @@ export const intro = {
 		},
     {
       title: "⚡ Bitcoin Tip ⚡",
-      link: "http://btc.jamestsetsekas.com/",
+      link: "https://btc.jamestsetsekas.com/",
       isPrimary: false,
     },
 	],
@@ -379,7 +379,7 @@ export const links = {
     },
     {
       title: "Bitcoin Lightning Tip BTC Payn server",
-      link: "http://btc.jamestsetsekas.com/",
+      link: "https://btc.jamestsetsekas.com/",
     },
 	]
 }
