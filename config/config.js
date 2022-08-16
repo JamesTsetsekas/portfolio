@@ -180,6 +180,40 @@ export const projects = {
 	title: "Projects",
 	cards: [
     {
+      title: "SatsSpend - NYC Bitcoin Business List",
+      description: "SatsSpend is a website of New York City Area businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://jamestsetsekas.github.io/satsspend-newyorkcity/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Notes-App/",
+        },
+      ]
+    },
+    {
+      title: "Lightning Network Point of Sale Terminal",
+      description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. Contact me for more information.",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://lnbits.jamestsetsekas.com/tpos/VrTYaa2W7pA3ia7weowVA4",
+        },
+      ]
+    },
+    {
+      title: "Lightning Network Node",
+      description: "I run a Bitcoin Lightning Network node using lnd, with a BTCPay server instance. I love routing satoshis, and I'm always looking to open more channels. Contact me to open a channel or learn more about the lightning network.",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://btc.jamestsetsekas.com/",
+        },
+      ]
+    },
+    {
       title: "React Note App",
       description: "A React Markdown note taking app, with a simple, clean, and responsive UI. Featuers the ability to save and retrieve notes from local storage",
       linkIcons: [
