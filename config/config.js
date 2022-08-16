@@ -189,7 +189,7 @@ export const projects = {
         },
         {
           icon: faGithub,
-          link: "https://github.com/JamesTsetsekas/Notes-App/",
+          link: "https://github.com/JamesTsetsekas/satsspend-newyorkcity",
         },
       ]
     },
