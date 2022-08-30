@@ -233,11 +233,11 @@ export const projects = {
       linkIcons: [
         {
           icon: faChrome,
-          link: "https://github.com/JamesTsetsekas/Quizzical-React-Quiz/",
+          link: "https://quizzical-react-quiz.vercel.app/",
         },
         {
           icon: faGithub,
-          link: "https://quizzical-react-quiz.vercel.app/",
+          link: "https://github.com/JamesTsetsekas/Quizzical-React-Quiz/",
         },
       ]
     },
