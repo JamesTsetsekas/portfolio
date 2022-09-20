@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
 import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "James Tsetsekas",
@@ -30,7 +30,7 @@ export const intro = {
     text: [" Hey,","I'm "]
   },
 	title: "James Tsetsekas",
-  description: "I'm a Full Stack Web Developer and I love to create dynamic, responsive web applications.",
+  description: "I'm a Full Stack Web Developer and System adminsitrator! I love to work with cutting edge technologies to solve problems and create dynamic, responsive web applications.",
 	image: profile.src,
 	buttons: [
 		{
@@ -54,10 +54,11 @@ export const intro = {
 export const about = {
 	title: "About Me",
 	description: [
-    "I'm a self taught Full Stack Web Developer specializing in JavaScript, HTML, CSS and React. I teach & mentor hundreds of students via coding course communities and meetups. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles.",
+    "I'm a Full Stack Web Developer specializing in JavaScript, HTML, CSS and React. I teach & mentor hundreds of students via coding course communities, meetups, and regularly attend seminars. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles.",
     "I have Object Oriented Programming experience using JavaScript, PHP, and Python as well as design experience, wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop, Illustrator, Xd, and Figma.",
-    "I have experience in business, IT and management. I started my career at a big four accounting firm working on the IT helpdesk. Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchisor of residential real estate brokerages. I was the IT Director and Property Manager at a construction & real estate development company. I managed and streamlined their IT systems, oversaw commercial and residential leasing. I went on to work for a IT Managed Service Provider where I was a VOIP Project Manager.",
-    "When I’m not programming, I focus on my hobbies which are: Bitcoin, attending and organizing coding meetups and conferences, Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self Hosting Websites & Media Servers."
+    "I also have Experience in System and Network Administration Responsible for the administration, management, monitoring, alerting, & security of all critical IT infrastructure, networking equipment (Cisco / Juniper / Ubiquity), desktop support, server administration (Windows / Linux), VPN, Virtualization, and Telephony VoIP, Virtualization, and VoIP phone systems.",
+    "I have experience in business, IT and management. I started my career at a big four accounting firm working on the IT helpdesk.Immediately following that, I joined a team supporting proprietary web applications at the world’s largest franchisor of residential real estate brokerages. I was the System Administrator at a construction & real estate development company. I managed and streamlined their IT systems, oversaw commercial and residential leasing. I went on to work for a IT Managed Service Provider where I was a System Engineer tasked with Deployment, Migration, & Project Management, & Support of Business VOIP Telephony phone systems projectsv(Netsapiens, Bicom, Altigen).Building, configuring, managing, patching, testing and monitoring of networking equipment(Cisco / Juniper / Ubiquity) and IP telephony infrastructure related.",
+    "When I’m not working, I focus on my hobbies which are: Bitcoin, Lightning Network, Attending and organizing coding / IT meetups,  conferences and seminars,  Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self - Hosting Websites & Media Servers.",
 	],
 }
 
@@ -77,6 +78,18 @@ export const work = {
       ]
     },
     {
+      title: "System Administrator",
+      description: "Designing, Maintanting, and Adminstrating computer systems, frameworks, networks. Troubleshooting technical issues. Risk mitigation planning. Collaborating with Business Analysts, Project Leads and IT team to resolve issues and ensuring solutions are viable and consistent.",
+      icons: [
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        },
+      ]
+    },
+    {
       title: "Bitcoin enthusiast",
       description: "I love learning & teaching others about Bitcoin. I enjoy contribuing to many open source Bitcoin related projects, and organazing and attending Bitcoin meetups and confrences. I'm a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel or learn more about the lightning network.",
       icons: [
@@ -89,7 +102,7 @@ export const work = {
       ]
     },
     {
-      title: "Coding mentor",
+      title: "Teacher & Mentor",
       description: "I teach, mentor, provide coding reviews for hundreds of students via coding course communities and meetups.",
       icons: [
         {
