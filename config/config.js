@@ -66,18 +66,6 @@ export const work = {
 	title: "What I do",
 	cards: [
     {
-      title: "Full Stack Web Developer",
-      description: "I create responsive websites using JavaScript, HTML, CSS, React, Angular, Vue.js, Bootstrap, Chakra UI, and Node.js, Express, and MongoDB.",
-      icons: [
-        {
-          icon: faCode,
-        },
-        {
-          icon: faDatabase,
-        },
-      ]
-    },
-    {
       title: "System Administrator",
       description: "Designing, Maintanting, and Adminstrating computer systems, frameworks, networks. Troubleshooting technical issues. Risk mitigation planning. Collaborating with Business Analysts, Project Leads and IT team to resolve issues and ensuring solutions are viable and consistent.",
       icons: [
@@ -86,6 +74,18 @@ export const work = {
         },
         {
           icon: faNetworkWired,
+        },
+      ]
+    },
+    {
+      title: "Full Stack Web Developer",
+      description: "I create responsive websites using JavaScript, HTML, CSS, React, Angular, Vue.js, Bootstrap, Chakra UI, and Node.js, Express, and MongoDB.",
+      icons: [
+        {
+          icon: faCode,
+        },
+        {
+          icon: faDatabase,
         },
       ]
     },
