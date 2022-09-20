@@ -30,7 +30,7 @@ export const intro = {
     text: [" Hey,","I'm "]
   },
 	title: "James Tsetsekas",
-  description: "I'm a System / Network Administrator and  Full Stack Web Developer! I love to work with cutting edge technologies and hardware to solve buisness problems and create dynamic, responsive systems and web applications.",
+  description: "I'm a System / Network Administrator and  Full Stack Web Developer! I love to work with cutting-edge technologies and hardware to solve business problems and create dynamic, responsive systems and web applications.",
 	image: profile.src,
 	buttons: [
 		{
