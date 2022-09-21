@@ -91,7 +91,7 @@ export const work = {
     },
     {
       title: "Bitcoin enthusiast",
-      description: "I love learning & teaching others about Bitcoin. I enjoy contribuing to many open source Bitcoin related projects, and organazing and attending Bitcoin meetups and confrences. I'm a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel or learn more about the lightning network.",
+      description: "I love learning & teaching others about Bitcoin. I enjoy contribuing to many open source Bitcoin related projects, and organazing and attending Bitcoin meetups and confrences. I'm a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel, get help with your node, or learn more about the lightning network.",
       icons: [
         {
           icon: faBitcoinSign,
