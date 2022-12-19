@@ -30,7 +30,7 @@ export const intro = {
     text: [" Hey,","I'm "]
   },
 	title: "James Tsetsekas",
-  description: "I'm a System / Network Administrator and  Full Stack Web Developer! I love to work with cutting-edge technologies and hardware to solve business problems and create dynamic, responsive systems and web applications.",
+  description: "I'm a Full Stack Web Developer specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
 	image: profile.src,
 	buttons: [
 		{
@@ -54,10 +54,8 @@ export const intro = {
 export const about = {
 	title: "About Me",
 	description: [
-    "I'm a System and Network Administrator responsible for the  management, monitoring, alerting, & security of all critical IT infrastructure, networking equipment (Cisco / Juniper / Ubiquity), desktop support, server administration (Windows / Linux), VPN, Virtualization, Telephony VoIP.",
-    "I'm a Full Stack Web Developer specializing in JavaScript, HTML, CSS, & React. I teach & mentor hundreds of students via coding course communities, and meetups, and regularly attend seminars. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles.",
-    "I have Object Oriented Programming experience using JavaScript, PHP, and Python as well as design experience, wireframing, editing, and illustrating with a variety of tools such as Adobe Photoshop, Illustrator, Xd, and Figma.",
-    "I have experience in business, leadership, IT, and management. I started my career at a big four accounting firm working on the IT helpdesk. Immediately following that, I went on to lead a team of engineers supporting proprietary web-based applications at the world’s largest franchisor of residential real estate brokerages where I provided leadership as a subject matter expert on best practices to help maximize first contact resolution. I was the System Administrator at a construction & real estate development company where I managed and streamlined their IT systems. I went on to work for an IT Managed Service Provider where I was a System Engineer tasked with Deployment, Migration, & Project Management, & Support of Business VOIP Telephony phone systems projects (Netsapiens, Bicom, Altigen). Building, configuring, managing, patching, testing and monitoring of networking equipment (Cisco / Juniper / Ubiquity) Servers (Windows / Linux) and IP telephony infrastructure.",
+    "I'm a Full Stack Web Developer with Object Oriented Programming experience specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development and APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
+    "I have experience in development, leadership, and management. I started my career at the big four accounting firm KPMG working as a IT Engineer. Later i went on to be a System Administrator at the largest pharmacutical company in the world Novartis. Immediately following that, I went on to accept a position as a Full Stack Web Developer at the world’s largest franchisor of residential real estate brokerages. I worked on LeadRouter a web-based real-estate listing sales lead tool. At Realogy I provided leadership as a subject matter expert on best practices and developed an Intranet for technical documentation of development tools and APIs. I was the Full Stack Web Developer at a large construction & real estate development company where I developed highly dynamic websites and applications for residential and commercial properties and leasing using HTML, CSS, Bootstrap, JavaScript, PHP, WordPress, Angular, custom WordPress PHP plugins, contact forms. I went on to work for an IT Managed Service Provider where I was a Full Stack Web Developer tasked with Developing responsive single page web applications and dashboards for mobile and desktop, APIs, system integrations and browser extensions, to optimize CRM workflows. using JavaScript, Express.js, Node.js, Axios, React, CSS, Bootstrap and Chakra.",
     "When I’m not working, I focus on my hobbies which are: Bitcoin, Lightning Network, Attending and organizing coding / IT meetups,  conferences and seminars,  Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self - Hosting Websites & Media Servers.",
 	],
 }
@@ -65,18 +63,6 @@ export const about = {
 export const work = {
 	title: "What I do",
 	cards: [
-    {
-      title: "System Administrator",
-      description: "Designing, Maintanting, and Adminstrating computer systems, frameworks, networks. Troubleshooting technical issues. Risk mitigation planning. Collaborating with Business Analysts, Project Leads and IT team to resolve issues and ensuring solutions are viable and consistent.",
-      icons: [
-        {
-          icon: faComputer,
-        },
-        {
-          icon: faNetworkWired,
-        },
-      ]
-    },
     {
       title: "Full Stack Web Developer",
       description: "I create responsive websites using JavaScript, HTML, CSS, React, Angular, Vue.js, Bootstrap, Chakra UI, and Node.js, Express, and MongoDB.",
