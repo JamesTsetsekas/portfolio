@@ -411,7 +411,7 @@ export const links = {
       link: "https://twitter.com/JamesTsetsekas",
     },
     {
-      title: "Bitcoin Lightning Tip BTC Payn server",
+      title: "Bitcoin Lightning Tip BTC Pay server",
       link: "https://btc.jamestsetsekas.com/",
     },
 	]
