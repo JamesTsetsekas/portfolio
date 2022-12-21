@@ -159,7 +159,7 @@ color: $primary;
 
 .card-image:hover,
 .card-image:active {
-  transform: translate(-0.5rem, -0.5rem);
+  transform: translate(-0.5rem, -0.5rem) scale(1.2);
   box-shadow: 2rem 2rem $primary;
 }
 
