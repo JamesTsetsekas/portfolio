@@ -146,8 +146,8 @@ color: $primary;
 .card-work  a svg:hover,
 .card-work  a svg:active {
   color: $tertiary;
-  transform: rotate(45deg) scale(1.2);
-  transition: all .3s;
+  transform: rotate(360deg) scale(1.2);
+  transition: all .5s;
 }
 
 .card-image {
