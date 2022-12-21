@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const Contact = ({ title, description, buttons }) => {
 	return (
-    <div id="contact" className="bg-white py-5 px-5 text-center">
+    <div id="contact" className="bg-white py-5 px-5 text-center rounded">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">
@@ -32,7 +32,7 @@ export const Contact = ({ title, description, buttons }) => {
 
 export const Footer = () => {
 	return (
-		<footer className="bg-secondary text-center py-2 px-5">
+    <footer className="bg-secondary text-center py-2 px-5 rounded">
 			<div className="container text-muted">
         <small>&copy; {new Date().getFullYear()} {" "}
           <Link href="http://jamestsetsekas.com/">
