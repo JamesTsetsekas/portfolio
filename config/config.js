@@ -385,7 +385,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char
   title: "James Tsetsekas | Full Stack Web Developer",
-	description: "I create web apps.",
+	description: "I create responsive & dynamic web apps.",
 	image: profile.src,
 }
 
