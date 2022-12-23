@@ -18,11 +18,11 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides
-$primary: #576F72;
-$secondary: #F0EBE3;
-$tertiary: #7D9D9C;
-$quaternary: #E4DCCF;
-$light: #F0EBE3;
+$primary: #2b2d42;
+$secondary: #edf2f4;
+$tertiary: #ef233c;
+$quaternary: #d90429;
+$light: #edf2f4;
 
 // original colors
 // $primary: #365B6D;
@@ -35,6 +35,13 @@ $light: #F0EBE3;
 // $secondary: #F0EBE3;
 // $tertiary: #7D9D9C;
 // $light: #F0EBE3;
+
+//2
+// $primary: #2b2d42;
+// $secondary: #edf2f4;
+// $tertiary: #ef233c;
+// $quaternary: #d90429;
+// $light: #edf2f4;
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -235,6 +242,6 @@ color: $primary;
 }
 
 ::selection {
-  background: $tertiary;
+  background: $quaternary;
   color: $secondary;
 }
