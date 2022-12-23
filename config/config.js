@@ -1,7 +1,7 @@
 
 import profile from './profile.png';
-import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp, faLinkedin, faTwitter, faGithubAlt, faLinkedinIn, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired, faLink } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
 	name: "James Tsetsekas",
@@ -397,22 +397,32 @@ export const links = {
 		{
 			title: "My website",
 			link: "https://jamestsetsekas.com/",
+      icon: faChrome,
+      iconb: faLink,
 		},
 		{
 			title: "My GitHub",
       link: "https://github.com/JamesTsetsekas",
+      icon: faGithub,
+      iconb: faGithubAlt
 		},
 		{
 			title: "My LinkedIn",
       link: "https://www.linkedin.com/in/jamestsetsekas/",
+      icon: faLinkedin,
+      iconb: faLinkedinIn
 		},
     {
       title: "My Twitter",
       link: "https://twitter.com/JamesTsetsekas",
+      icon: faTwitter,
+      iconb: faTwitterSquare,
     },
     {
-      title: "Bitcoin Lightning Tip BTC Pay server",
+      title: "BTC Pay server",
       link: "https://btc.jamestsetsekas.com/",
+      icon: faBitcoinSign,
+      iconb: faBoltLightning,
     },
 	]
 }

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Footer } from '../components/Footer';
 import { links, SEO, } from '../config/config';
 import { Header } from '../components/Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const { publicRuntimeConfig } = getConfig()
 
@@ -17,7 +18,7 @@ export default function Home() {
           <h3 className="mt-3">{links.title}</h3>
           <p>{links.description}</p>
           {links.cards.map((value, index) => (
-            <Button key={index} title={value.title} link={value.link} />
+            <Button key={index} title={value.title} link={value.link} test={value.test} icon={value.icon} iconb={value.iconb} />
           ))}
         </div>
         <Footer />
@@ -27,13 +28,18 @@ export default function Home() {
 }
 
 
-function Button({ title, link }) {
+function Button({ title, link, icon, iconb }) {
   return (
     <div className="row justify-content-center">
       <div className="card card-work mx-sm-4 my-2" style={{ width: "20rem" }}>
         <Link href={link}>
           <a target="_blank" rel="noreferrer">
-            <h4 className="text-primary py-3 px-3">{title}</h4>
+            <h4 className="text-primary py-3 px-3">
+              <FontAwesomeIcon className="icon-style mx-2" icon={icon} size="1x" />
+              {title}
+              <FontAwesomeIcon className="icon-style mx-2" icon={iconb} size="1x" />
+            </h4>
+
           </a>
         </Link>
       </div>
