@@ -65,7 +65,7 @@ export const work = {
 	cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I create responsive websites using JavaScript, HTML, CSS, React, Angular, Vue.js, Bootstrap, Chakra UI, and Node.js, Express, and MongoDB.",
+      description: "I create responsive websites using HTML5, CSS, Javascript and the  MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) tech stacks, Sanity, Wordpress, Angular, Vue.js, Bootstrap, Chakra UI, and Tailwinds.",
       icons: [
         {
           icon: faCode,
