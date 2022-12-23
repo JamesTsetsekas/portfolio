@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const WhatIDo = ({ title, cards }) => {
   return (
-    <div id="skills" className="bg-primary py-5 px-5 rounded">
+    <div id="skills" className="bg-primary py-5 px-5 rounded-3">
       <div className="container">
         <h1 className="text-light fw-bold">{title}</h1>
         <div className="d-flex flex-row flex-wrap justify-content-center">
@@ -23,7 +23,7 @@ export const WhatIDo = ({ title, cards }) => {
 
 export const Skills = ({ title, cards }) => {
   return (
-    <div id="skills" className="bg-secondary py-5 px-5 rounded">
+    <div id="skills" className="bg-secondary py-5 px-5 rounded-3">
       <div className="container">
         <h1 className="text-primary fw-bold">{title}</h1>
         <div className="d-flex flex-row flex-wrap justify-content-center">
@@ -43,7 +43,7 @@ export const Skills = ({ title, cards }) => {
 
 export const Projects = ({ title, cards }) => {
 	return (
-    <div id="projects" className="bg-primary py-5 px-5 rounded">
+    <div id="projects" className="bg-primary py-5 px-5 rounded-3">
 			<div className="container">
 				<h1 className="text-light fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
@@ -65,7 +65,7 @@ export const Projects = ({ title, cards }) => {
 
 export const Card = ({ title, description, icons, linkIcons, cert }) => {
 	return (
-    <div className="card py-3 px-3 mx-sm-3 my-3 card-work rounded" style={{ width: "20rem" }}>
+    <div className="card py-3 px-3 mx-sm-3 my-3 card-work rounded-3" style={{ width: "20rem" }}>
 			<h4 className="text-primary">{title}</h4>
       <p className="text-dark">{description}</p>
 

@@ -7,7 +7,7 @@ const { publicRuntimeConfig } = getConfig()
 
 export const Intro = ({ greeting, title, description, image, buttons }) => {
 	return (
-    <div className="bg-secondary py-5 px-5 rounded">
+    <div className="bg-secondary py-5 px-5 rounded-3">
 			<div className="container">
 				<div className=" row align-items-center">
 					<div className="col-sm-6">
@@ -41,7 +41,7 @@ export const Intro = ({ greeting, title, description, image, buttons }) => {
 
 export const About = ({ title, description }) => {
 	return (
-    <div id="about" className="bg-white py-5 px-5 border border-secondary rounded">
+    <div id="about" className="bg-white py-5 px-5 border border-secondary rounded-3">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">
