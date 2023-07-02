@@ -46,7 +46,7 @@ export const Projects = ({ title, cards }) => {
   const totalCards = cards.length;
 
   const loadMoreCards = () => {
-    setDisplayedCards(displayedCards + 9);
+    setDisplayedCards(displayedCards + 3);
   };
 
   return (
