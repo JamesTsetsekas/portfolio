@@ -5,7 +5,7 @@ import { WhatIDo, Skills, Projects } from '../components/Work';
 import { Footer, Contact } from '../components/Footer';
 import { about, contact, intro, navigation, projects, SEO, work, skills } from '../config/config';
 import { Header } from '../components/Header';
-import KonamiCodeComponent from '../components/KonamiCodeComponent';
+import Konami from '../components/Konami';
 
 export default function Home() {
   return (
@@ -44,7 +44,7 @@ export default function Home() {
         buttons={contact.buttons}
       />
       <Footer />
-      <KonamiCodeComponent />
+      <Konami />
     </Fragment>
   );
 }
