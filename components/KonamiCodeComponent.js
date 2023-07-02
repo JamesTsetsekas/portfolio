@@ -7,19 +7,18 @@ const KonamiCodeComponent = () => {
   const [showConfetti, setShowConfetti] = useState(false);
 
   const handleShake = () => {
-      // Perform any actions you want when the iPhone is shaken
-      console.log('Shake detected!');
+    // Perform any actions you want when the iPhone is shaken
+    console.log('Shake detected!');
   };
 
-  useEffect(() => {
-    const checkKonamiCode = () => {
-      if (konamiCode === konamiPattern) {
-        setShowConfetti(true);
-        setTimeout(() => {
-          setShowConfetti(false);
-        }, 30000); // Show confetti for 30 seconds
-      }
-    };
+  const checkKonamiCode = () => {
+    if (konamiCode === konamiPattern) {
+      setShowConfetti(true);
+      setTimeout(() => {
+        setShowConfetti(false);
+      }, 30000); // Show confetti for 30 seconds
+    }
+  };
 
   const handleKeyDown = (event) => {
     const { key } = event;
@@ -48,7 +47,7 @@ const KonamiCodeComponent = () => {
     };
   }, []);
 
-
+  useEffect(() => {
     if (konamiCode.length >= konamiPattern.length) {
       setKonamiCode('');
     }
@@ -70,6 +69,6 @@ const KonamiCodeComponent = () => {
   );
 };
 
-console.log('Wow, look at you checking the console you must be a 1337 H4x0r! For fun try entering the Konami Code on my page! Enter on your keyboard ↑ ↑ ↓ ↓ ← → ← → b a.')
+console.log('Wow, look at you checking the console! You must be a 1337 H4x0r! For fun, try entering the Konami Code on my page! Enter on your keyboard ↑ ↑ ↓ ↓ ← → ← → b a.');
 
 export default KonamiCodeComponent;
