@@ -42,26 +42,39 @@ export const Skills = ({ title, cards }) => {
 }
 
 export const Projects = ({ title, cards }) => {
-	return (
+  const [displayedCards, setDisplayedCards] = useState(9);
+  const totalCards = cards.length;
+
+  const loadMoreCards = () => {
+    setDisplayedCards(displayedCards + 9);
+  };
+
+  return (
     <div id="projects" className="bg-primary py-5 px-5 rounded-3">
-			<div className="container">
-				<h1 className="text-light fw-bold">{title}</h1>
-				<div className="d-flex flex-row flex-wrap justify-content-center">
-					{cards.map((value, index) => (
-						<Card
-							key={index}
-							title={value.title}
-							description={value.description}
-              linkIcons={value.linkIcons} />
-					))}
-				</div>
-				{/* <div className="text-center">
-					<button type="button" className="btn btn-outline-light">See More</button>
-				</div> */}
-			</div>
-		</div>
-	);
-}
+      <div className="container">
+        <h1 className="text-light fw-bold">{title}</h1>
+        <div className="d-flex flex-row flex-wrap justify-content-center">
+          {cards.slice(0, displayedCards).map((value, index) => (
+            <Card
+              key={index}
+              title={value.title}
+              description={value.description}
+              linkIcons={value.linkIcons}
+            />
+          ))}
+        </div>
+        {displayedCards < totalCards && (
+          <div className="text-center">
+            <button type="button" className="btn btn-outline-light" onClick={loadMoreCards}>
+              Next
+            </button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
 
 export const Card = ({ title, description, icons, linkIcons, cert }) => {
 	return (
