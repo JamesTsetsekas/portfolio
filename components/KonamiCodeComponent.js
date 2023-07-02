@@ -17,7 +17,7 @@ const KonamiCodeComponent = () => {
         setShowConfetti(true);
         setTimeout(() => {
           setShowConfetti(false);
-        }, 3000); // Show confetti for 3 seconds
+        }, 10000); // Show confetti for 3 seconds
       }
     };
 
