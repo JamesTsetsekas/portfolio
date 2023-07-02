@@ -214,7 +214,7 @@ export const projects = {
     },
     {
       title: "React Note App",
-      description: "A React Markdown note taking app, with a simple, clean, and responsive UI. Featuers the ability to save and retrieve notes from local storage",
+      description: "A React Markdown note taking app, with a simple, clean, and responsive UI. Features the ability to save and retrieve notes from local storage",
       linkIcons: [
         {
           icon: faChrome,
