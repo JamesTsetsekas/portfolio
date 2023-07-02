@@ -43,6 +43,7 @@ export default function Home() {
         buttons={contact.buttons}
       />
       <Footer />
+      <Konami />
     </Fragment>
   );
 }
