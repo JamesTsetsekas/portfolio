@@ -43,4 +43,4 @@ const KonamiCodeComponent = () => {
   );
 };
 
-export default KonamiCodeComponent;
+export default Konami;
