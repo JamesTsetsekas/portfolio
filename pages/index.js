@@ -5,7 +5,7 @@ import { WhatIDo, Skills, Projects } from '../components/Work';
 import { Footer, Contact } from '../components/Footer';
 import { about, contact, intro, navigation, projects, SEO, work, skills } from '../config/config';
 import { Header } from '../components/Header';
-import { KonamiCodeComponent } from '../components/Konami';
+import KonamiCodeComponent from '../components/KonamiCodeComponent';
 
 export default function Home() {
   return (
