@@ -42,7 +42,7 @@ export const Skills = ({ title, cards }) => {
 }
 
 export const Projects = ({ title, cards }) => {
-  const [displayedCards, setDisplayedCards] = useState(9);
+  const [displayedCards, setDisplayedCards] = useState(3);
   const totalCards = cards.length;
 
   const loadMoreCards = () => {
