@@ -17,7 +17,7 @@ const KonamiCodeComponent = () => {
         setShowConfetti(true);
         setTimeout(() => {
           setShowConfetti(false);
-        }, 10000); // Show confetti for 3 seconds
+        }, 30000); // Show confetti for 30 seconds
       }
     };
 
@@ -42,6 +42,6 @@ const KonamiCodeComponent = () => {
   );
 };
 
-console.log('Wow, look at you checking the console you must be a 1337 H4x0r! For fun try entering the Konami Code on my page! ↑ ↑ ↓ ↓ ← → ← → b a Enter on your keyboard.')
+console.log('Wow, look at you checking the console you must be a 1337 H4x0r! For fun try entering the Konami Code on my page! Enter on your keyboard ↑ ↑ ↓ ↓ ← → ← → b a.')
 
 export default KonamiCodeComponent;
