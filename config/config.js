@@ -198,7 +198,7 @@ export const projects = {
       linkIcons: [
         {
           icon: faChrome,
-          link: "https://lnbits.jamestsetsekas.com/tpos/VrTYaa2W7pA3ia7weowVA4",
+          link: "https://lnbits.jamestsetsekas.com/tpos/gXDi5UGUMMFKZ75FT8qxPP",
         },
       ]
     },
