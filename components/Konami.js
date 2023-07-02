@@ -11,28 +11,6 @@ const Konami = () => {
     setKonamiCode((prevCode) => prevCode + key);
   };
 
-  const handleDeviceMotion = (event) => {
-    const { accelerationIncludingGravity } = event;
-    const accelerationX = accelerationIncludingGravity.x || 0;
-    const accelerationY = accelerationIncludingGravity.y || 0;
-    const accelerationZ = accelerationIncludingGravity.z || 0;
-
-    // Adjust these threshold values as needed for your specific device
-    const shakeThreshold = 1;
-    const shakeTimeout = 1000;
-
-    if (
-      Math.abs(accelerationX) > shakeThreshold ||
-      Math.abs(accelerationY) > shakeThreshold ||
-      Math.abs(accelerationZ) > shakeThreshold
-    ) {
-      setShowConfetti(true);
-      setTimeout(() => {
-        setShowConfetti(false);
-      }, shakeTimeout);
-    }
-  };
-
   useEffect(() => {
     const checkKonamiCode = () => {
       if (konamiCode === konamiPattern) {
@@ -52,10 +30,8 @@ const Konami = () => {
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
-    window.addEventListener('devicemotion', handleDeviceMotion);
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
-      window.removeEventListener('devicemotion', handleDeviceMotion);
     };
   }, []);
 
@@ -66,6 +42,6 @@ const Konami = () => {
   );
 };
 
-console.log('Wow, look at you checking the console! You must be a 1337 H4x0r! For fun, try entering the Konami Code on my page or shake your iPhone. (Konami Code: ↑ ↑ ↓ ↓ ← → ← → b a Enter)');
+console.log('Wow, look at you checking the console you must be a 1337 H4x0r! For fun try entering the Konami Code on my page! on your keyboard ↑ ↑ ↓ ↓ ← → ← → b a Enter.')
 
 export default Konami;
