@@ -66,7 +66,7 @@ export const Projects = ({ title, cards }) => {
         {displayedCards < totalCards && (
           <div className="text-center">
             <button type="button" className="btn btn-outline-light" onClick={loadMoreCards}>
-              Next
+              Load more
             </button>
           </div>
         )}
