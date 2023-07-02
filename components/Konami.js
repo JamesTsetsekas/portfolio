@@ -18,7 +18,7 @@ const Konami = () => {
     const accelerationZ = accelerationIncludingGravity.z || 0;
 
     // Adjust these threshold values as needed for your specific device
-    const shakeThreshold = 15;
+    const shakeThreshold = 1;
     const shakeTimeout = 1000;
 
     if (
