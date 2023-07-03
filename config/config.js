@@ -182,6 +182,20 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "Windows XP Minesweeper in React",
+      description: "Windows XP Minesweeper in React with Hooks and mobile support. Features include Release double mouse press at the same time to open ceils automatically, Never game over for the first click, Switch difficulty from the menu, Supports mobile! (long press for placing flags)",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://minesweeper-chi-fawn.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Minesweeper",
+        },
+      ]
+    },
+    {
       title: "SatsSpend - NYC Bitcoin Business List",
       description: "SatsSpend is a website of New York City Area businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.",
       linkIcons: [
