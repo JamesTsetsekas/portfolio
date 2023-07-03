@@ -4,68 +4,69 @@ import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, 
 import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired, faLink } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "James Tsetsekas",
-	links: [
-		{
-			title: "About",
-			link: "#about",
-		},
-		{
-			title: "Projects",
-			link: "#projects",
-		},
-		{
-			title: "Contact",
-			link: "#contact",
-		},
-		{
-			title: "Links",
-			link: "/links",
-		},
-	],
+  name: "James Tsetsekas",
+  links: [
+    {
+      title: "About",
+      link: "#about",
+    },
+    {
+      title: "Projects",
+      link: "#projects",
+    },
+    {
+      title: "Contact",
+      link: "#contact",
+    },
+    {
+      title: "Links",
+      link: "/links",
+    },
+  ],
 }
 export const intro = {
   greeting: {
     emoji: "👋",
-    text: [" Hey,","I'm "]
+    text: [" Hey,", "I'm "]
   },
-	title: "James Tsetsekas",
+  title: "James Tsetsekas",
   description: "I'm a Full Stack Web Developer specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
-	image: profile.src,
-	buttons: [
-		{
-			title: "Contact Me",
-			link: "#contact",
-			isPrimary: true,
-		},
-		{
-			title: "Resume",
+  image: profile.src,
+  buttons: [
+    {
+      title: "Contact Me",
+      link: "#contact",
+      isPrimary: true,
+    },
+    {
+      title: "Resume",
       link: "https://drive.google.com/file/d/1eiKzle8AcAT-6E8ut5n2vl-d3FKoYAs8/view?usp=sharing",
-			isPrimary: false,
-		},
+      isPrimary: false,
+    },
     {
       title: "⚡ Bitcoin Tip ⚡",
       link: "https://btc.jamestsetsekas.com/",
       isPrimary: false,
     },
-	],
+  ],
 }
 
 export const about = {
-	title: "About Me",
-	description: [
+  title: "About Me",
+  description: [
     "I'm a Full Stack Web Developer with Object Oriented Programming experience specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development, APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
     "I have experience in development, leadership, and management. I started my career at the big four accounting firm KPMG working as a IT Engineer. Later I went on to be a System Administrator at the largest pharmaceutical company in the world Novartis. Immediately following that, I went on to accept a position as a Senior IT Support Engineer at the world’s largest franchisor of residential real estate brokerages. I worked on LeadRouter a web-based real-estate listing sales lead tool. At Realogy I provided leadership as a subject matter expert on best practices and developed an Intranet for technical documentation of development tools and APIs. I was the System Administrator / Lead Developer at a large construction & real estate development company where I developed highly dynamic websites and applications for residential and commercial properties and leasing using HTML, CSS, Bootstrap, JavaScript, PHP, WordPress, Angular, custom WordPress PHP plugins, contact forms. I went on to work for an IT Managed Service Provider where I was a Full Stack Web Developer tasked with Developing responsive single page web applications and dashboards for mobile and desktop, APIs, system integrations and browser extensions, to optimize CRM workflows. using JavaScript, Express.js, Node.js, Axios, React, CSS, Bootstrap and Chakra.",
+    "Currently I am a Full Stack Web Developer at OLM Food Solutions Where I work on a CakePHP based food online ordering used on Web, iOS & Android app used by thousands of convenice stores. I also work on a B2B Wordpress portal With WooCommerce E-Commerce functionaly which is used by thousdands of users to order products to sell in their stores, generating sales & traffic reporting, and predictive analytics for example what to order to maximize sales, when to prepare it, and minimize waste.",
     "When I’m not working, I focus on my hobbies which are: Bitcoin, Lightning Network, Attending and organizing coding / IT meetups,  conferences and seminars,  Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self - Hosting Websites & Media Servers.",
-	],
+  ],
 }
 
 export const work = {
-	title: "What I do",
-	cards: [
+  title: "What I do",
+  cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I create responsive websites using HTML5, CSS, Javascript and the  MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) tech stacks, Sanity, Wordpress, Angular, Vue.js, Bootstrap, Chakra UI, and Tailwinds.",
+      description: "I create responsive websites using HTML5, CSS, Javascript and the  MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) tech stacks additonally I love to work with Sanity, Wordpress, CakePHP, Laravel, Symfony, Angular, Vue.js, Bootstrap, Chakra UI, and Tailwinds.",
       icons: [
         {
           icon: faCode,
@@ -99,7 +100,7 @@ export const work = {
         },
       ]
     },
-	],
+  ],
 }
 
 export const skills = {
@@ -109,8 +110,10 @@ export const skills = {
       title: "Scrimba Frontend Developer Bootcamp",
       description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, Responsive design, UI design, Git, peer code review, & mentoring.",
       certificate: [
-        {icon: faCertificate,
-        link: "https://scrimba.com/certificate/u3bwdkfb/gfrontend"}
+        {
+          icon: faCertificate,
+          link: "https://scrimba.com/certificate/u3bwdkfb/gfrontend"
+        }
       ],
       icons: [
         {
@@ -176,8 +179,8 @@ export const skills = {
 }
 
 export const projects = {
-	title: "Projects",
-	cards: [
+  title: "Projects",
+  cards: [
     {
       title: "SatsSpend - NYC Bitcoin Business List",
       description: "SatsSpend is a website of New York City Area businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.",
@@ -254,20 +257,20 @@ export const projects = {
         },
       ]
     },
-		{
-			title: "StarGaze",
+    {
+      title: "StarGaze",
       description: "A React Single page application that uses fetch API requests to explore the most starred projects on GitHub with filter by date range and languages functionality.",
-			linkIcons: [
-				{
+      linkIcons: [
+        {
           icon: faChrome,
           link: "https://stargaze-jamestsetsekas.vercel.app/",
-				},
-				{
-					icon: faGithub,
+        },
+        {
+          icon: faGithub,
           link: "https://github.com/JamesTsetsekas/stargaze",
-				},
-			]
-		},
+        },
+      ]
+    },
     {
       title: "Meme Generator",
       description: "A React application that makes a fetch API request to imgflip.com to get the top 100 memes and the functionality for the user to add text.",
@@ -324,24 +327,24 @@ export const projects = {
         },
       ]
     },
-		{
-			title: "Color Scheme Generator",
+    {
+      title: "Color Scheme Generator",
       description: "A tool to generate color schemes by fetching them from thecolorapi.com and manipulating the DOM to display them.",
-			linkIcons: [
-				{
+      linkIcons: [
+        {
           icon: faChrome,
           link: "https://color-scheme-generator-tau.vercel.app/",
-				},
-				{
+        },
+        {
           icon: faGithub,
           link: "https://github.com/JamesTsetsekas/Password-Generator",
-				},
-			]
-		},
-		{
+        },
+      ]
+    },
+    {
       title: "Password Generator",
       description: "A secure password generator tool that can be used in webpage or chrome extension. Never use an insecure password again!",
-			linkIcons: [
+      linkIcons: [
         {
           icon: faChrome,
           link: "https://password-generator-nu-ruby.vercel.app/",
@@ -350,68 +353,68 @@ export const projects = {
           icon: faGithub,
           link: "https://github.com/JamesTsetsekas/Password-Generator",
         },
-			]
-		},
+      ]
+    },
     {
       title: "Invoice Creator",
       description: "A Dynamic Invoice Creator web app, that can be used in a webpage or as a chrome browser extension.",
-    linkIcons: [
-      {
-        icon: faChrome,
-        link: "https://invoice-creator.vercel.app/",
-      },
-      {
-        icon: faGithub,
-        link: "https://github.com/JamesTsetsekas/Invoice-creator",
-      },
-    ]
-  },
-	],
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://invoice-creator.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Invoice-creator",
+        },
+      ]
+    },
+  ],
 }
 
 export const contact = {
-	title: "Get in touch",
+  title: "Get in touch",
   description: "Lets schedule a meeting, feel free to reach out directly by email at James@JamesTsetsekas.com.",
-	buttons: [
-		{
-			title: "Email Me",
+  buttons: [
+    {
+      title: "Email Me",
       link: "mailto:James@JamesTsetsekas.com",
-			isPrimary: true,
-		},
-	]
+      isPrimary: true,
+    },
+  ]
 }
 
 // SEARCH ENGINE
 export const SEO = {
-	// 50 - 60 char
+  // 50 - 60 char
   title: "James Tsetsekas | Full Stack Web Developer",
-	description: "I create responsive & dynamic web apps.",
-	image: profile.src,
+  description: "I create responsive & dynamic web apps.",
+  image: profile.src,
 }
 
 export const links = {
-	image: profile.src,
-	title: "@JamesTsetsekas",
+  image: profile.src,
+  title: "@JamesTsetsekas",
   description: "Full-Stack Web Developer",
-	cards: [
-		{
-			title: "My website",
-			link: "https://jamestsetsekas.com/",
+  cards: [
+    {
+      title: "My website",
+      link: "https://jamestsetsekas.com/",
       icon: faChrome,
       iconb: faLink,
-		},
-		{
-			title: "My GitHub",
+    },
+    {
+      title: "My GitHub",
       link: "https://github.com/JamesTsetsekas",
       icon: faGithub,
       iconb: faGithubAlt
-		},
-		{
-			title: "My LinkedIn",
+    },
+    {
+      title: "My LinkedIn",
       link: "https://www.linkedin.com/in/jamestsetsekas/",
       icon: faLinkedin,
       iconb: faLinkedinIn
-		},
+    },
     {
       title: "My Twitter",
       link: "https://twitter.com/JamesTsetsekas",
@@ -424,5 +427,5 @@ export const links = {
       icon: faBitcoinSign,
       iconb: faBoltLightning,
     },
-	]
+  ]
 }
