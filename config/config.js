@@ -45,7 +45,7 @@ export const intro = {
     },
     {
       title: "⚡ Bitcoin Tip ⚡",
-      link: "https://btc.jamestsetsekas.com/",
+      link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
       isPrimary: false,
     },
   ],
@@ -215,7 +215,7 @@ export const projects = {
       linkIcons: [
         {
           icon: faChrome,
-          link: "https://lnbits.jamestsetsekas.com/tpos/DNTBGZVEcqeHbKXJ84nyTs",
+          link: "https://btc.jamestsetsekas.com/apps/2cYmNXrnH6KaBBTmQMQNBbxXpQNg/pos",
         },
       ]
     },
@@ -225,7 +225,7 @@ export const projects = {
       linkIcons: [
         {
           icon: faChrome,
-          link: "https://btc.jamestsetsekas.com/",
+          link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
         },
       ]
     },
@@ -437,7 +437,7 @@ export const links = {
     },
     {
       title: "BTC Pay server",
-      link: "https://btc.jamestsetsekas.com/",
+      link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
       icon: faBitcoinSign,
       iconb: faBoltLightning,
     },
