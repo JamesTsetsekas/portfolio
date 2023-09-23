@@ -12,9 +12,9 @@
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
-    "build": "next --openssl-legacy-provider build",
+    "build": "next build",
     "dev": "next dev -p 3001",
-    "start": "next --openssl-legacy-provider start",
+    "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
     "deploy": "npm run custom-domain && node scripts/pages.js jamestsetsekas master",
