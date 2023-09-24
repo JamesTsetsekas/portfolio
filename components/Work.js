@@ -52,7 +52,7 @@ export const Projects = ({ title, cards }) => {
     setTimeout(() => {
       setDisplayedCards(displayedCards + 3);
       setLoading(false);
-    }, 1000);
+    }, 150);
   };
 
   return (
