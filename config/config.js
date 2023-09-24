@@ -183,7 +183,7 @@ export const projects = {
   cards: [
     {
       title: "Self-hosted HTML5 Speedtest Docker Container",
-      description: "Great for troubleshooting bandwidth, ping and jitter issues. Free and Open Source Speed Test. No Flash, No Java, No Websocket. Download, Upload, Ping, Jitter ,IP Address, ISP, distance from server (optional) ,Telemetry (optional) ,Results sharing (optional) ,Multiple Points of Test (optional)",
+      description: "Great for troubleshooting bandwidth, ping and jitter issues. Free and Open Source Speed Test. No Flash, No Java, No Websocket. Download, Upload, Ping, Jitter, IP Address, ISP, distance from server (optional), Telemetry (optional), Results sharing (optional), Multiple Points of Test (optional)",
       linkIcons: [
         {
           icon: faChrome,
