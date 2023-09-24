@@ -11,7 +11,7 @@
     "url": "https://github.com/jamestsetsekas"
   },
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
