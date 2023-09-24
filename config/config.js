@@ -182,6 +182,19 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "Self-hosted HTML5 Speedtest Docker Container",
+      description: "Great for troubleshooting bandwidth, ping and jitter issues. Free and Open Source Speed Test. No Flash, No Java, No Websocket. Download, Upload, Ping, Jitter ,IP Address, ISP, distance from server (optional) ,Telemetry (optional) ,Results sharing (optional) ,Multiple Points of Test (optional)",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://speed.jamestsetsekas.com/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/librespeed/speedtest",
+        },
+      ]
+    }, {
       title: "Windows XP Minesweeper in React",
       description: "Windows XP Minesweeper in React with Hooks and mobile support. Features include Release double mouse press at the same time to open ceils automatically, Never game over for the first click, Switch difficulty from the menu, Supports mobile! (long press for placing flags)",
       linkIcons: [
