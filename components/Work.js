@@ -44,9 +44,15 @@ export const Skills = ({ title, cards }) => {
 export const Projects = ({ title, cards }) => {
   const [displayedCards, setDisplayedCards] = useState(3);
   const totalCards = cards.length;
+  const [loading, setLoading] = useState(false);
+  const [isButtonHovered, setIsButtonHovered] = useState(false);
 
   const loadMoreCards = () => {
-    setDisplayedCards(displayedCards + 3);
+    setLoading(true);
+    setTimeout(() => {
+      setDisplayedCards(displayedCards + 3);
+      setLoading(false);
+    }, 1000);
   };
 
   return (
@@ -65,8 +71,18 @@ export const Projects = ({ title, cards }) => {
         </div>
         {displayedCards < totalCards && (
           <div className="text-center">
-            <button type="button" className="btn btn-outline-light" onClick={loadMoreCards}>
-              Load more
+            <button
+              type="button"
+              className="btn btn-outline-light"
+              onClick={loadMoreCards}
+              onMouseEnter={() => setIsButtonHovered(true)} // Set hover state when mouse enters button
+              onMouseLeave={() => setIsButtonHovered(false)} // Reset hover state when mouse leaves button
+            >
+              {loading ? (
+                <div className={`spinner ${isButtonHovered ? 'black' : 'white'}`} />
+              ) : (
+                'Load more'
+              )}
             </button>
           </div>
         )}
@@ -74,7 +90,6 @@ export const Projects = ({ title, cards }) => {
     </div>
   );
 };
-
 
 export const Card = ({ title, description, icons, linkIcons, cert }) => {
   return (
