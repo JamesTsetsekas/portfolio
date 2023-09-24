@@ -1,6 +1,32 @@
 
 import profile from './profile.png';
-import { faGithub, faChrome, faHtml5, faCss3, faJsSquare, faReact, faBootstrap, faSass, faFreeCodeCamp, faLinkedin, faTwitter, faGithubAlt, faLinkedinIn, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
+import {
+  faGithub,
+  faChrome,
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faReact,
+  faBootstrap,
+  faSass,
+  faFreeCodeCamp,
+  faLinkedin,
+  faTwitter,
+  faGithubAlt,
+  faLinkedinIn,
+  faTwitterSquare,
+  faPhp,
+  faJs,
+  faNodeJs,
+  faWordpress,
+  faLinux,
+  faNode,
+  faStripe,
+  faBitcoin,
+  faBtc,
+  faWordpressSimple,
+  faPaypal
+} from '@fortawesome/free-brands-svg-icons';
 import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired, faLink } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -56,7 +82,7 @@ export const about = {
   description: [
     "I'm a Full Stack Web Developer with Object Oriented Programming experience specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development, APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
     "I have experience in development, leadership, and management. I started my career at the big four accounting firm KPMG working as a IT Engineer. Later I went on to be a System Administrator at the largest pharmaceutical company in the world Novartis. Immediately following that, I went on to accept a position as a Senior IT Support Engineer at the world’s largest franchisor of residential real estate brokerages. I worked on LeadRouter a web-based real-estate listing sales lead tool. At Realogy I provided leadership as a subject matter expert on best practices and developed an Intranet for technical documentation of development tools and APIs. I was the System Administrator / Lead Developer at a large construction & real estate development company where I developed highly dynamic websites and applications for residential and commercial properties and leasing using HTML, CSS, Bootstrap, JavaScript, PHP, WordPress, Angular, custom WordPress PHP plugins, contact forms. I went on to work for an IT Managed Service Provider where I was a Full Stack Web Developer tasked with Developing responsive single page web applications and dashboards for mobile and desktop, APIs, system integrations and browser extensions, to optimize CRM workflows. using JavaScript, Express.js, Node.js, Axios, React, CSS, Bootstrap and Chakra.",
-    "Currently I am a Full Stack Web Developer at OLM Food Solutions Where I work on a Custom CakePHP based food online ordering app used on Web, iOS & Android used by thousands of convenice stores and their customers. I also work on a B2B Wordpress portal With E-Commerce functionaly which is used by thousdands of users to order products to sell in their stores, generating sales & traffic reporting, and predictive analytics for example what to order to maximize sales, when to prepare it, and minimize waste.",
+    "Currently I am a Full Stack Web Developer at OLM Food Solutions Where I work on a Custom CakePHP based food online ordering app used on Web, iOS & Android used by thousands of convenice stores and their customers. I also work on a B2B Wordpress portal With E-Commerce functionaly which is used by thousands of users to order products to sell in their stores, generating sales & traffic reporting, and predictive analytics for example what to order to maximize sales, when to prepare it, and minimize waste.",
     "When I’m not working, I focus on my hobbies which are: Bitcoin, Lightning Network, Attending and organizing coding / IT meetups,  conferences and seminars,  Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self - Hosting Websites & Media Servers.",
   ],
 }
@@ -74,6 +100,21 @@ export const work = {
         {
           icon: faDatabase,
         },
+        {
+          icon: faPhp,
+        },
+        {
+          icon: faWordpress,
+        },
+        {
+          icon: faJs,
+        },
+        {
+          icon: faNode,
+        },
+        {
+          icon: faLinux,
+        },
       ]
     },
     {
@@ -81,10 +122,13 @@ export const work = {
       description: "I love learning & teaching others about Bitcoin. I enjoy contributing to many open source Bitcoin related projects, and organizing and attending Bitcoin meetups and conferences. I'm a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel, get help with your node, or learn more about the lightning network.",
       icons: [
         {
-          icon: faBitcoinSign,
+          icon: faBoltLightning,
         },
         {
-          icon: faBoltLightning,
+          icon: faBitcoin,
+        },
+        {
+          icon: faBtc,
         },
       ]
     },
@@ -182,6 +226,47 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "RightBytes / DishPatch",
+      description: "I am the Lead developer on RightBytes an E-Commerce Online Food Ordering platform including functionlaity for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverge both PHP & Node for backend APIs. With Stripe and Paypal intergrations for payments, and DoorDash intergration or self managed solutions for delivieres.",
+      linkIcons: [
+        {
+          icon: faPhp,
+        },
+        {
+          icon: faNodeJs,
+        },
+        {
+          icon: faStripe,
+        },
+        {
+          icon: faPaypal,
+        },
+      ]
+    }, {
+      title: "OLM Customer Portal",
+      description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Intergrations. ",
+      linkIcons: [
+        {
+          icon: faWordpressSimple,
+        },
+        {
+          icon: faPhp,
+        },
+      ]
+    },
+    {
+      title: "Lightning Network Point of Sale Terminal",
+      description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. This can be easily intergrated to any Wordpress WooCommerce or other Ecommerce soltuions easily. Contact me for more information.",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://btc.jamestsetsekas.com/apps/2cYmNXrnH6KaBBTmQMQNBbxXpQNg/pos",
+        }, {
+          icon: faGithub,
+          link: "https://github.com/btcpayserver/btcpayserver",
+        },
+      ]
+    }, {
       title: "Self-hosted HTML5 Speedtest Docker Container",
       description: "Great for troubleshooting bandwidth, ping and jitter issues. Free and Open Source Speed Test. No Flash, No Java, No Websocket. Download, Upload, Ping, Jitter, IP Address, ISP, distance from server (optional), Telemetry (optional), Results sharing (optional), Multiple Points of Test (optional)",
       linkIcons: [
@@ -223,22 +308,16 @@ export const projects = {
       ]
     },
     {
-      title: "Lightning Network Point of Sale Terminal",
-      description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. Contact me for more information.",
-      linkIcons: [
-        {
-          icon: faChrome,
-          link: "https://btc.jamestsetsekas.com/apps/2cYmNXrnH6KaBBTmQMQNBbxXpQNg/pos",
-        },
-      ]
-    },
-    {
       title: "Lightning Network Node",
       description: "I run a Bitcoin Lightning Network node using lnd, with a BTCPay server instance. I love routing satoshis, and I'm always looking to open more channels. Contact me to open a channel or learn more about the lightning network.",
       linkIcons: [
         {
           icon: faChrome,
           link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/lightningnetwork/lnd",
         },
       ]
     },

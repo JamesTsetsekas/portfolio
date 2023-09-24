@@ -41,7 +41,7 @@ const Konami = () => {
       {showConfetti && <Confetti
         width={window.innerWidth}
         height={window.innerHeight}
-        numberOfPieces={1000}
+        numberOfPieces={2000}
       />}
     </div>
   );

@@ -93,20 +93,23 @@ export const Card = ({ title, description, icons, linkIcons, cert }) => {
       </div>
 
       <div className="text-end">
-
         {icons && icons.map((value, index) => (
           <FontAwesomeIcon key={index} className="icon-style mx-1" icon={value.icon} size="2x" />
         ))}
 
         {linkIcons && linkIcons.map((value, index) => (
-          <Link key={index} href={value.link}>
-            <a target="_blank" rel="noreferrer">
-              <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
-            </a>
-          </Link>
+          value.link ? (  // Check if link is defined
+            <Link key={index} href={value.link}>
+              <a target="_blank" rel="noreferrer">
+                <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
+              </a>
+            </Link>
+          ) : (
+            <FontAwesomeIcon key={index} className="icon-style mx-1" icon={value.icon} size="2x" />
+          )
         ))}
-
       </div>
     </div>
   );
 }
+
