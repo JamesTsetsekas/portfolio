@@ -530,7 +530,13 @@ export const links = {
     {
       title: "BTC Pay server",
       link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
-      icon: faBitcoinSign,
+      icon: faBitcoin,
+      iconb: faBoltLightning,
+    },
+    {
+      title: "Point of Sale",
+      link: "https://btc.jamestsetsekas.com/apps/2cYmNXrnH6KaBBTmQMQNBbxXpQNg/pos",
+      icon: faBitcoin,
       iconb: faBoltLightning,
     },
   ]
