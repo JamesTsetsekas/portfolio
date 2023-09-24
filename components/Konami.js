@@ -15,6 +15,7 @@ const Konami = () => {
     const checkKonamiCode = () => {
       if (konamiCode === konamiPattern) {
         setShowConfetti(true);
+        console.log('Konami code entered! Confetti activated!');
         setTimeout(() => {
           setShowConfetti(false);
         }, 30000); // Show confetti for 30 seconds
@@ -37,7 +38,11 @@ const Konami = () => {
 
   return (
     <div>
-      {showConfetti && <Confetti />}
+      {showConfetti && <Confetti
+        width={window.innerWidth}
+        height={window.innerHeight}
+        numberOfPieces={1000}
+      />}
     </div>
   );
 };
