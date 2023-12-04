@@ -255,7 +255,7 @@ export const projects = {
       ]
     },{
       title: "Jersey City Bitcoin",
-      description: "I am the founder of the Jesey City Bitcoin Meetup, and developer Jersey City Bitcoin is a decentralized community for those interested in meeting up to discuss, and learn more about bitcoin in the Jersey City, New Jersey / New York area. You can be well versed or new, all are welcome. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
+      description: "I am the founder of the Jesey City Bitcoin Meetup, Jersey City Bitcoin is a decentralized community for those interested in meeting up to discuss, and learn more about bitcoin in the Jersey City, New Jersey / New York area. You can be well versed or new, all are welcome. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
       linkIcons: [
         {
           icon: faNodeJs,
