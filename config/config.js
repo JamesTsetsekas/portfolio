@@ -227,7 +227,7 @@ export const projects = {
   cards: [
     {
       title: "RightBytes / DishPatch",
-      description: "I am the Lead developer on RightBytes an E-Commerce Online Food Ordering platform including functionlaity for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverge both PHP & Node for backend APIs. With Stripe and Paypal intergrations for payments, and DoorDash intergration or self managed solutions for delivieres.",
+      description: "I am the Lead developer on RightBytes an E-Commerce Online Food Ordering platform including functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverage both PHP & Node backend APIs. With Stripe and Paypal integrations for payments, and DoorDash integration or self managed solutions for deliveries.",
       linkIcons: [
         {
           icon: faPhp,
@@ -244,7 +244,7 @@ export const projects = {
       ]
     }, {
       title: "OLM Customer Portal",
-      description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Intergrations. ",
+      description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Integrations. ",
       linkIcons: [
         {
           icon: faWordpressSimple,
