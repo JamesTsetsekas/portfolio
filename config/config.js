@@ -253,8 +253,25 @@ export const projects = {
           icon: faPhp,
         },
       ]
-    },
-    {
+    },{
+      title: "Jersey City Bitcoin",
+      description: "I am the founder of the Jesey City Bitcoin Meetup, and developer Jersey City Bitcoin is a decentralized community for those interested in meeting up to discuss, and learn more about bitcoin in the Jersey City, New Jersey / New York area. You can be well versed or new, all are welcome. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
+      linkIcons: [
+        {
+          icon: faNodeJs,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faChrome,
+          link: "https://jerseycitybitcoin.com/",
+        }, {
+          icon: faGithub,
+          link: "https://github.com/btcpayserver/btcpayserver",
+        }
+      ]
+    }, {
       title: "Lightning Network Point of Sale Terminal",
       description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. This can be easily intergrated to any Wordpress WooCommerce or other Ecommerce soltuions easily. Contact me for more information.",
       linkIcons: [
