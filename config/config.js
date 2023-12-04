@@ -268,7 +268,7 @@ export const projects = {
           link: "https://jerseycitybitcoin.com/",
         }, {
           icon: faGithub,
-          link: "https://github.com/btcpayserver/btcpayserver",
+          link: "https://github.com/JamesTsetsekas/JerseyCityBitcoin",
         }
       ]
     }, {
