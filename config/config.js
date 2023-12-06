@@ -227,7 +227,7 @@ export const projects = {
   cards: [
     {
       title: "Jamesco Web Designs",
-      description: "I am the owner and sole developer of Jamesco Web Designs! We specialize in web design and development for small business clients, and offer $0 down monthly plans or up-front options. Check us out!",
+      description: "I am the owner and sole developer of Jamesco Web Designs! We specialize in web design and development for small business clients, and offer $0 down monthly plans or up-front options. What I found was that a lot of small businesses don't have the funds to spend thousands of dollars upfront on a new website. And the ones that did, got taken advantage of and have a terrible website that looks like it was built by someone in a dungeon and haven't seen design trends for the last 10 years. They were in a frustrating spot - they either can't afford a good website, and if they can they don't know who to trust to make something great. So I tweaked my business model to fit their needs. That's how I came up with my $0 down and $200 a month model. It's more manageable for a small business to handle and won't hurt their bank accounts. I also offer E-Ecommerce, Saas, and custom Development. Check us out!",
       linkIcons: [
         {
           icon: faNodeJs,
