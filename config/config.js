@@ -226,6 +226,21 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "Jamesco Web Designs",
+      description: "I am the owner and sole developer of Jamesco Web Designs! We specialize in web design and development for small business clients, and offer $0 down monthly plans or up-front options. Check us out!",
+      linkIcons: [
+        {
+          icon: faNodeJs,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faChrome,
+          link: "https://jamescowebdesigns.com/",
+        }
+      ]
+    },{
       title: "RightBytes / DishPatch",
       description: "I am the Lead developer on RightBytes an E-Commerce Online Food Ordering platform including functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverage both PHP & Node backend APIs. With Stripe and Paypal integrations for payments, and DoorDash integration or self managed solutions for deliveries.",
       linkIcons: [
@@ -240,17 +255,6 @@ export const projects = {
         },
         {
           icon: faPaypal,
-        },
-      ]
-    }, {
-      title: "OLM Customer Portal",
-      description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Integrations. ",
-      linkIcons: [
-        {
-          icon: faWordpressSimple,
-        },
-        {
-          icon: faPhp,
         },
       ]
     },{
@@ -271,7 +275,18 @@ export const projects = {
           link: "https://github.com/JamesTsetsekas/JerseyCityBitcoin",
         }
       ]
-    }, {
+    },{
+      title: "OLM Customer Portal",
+      description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Integrations. ",
+      linkIcons: [
+        {
+          icon: faWordpressSimple,
+        },
+        {
+          icon: faPhp,
+        },
+      ]
+    },{
       title: "Lightning Network Point of Sale Terminal",
       description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. This can be easily intergrated to any Wordpress WooCommerce or other Ecommerce soltuions easily. Contact me for more information.",
       linkIcons: [
