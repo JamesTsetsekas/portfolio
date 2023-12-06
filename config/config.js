@@ -98,9 +98,6 @@ export const work = {
           icon: faCode,
         },
         {
-          icon: faDatabase,
-        },
-        {
           icon: faPhp,
         },
         {
@@ -111,10 +108,7 @@ export const work = {
         },
         {
           icon: faNode,
-        },
-        {
-          icon: faLinux,
-        },
+        }
       ]
     },
     {
