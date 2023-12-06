@@ -227,7 +227,7 @@ export const projects = {
   cards: [
     {
       title: "Jamesco Web Designs",
-      description: "I am the owner and sole developer of Jamesco Web Designs! We specialize in web design and development. What I found was that a lot of small businesses don't have the funds to spend thousands of dollars upfront on a new website. The ones that did, got taken advantage of resulting in an outdated website with poor design. They were in a frustrating spot - they either can't afford a good website, and if they can they don't know who to trust to make something great. That's how I came up with my $0 down and $200 a month model. It's more manageable for a small business to handle and won't hurt their bank accounts. I also offer E-ccommerce, Saas, and custom Development. Check us out!",
+      description: "I'm James, the owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I've introduced a $0 down and $200 a month model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for E-commerce, SaaS, and custom development. Check out our offerings!",
       linkIcons: [
         {
           icon: faNodeJs,
