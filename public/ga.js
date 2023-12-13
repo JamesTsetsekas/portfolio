@@ -27,9 +27,7 @@ function gtag() {
 gtag('js', new Date());
 gtag('config', 'G-3DEGVN62JJ');
 
-
 // Clarity
-// clarity.js
 (function(c, l, a, r, i, t, y) {
   c[a] = c[a] || function() {
     (c[a].q = c[a].q || []).push(arguments)
