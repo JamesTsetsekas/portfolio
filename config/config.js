@@ -27,7 +27,7 @@ import {
   faWordpressSimple,
   faPaypal
 } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired, faLink, faBolt } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
   name: "James Tsetsekas",
@@ -220,21 +220,20 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "Jamesco Web Designs",
-      description: "I'm James, the owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I've introduced a $0 down and $200 a month model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for E-commerce, SaaS, and custom development. Check out our offerings!",
+      title: "DiceLN - Lightning Network Dice Game",
+      description: "I created a Full Stack Web App Dice game that uses the Bitcoin Lightning Network for instant deposit / withdraw. The game is provably fair and can be played with any amount of satoshis and includes a chat. The game is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Contact for a demonstration, to play, or learn more about the lightning network! Currently Closed Source",
       linkIcons: [
         {
           icon: faNodeJs,
         },
         {
-          icon: faJsSquare,
+          icon: faDatabase,
         },
         {
-          icon: faChrome,
-          link: "https://jamescowebdesigns.com/",
-        }
+          icon: faBolt,
+        },
       ]
-    },{
+    }, {
       title: "RightBytes / DishPatch",
       description: "I am the Lead developer on RightBytes an E-Commerce Online Food Ordering platform including functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverage both PHP & Node backend APIs. With Stripe and Paypal integrations for payments, and DoorDash integration or self managed solutions for deliveries.",
       linkIcons: [
@@ -251,7 +250,7 @@ export const projects = {
           icon: faPaypal,
         },
       ]
-    },{
+    }, {
       title: "Jersey City Bitcoin",
       description: "I am the founder of the Jesey City Bitcoin Meetup, a decentralized community for those interested in meeting up to discuss, and learn more about bitcoin in the Jersey City, New Jersey / New York area. You can be well versed or new, all are welcome. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
       linkIcons: [
@@ -269,7 +268,7 @@ export const projects = {
           link: "https://github.com/JamesTsetsekas/JerseyCityBitcoin",
         }
       ]
-    },{
+    }, {
       title: "OLM Customer Portal",
       description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Integrations. ",
       linkIcons: [
@@ -280,7 +279,22 @@ export const projects = {
           icon: faPhp,
         },
       ]
-    },{
+    }, {
+      title: "Jamesco Web Designs",
+      description: "I'm James, the owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I've introduced a $0 down and $200 a month model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for E-commerce, SaaS, and custom development. Check out our offerings!",
+      linkIcons: [
+        {
+          icon: faNodeJs,
+        },
+        {
+          icon: faJsSquare,
+        },
+        // {
+        //   icon: faChrome,
+        //   link: "https://jamescowebdesigns.com/",
+        // }
+      ]
+    }, {
       title: "Lightning Network Point of Sale Terminal",
       description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. This can be easily intergrated to any Wordpress WooCommerce or other Ecommerce soltuions easily. Contact me for more information.",
       linkIcons: [
