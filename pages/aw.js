@@ -40,11 +40,13 @@ export default function Home() {
           <ul style={{ listStyleType: "none" }}>
             <li>Full Stack development expertise, leadership experience, and proficiency in Agile Scrum project management framework. <FontAwesomeIcon icon={faCheck} color="green" /></li>
             <li>Skilled in CI/CD tools and workflows, such as GitHub Actions and Azure Pipelines. <FontAwesomeIcon icon={faCheck} color="green" /></li>
+            <li>Knowledgeable in Solution architecture and Security architecture principles. <FontAwesomeIcon icon={faCheck} color="green" /></li>
             <li>Advanced skills in React, Next.js, Tailwind CSS, and PostgreSQL. <FontAwesomeIcon icon={faCheck} color="green" /></li>
             <li>Cloud knowledge in AWS and Azure, including AWS CDK <FontAwesomeIcon icon={faCheck} color="green" /></li>
             <li>Experienced in API integration and maintenance. <FontAwesomeIcon icon={faCheck} color="green" /></li>
+            <li>Familiarity with SST, drizzle, tRPC, zod, RDS <FontAwesomeIcon icon={faCheck} color="green" /></li>
             <li>Proficient in JavaScript and TypeScript. <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Familiarity with drizzle, tRPC, zod, RDS <FontAwesomeIcon icon={faCheck} color="green" /></li>
+
           </ul>
           <br></br>
           <h3>But wait theres more!</h3>
