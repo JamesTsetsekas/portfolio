@@ -38,14 +38,14 @@ export default function Home() {
           <h2>Why I am a great match for this position...</h2>
           <br></br>
           <ul style={{ listStyleType: "none" }}>
-            <li>Full Stack development expertise, leadership experience, and proficiency in Agile Scrum project management framework. <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Skilled in CI/CD tools and workflows, such as GitHub Actions and Azure Pipelines. <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Knowledgeable in Solution architecture and Security architecture principles. <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Advanced skills in React, Next.js, Tailwind CSS, and PostgreSQL. <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Cloud knowledge in AWS and Azure, including AWS CDK <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Experienced in API integration and maintenance. <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Familiarity with SST, drizzle, tRPC, zod, RDS <FontAwesomeIcon icon={faCheck} color="green" /></li>
-            <li>Proficient in JavaScript and TypeScript. <FontAwesomeIcon icon={faCheck} color="green" /></li>
+            <li>Full Stack development expertise, leadership experience, and proficiency in Agile Scrum project management framework. <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Skilled in CI/CD tools and workflows, such as GitHub Actions and Azure Pipelines. <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Knowledgeable in Solution architecture and Security architecture principles. <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Advanced skills in React, Next.js, Tailwind CSS, and PostgreSQL. <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Cloud knowledge in AWS and Azure, including AWS CDK <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Experienced in API integration and maintenance. <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Familiarity with SST, drizzle, tRPC, zod, RDS <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
+            <li>Proficient in JavaScript and TypeScript. <FontAwesomeIcon icon={faCheck} color="green" size="sm" /></li>
 
           </ul>
           <br></br>
