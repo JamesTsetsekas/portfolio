@@ -34,15 +34,15 @@ export const navigation = {
   links: [
     {
       title: "About",
-      link: "#about",
+      link: "/#about",
     },
     {
       title: "Projects",
-      link: "#projects",
+      link: "/#projects",
     },
     {
       title: "Contact",
-      link: "#contact",
+      link: "/#contact",
     },
     {
       title: "Links",

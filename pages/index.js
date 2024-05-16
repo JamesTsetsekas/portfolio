@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
+import { Header } from '../components/Header';
+import { Footer, Contact } from '../components/Footer';
 import { Nav } from '../components/Navbar';
 import { Intro, About } from '../components/Intro';
 import { WhatIDo, Skills, Projects } from '../components/Work';
-import { Footer, Contact } from '../components/Footer';
 import { about, contact, intro, navigation, projects, SEO, work, skills } from '../config/config';
-import { Header } from '../components/Header';
 import Konami from '../components/Konami';
 
 export default function Home() {
