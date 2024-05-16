@@ -52,9 +52,9 @@ export default function Home() {
           <h3>But wait theres more!</h3>
           <ul style={{ listStyleType: "none" }}>
             <li><FontAwesomeIcon icon={faI} /> <FontAwesomeIcon icon={faHeart} /> <FontAwesomeIcon icon={faBtc} /> </li>
-            <li>Founder of <a href="https://JerseyCityBitcoin.com">JerseyCityBitcoin.com</a> Meetup, passionate about organizing and participating in Bitcoin meetups and workshops in my free time.</li>
+            <li>Founder of <a href="https://JerseyCityBitcoin.com">JerseyCityBitcoin.com</a> meetup, passionate about organizing and participating in Bitcoin meetups and workshops in my free time.</li>
             <br></br>
-            <li>Passionate about Bitcoin and the Lightning Network, I take pride in running an efficient routing node, and developing LN web applications. Excited to showcase my expertise (Proof-Of-Work 🤣) for you!</li>
+            <li>I love learning about Bitcoin and the Lightning Network, I take pride in running an efficient routing node, and developing LN web applications. Excited to showcase my expertise (Proof-Of-Work 🤣) for you!</li>
             <br></br>
             <li>Consistently expanding skills and knowledge, I strive for continuous personal and professional growth as a problem-solver and lifelong learner.</li>
             <li>Motivated individual with a drive for success, aiming to achieve and surpass goals and expectations.</li>
