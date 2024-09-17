@@ -281,7 +281,7 @@ export const projects = {
       ]
     }, {
       title: "Jamesco Web Designs",
-      description: "I'm James, the owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I've introduced a $0 down and $200 a month model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for E-commerce, SaaS, and custom development. Check out our offerings!",
+      description: "I'm James, the owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I've introduced a $0 down and low montly cost model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for Wordpress, WooCommerce, E-commerce, SaaS, and custom development. Check out our offerings!",
       linkIcons: [
         {
           icon: faNodeJs,
