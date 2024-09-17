@@ -289,10 +289,10 @@ export const projects = {
         {
           icon: faJsSquare,
         },
-        // {
-        //   icon: faChrome,
-        //   link: "https://jamescowebdesigns.com/",
-        // }
+        {
+          icon: faChrome,
+          link: "https://jamescowebdesigns.com/",
+        }
       ]
     }, {
       title: "Lightning Network Point of Sale Terminal",
