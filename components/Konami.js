@@ -22,6 +22,13 @@ const Konami = () => {
     }
   };
 
+  const handleModalClick = (event) => {
+    if (event.target.id === 'bitcoin-modal') {
+      setShowBitcoinMessage(false);
+      setShowBitcoinConfetti(false);
+    }
+  };
+
   const fetchBitcoinPrice = async () => {
     try {
       const response = await fetch('https://bitpay.com/rates');
@@ -64,9 +71,11 @@ const Konami = () => {
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown);
     window.addEventListener('keydown', handleEscape); // Add event listener for Escape key
+    window.addEventListener('click', handleModalClick); // Add event listener for outside click
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
       window.removeEventListener('keydown', handleEscape); // Remove event listener for Escape key
+      window.removeEventListener('click', handleModalClick); // Remove event listener for outside click
     };
   }, []);
 
@@ -87,23 +96,56 @@ const Konami = () => {
     }}>
       {showConfetti && <Confetti />} {/* confetti for Konami code */}
       {showBitcoinMessage && (
-        <div style={{
-          position: 'fixed',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          textAlign: 'center',
-          fontSize: '36px', // Larger font size
-          fontWeight: 'bold',
-          color: 'white', // White text color
-          backgroundColor: '#FFA500', // Orange background color
-          padding: '20px', // Padding for better visibility
-          borderRadius: '10px', // Rounded corners
-        }}>
-          <div>
-            1 BITCOIN {'>'} $100,000
-            <br />
-            <small style={{ fontSize: '12px' }}>Press Escape to acknowledge and hide</small>
+        <div
+          id="bitcoin-modal"
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: 'rgba(0, 0, 0, 0.5)', // Semi-transparent background
+            pointerEvents: 'auto', // Allow clicks to be detected
+          }}
+        >
+          <div
+            style={{
+              position: 'relative',
+              textAlign: 'center',
+              fontSize: '36px', // Larger font size
+              fontWeight: 'bold',
+              color: 'white', // White text color
+              backgroundColor: '#FFA500', // Orange background color
+              padding: '20px', // Padding for better visibility
+              borderRadius: '10px', // Rounded corners
+            }}
+          >
+            <button
+              onClick={() => {
+                setShowBitcoinMessage(false);
+                setShowBitcoinConfetti(false);
+              }}
+              style={{
+                position: 'absolute',
+                top: '10px',
+                right: '10px',
+                background: 'none',
+                border: 'none',
+                fontSize: '24px',
+                color: 'white',
+                cursor: 'pointer',
+              }}
+            >
+              &times;
+            </button>
+            <div>
+              1 BITCOIN {'>'} $100,000
+              <br />
+              <small style={{ fontSize: '12px' }}>Press Escape to acknowledge and hide</small>
+            </div>
           </div>
         </div>
       )}
