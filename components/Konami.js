@@ -132,17 +132,26 @@ const Konami = () => {
                 position: 'absolute',
                 top: '10px',
                 right: '10px',
-                background: 'none',
+                background: 'rgba(255, 255, 255, 0.3)', // Semi-transparent white background
                 border: 'none',
+                borderRadius: '50%', // Circular button
+                width: '30px',
+                height: '30px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
                 fontSize: '24px',
                 color: 'white',
                 cursor: 'pointer',
+                transition: 'background 0.3s', // Smooth transition for background
               }}
+              onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.6)'} // Change background on hover
+              onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(255, 255, 255, 0.3)'} // Revert background on mouse leave
             >
               &times;
             </button>
             <div>
-              1 BITCOIN {'>'} $100,000
+              1 BTC {'>'} $100K
               <br />
               <small style={{ fontSize: '12px' }}>Press Escape to acknowledge and hide</small>
             </div>
