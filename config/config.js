@@ -1,4 +1,3 @@
-
 import profile from './profile.png';
 import {
   faGithub,
@@ -49,14 +48,15 @@ export const navigation = {
       link: "/links",
     },
   ],
-}
+};
+
 export const intro = {
   greeting: {
     emoji: "👋",
     text: [" Hey,", "I'm "]
   },
   title: "James Tsetsekas",
-  description: "I'm a Full Stack Web Developer specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
+  description: "I'm a Full Stack Web Developer specializing in building web applications using HTML, CSS, JavaScript, and PHP. I have extensive experience with front-end development libraries like React, Vue, and Angular, as well as algorithms, data structures, back-end development, and APIs with Node.js. I am passionate about working with teams that value quality and clean code principles. In my free time, I teach and mentor hundreds of students through coding communities and meetups.",
   image: profile.src,
   buttons: [
     {
@@ -75,24 +75,24 @@ export const intro = {
       isPrimary: false,
     },
   ],
-}
+};
 
 export const about = {
   title: "About Me",
   description: [
-    "I'm a Full Stack Web Developer with Object Oriented Programming experience specializing in building web applications using HTML, CSS, JavaScript, & PHP. I have strong experience with Front End Development Libraries like React, Vue, and Angular as well as Algorithms, Data Structures, Back End Development and APIs with Node.js. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development, APIs, and JavaScript Algorithms and Data Structures courses. I am interested in teams valuing quality, clean code principles. In my free time I teach & mentor hundreds of students via coding communities and meetups.",
-    "I have experience in development, leadership, and management. I started my career at the big four accounting firm KPMG working as a IT Engineer. Later I went on to be a System Administrator at the largest pharmaceutical company in the world Novartis. Immediately following that, I went on to accept a position as a Software Engineer at the world’s largest franchisor of residential real estate brokerages. I worked on LeadRouter a web-based real-estate listing sales lead tool. At Realogy I provided leadership as a subject matter expert on best practices and developed an Intranet for technical documentation of development tools and APIs. I was the Lead Developer at a large construction & real estate development company where I developed highly dynamic websites and applications for residential and commercial properties and leasing using HTML, CSS, Bootstrap, JavaScript, PHP, WordPress, Angular, custom WordPress PHP plugins, contact forms. I went on to work for an IT Managed Service Provider where I was a Full Stack Web Developer tasked with Developing responsive single page web applications and dashboards for mobile and desktop, APIs, system integrations and browser extensions, to optimize CRM workflows. using JavaScript, Express.js, Node.js, Axios, React, CSS, Bootstrap and Chakra.",
-    "Currently I am a Full Stack Web Developer at OLM Foods where I work on RightBytes an E-Commerce Online Food Ordering platform  including functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverage both PHP & Node backend APIs. With Stripe and Paypal integrations for payments, and DoorDash integration or self managed solutions for deliveries. I also develop our WordPress WooCommerce B2B E-Commerce portal Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste, with Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Integrations.",
-    "When I’m not working, I focus on my hobbies which are: Bitcoin, Lightning Network, Attending and organizing coding / IT meetups,  conferences and seminars,  Real Estate, Finance, Travel, Skiing, Dogs, Building Computers & Servers, Self - Hosting Websites & Media Servers, and Reading one of my favorite books at the moment is The Pragmatic Programmer by Andy Hunt and Dave Thomas",
+    "I'm a Full Stack Web Developer with a strong background in object-oriented programming, specializing in building web applications using HTML, CSS, JavaScript, and PHP. I have extensive experience with front-end development libraries like React, Vue, and Angular, as well as algorithms, data structures, back-end development, and APIs with Node.js. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development, APIs, and JavaScript Algorithms and Data Structures courses. I am passionate about working with teams that value quality and clean code principles. In my free time, I teach and mentor hundreds of students through coding communities and meetups.",
+    "I have experience in development, leadership, and management. I started my career at KPMG as an IT Engineer, then moved on to become a System Administrator at Novartis, the largest pharmaceutical company in the world. Following that, I worked as a Software Engineer at Realogy, the world’s largest franchisor of residential real estate brokerages, where I developed LeadRouter, a web-based real-estate listing sales lead tool. At Realogy, I provided leadership as a subject matter expert on best practices and developed an intranet for technical documentation of development tools and APIs. I was the Lead Developer at a large construction and real estate development company, where I developed highly dynamic websites and applications for residential and commercial properties using HTML, CSS, Bootstrap, JavaScript, PHP, WordPress, Angular, custom WordPress PHP plugins, and contact forms. I then worked for an IT Managed Service Provider as a Full Stack Web Developer, developing responsive single-page web applications and dashboards for mobile and desktop, APIs, system integrations, and browser extensions to optimize CRM workflows using JavaScript, Express.js, Node.js, Axios, React, CSS, Bootstrap, and Chakra.",
+    "Currently, I am a Full Stack Web Developer at OLM Foods, where I work on RightBytes, an e-commerce online food ordering platform that includes functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for web, iOS, and Android applications. Mobile apps leverage both PHP and Node backend APIs, with Stripe and PayPal integrations for payments, and DoorDash integration or self-managed solutions for deliveries. I also develop our WordPress WooCommerce B2B e-commerce portal, used by thousands of users to order and manage products to sell in their stores, generate sales and traffic reporting, and predictive analytics to maximize sales and minimize waste, with custom PHP, cron jobs, WordPress plugins, themes, SAP, and single sign-on integrations.",
+    "When I’m not working, I focus on my hobbies, which include Bitcoin, the Lightning Network, attending and organizing coding and IT meetups, conferences and seminars, real estate, finance, travel, skiing, dogs, building computers and servers, self-hosting websites and media servers, and reading. One of my favorite books at the moment is 'The Pragmatic Programmer' by Andy Hunt and Dave Thomas.",
   ],
-}
+};
 
 export const work = {
-  title: "What I do",
+  title: "What I Do",
   cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I create responsive websites using HTML5, CSS, Javascript and the  MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) tech stacks additonally I love to work with Sanity, Wordpress, CakePHP, Laravel, Symfony, Angular, Vue.js, Bootstrap, Chakra UI, and Tailwinds.",
+      description: "I create responsive websites using HTML5, CSS, JavaScript, and the MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) tech stacks. Additionally, I enjoy working with Sanity, WordPress, CakePHP, Laravel, Symfony, Angular, Vue.js, Bootstrap, Chakra UI, and Tailwind CSS.",
       icons: [
         {
           icon: faCode,
@@ -112,8 +112,8 @@ export const work = {
       ]
     },
     {
-      title: "Bitcoin enthusiast",
-      description: "I love learning & teaching others about Bitcoin. I enjoy contributing to many open source Bitcoin related projects, and organizing and attending Bitcoin meetups and conferences. I'm a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel, get help with your node, or learn more about the lightning network.",
+      title: "Bitcoin Enthusiast",
+      description: "I am passionate about learning and teaching others about Bitcoin. I contribute to many open-source Bitcoin-related projects and organize and attend Bitcoin meetups and conferences. I am a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel, get help with your node, or learn more about the Lightning Network.",
       icons: [
         {
           icon: faBoltLightning,
@@ -128,7 +128,7 @@ export const work = {
     },
     {
       title: "Teacher & Mentor",
-      description: "I teach, mentor, provide coding reviews for hundreds of students via coding course communities and meetups.",
+      description: "I teach, mentor, and provide code reviews for hundreds of students through coding course communities and meetups.",
       icons: [
         {
           icon: faChalkboardTeacher,
@@ -139,14 +139,14 @@ export const work = {
       ]
     },
   ],
-}
+};
 
 export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
       title: "Scrimba Frontend Developer Bootcamp",
-      description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, Responsive design, UI design, Git, peer code review, & mentoring.",
+      description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
       certificate: [
         {
           icon: faCertificate,
@@ -194,7 +194,7 @@ export const skills = {
     },
     {
       title: "FreeCodeCamp.org JavaScript Algorithms and Data Structures Developer Certification",
-      description: "Approximately 300 hours of coursework covering the fundamentals of JavaScript including variables, arrays, objects, loops, and functions, & Object Oriented Programming (OOP) and Functional Programming (FP).",
+      description: "Approximately 300 hours of coursework covering the fundamentals of JavaScript, including variables, arrays, objects, loops, and functions, as well as object-oriented programming (OOP) and functional programming (FP).",
       certificate: [
         {
           icon: faCertificate,
@@ -214,14 +214,14 @@ export const skills = {
       ]
     },
   ],
-}
+};
 
 export const projects = {
   title: "Projects",
   cards: [
     {
       title: "DiceLN - Lightning Network Dice Game",
-      description: "I created a Full Stack Web App Dice game that uses the Bitcoin Lightning Network for instant deposit / withdraw. The game is provably fair and can be played with any amount of satoshis and includes a chat. The game is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Contact for a demonstration, to play, or learn more about the lightning network! Currently Closed Source",
+      description: "A full-stack web app dice game that uses the Bitcoin Lightning Network for instant deposits and withdrawals. The game is provably fair and can be played with any amount of satoshis. It includes a chat feature and is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Contact me for a demonstration, to play, or to learn more about the Lightning Network! Currently closed source.",
       linkIcons: [
         {
           icon: faNodeJs,
@@ -233,9 +233,10 @@ export const projects = {
           icon: faBolt,
         },
       ]
-    }, {
+    },
+    {
       title: "RightBytes / DishPatch",
-      description: "I am the Lead developer on RightBytes an E-Commerce Online Food Ordering platform including functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for Web / iOS / Android applications. Mobile apps leverage both PHP & Node backend APIs. With Stripe and Paypal integrations for payments, and DoorDash integration or self managed solutions for deliveries.",
+      description: "Lead developer on RightBytes, an e-commerce online food ordering platform that includes functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for web, iOS, and Android applications. Mobile apps leverage both PHP and Node backend APIs, with Stripe and PayPal integrations for payments, and DoorDash integration or self-managed solutions for deliveries.",
       linkIcons: [
         {
           icon: faPhp,
@@ -250,9 +251,10 @@ export const projects = {
           icon: faPaypal,
         },
       ]
-    }, {
+    },
+    {
       title: "Jersey City Bitcoin",
-      description: "I am the founder of the Jesey City Bitcoin Meetup, a decentralized community for those interested in meeting up to discuss, and learn more about bitcoin in the Jersey City, New Jersey / New York area. You can be well versed or new, all are welcome. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
+      description: "Founder of the Jersey City Bitcoin Meetup, a decentralized community for those interested in discussing and learning more about Bitcoin in the Jersey City, New Jersey / New York area. All are welcome, whether well-versed or new. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
       linkIcons: [
         {
           icon: faNodeJs,
@@ -263,14 +265,16 @@ export const projects = {
         {
           icon: faChrome,
           link: "https://jerseycitybitcoin.com/",
-        }, {
+        },
+        {
           icon: faGithub,
           link: "https://github.com/JamesTsetsekas/JerseyCityBitcoin",
         }
       ]
-    }, {
+    },
+    {
       title: "OLM Customer Portal",
-      description: "I am the Lead developer on a WordPress WooCommerce B2B E-Commerce platform with Web / iOS / Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales & traffic reporting, predictive analytics i.e. what to order & when to prepare it to maximize sales & minimize waste. With Custom PHP, Cron jobs, WordPress plugins, Themes, SAP, and Single sign-on Integrations. ",
+      description: "Lead developer on a WordPress WooCommerce B2B e-commerce platform with web, iOS, and Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales and traffic reporting, and predictive analytics to maximize sales and minimize waste. Developed with custom PHP, cron jobs, WordPress plugins, themes, SAP, and single sign-on integrations.",
       linkIcons: [
         {
           icon: faWordpressSimple,
@@ -279,9 +283,10 @@ export const projects = {
           icon: faPhp,
         },
       ]
-    }, {
+    },
+    {
       title: "Jamesco Web Designs",
-      description: "I'm James, the owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I've introduced a $0 down and low montly cost model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for Wordpress, WooCommerce, E-commerce, SaaS, and custom development. Check out our offerings!",
+      description: "Owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I introduced a $0 down and low monthly cost model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for WordPress, WooCommerce, e-commerce, SaaS, and custom development. Check out our offerings!",
       linkIcons: [
         {
           icon: faNodeJs,
@@ -294,21 +299,24 @@ export const projects = {
           link: "https://jamescowebdesigns.com/",
         }
       ]
-    }, {
+    },
+    {
       title: "Lightning Network Point of Sale Terminal",
-      description: "A Point of Sale Terminal app which makes accepting bitcoin lightning payments easy! Accessable from any internet enabled device the app calculates real time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code and confirms once paid. This can be easily intergrated to any Wordpress WooCommerce or other Ecommerce soltuions easily. Contact me for more information.",
+      description: "A Point of Sale Terminal app that makes accepting Bitcoin Lightning payments easy! Accessible from any internet-enabled device, the app calculates real-time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code, confirming once paid. This can be easily integrated into any WordPress WooCommerce or other e-commerce solutions. Contact me for more information.",
       linkIcons: [
         {
           icon: faChrome,
           link: "https://btc.jamestsetsekas.com/apps/2cYmNXrnH6KaBBTmQMQNBbxXpQNg/pos",
-        }, {
+        },
+        {
           icon: faGithub,
           link: "https://github.com/btcpayserver/btcpayserver",
         },
       ]
-    }, {
+    },
+    {
       title: "Self-hosted HTML5 Speedtest Docker Container",
-      description: "Great for troubleshooting bandwidth, ping and jitter issues. Free and Open Source Speed Test. No Flash, No Java, No Websocket. Download, Upload, Ping, Jitter, IP Address, ISP, distance from server (optional), Telemetry (optional), Results sharing (optional), Multiple Points of Test (optional)",
+      description: "Great for troubleshooting bandwidth, ping, and jitter issues. Free and open-source speed test. No Flash, No Java, No WebSocket. Download, upload, ping, jitter, IP address, ISP, distance from server (optional), telemetry (optional), results sharing (optional), multiple points of test (optional).",
       linkIcons: [
         {
           icon: faChrome,
@@ -319,9 +327,10 @@ export const projects = {
           link: "https://github.com/librespeed/speedtest",
         },
       ]
-    }, {
+    },
+    {
       title: "Windows XP Minesweeper in React",
-      description: "Windows XP Minesweeper in React with Hooks and mobile support. Features include Release double mouse press at the same time to open ceils automatically, Never game over for the first click, Switch difficulty from the menu, Supports mobile! (long press for placing flags)",
+      description: "Windows XP Minesweeper in React with Hooks and mobile support. Features include releasing double mouse press at the same time to open cells automatically, never game over for the first click, switch difficulty from the menu, and mobile support (long press for placing flags).",
       linkIcons: [
         {
           icon: faChrome,
@@ -335,7 +344,7 @@ export const projects = {
     },
     {
       title: "SatsSpend - NYC Bitcoin Business List",
-      description: "SatsSpend is a website of New York City Area businesses that accept bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of bitcoin towards the bottom of the page.",
+      description: "SatsSpend is a website of New York City area businesses that accept Bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of Bitcoin towards the bottom of the page.",
       linkIcons: [
         {
           icon: faChrome,
@@ -349,7 +358,7 @@ export const projects = {
     },
     {
       title: "Lightning Network Node",
-      description: "I run a Bitcoin Lightning Network node using lnd, with a BTCPay server instance. I love routing satoshis, and I'm always looking to open more channels. Contact me to open a channel or learn more about the lightning network.",
+      description: "I run a Bitcoin Lightning Network node using lnd, with a BTCPay server instance. I love routing satoshis, and I'm always looking to open more channels. Contact me to open a channel or learn more about the Lightning Network.",
       linkIcons: [
         {
           icon: faChrome,
@@ -363,7 +372,7 @@ export const projects = {
     },
     {
       title: "React Note App",
-      description: "A React Markdown note taking app, with a simple, clean, and responsive UI. Features the ability to save and retrieve notes from local storage",
+      description: "A React Markdown note-taking app with a simple, clean, and responsive UI. Features the ability to save and retrieve notes from local storage.",
       linkIcons: [
         {
           icon: faChrome,
@@ -377,7 +386,7 @@ export const projects = {
     },
     {
       title: "Quizzical",
-      description: "A React Quiz application that utilizes fetch API requests to display multiple choice trivia questions and calculate scores.",
+      description: "A React quiz application that utilizes fetch API requests to display multiple-choice trivia questions and calculate scores.",
       linkIcons: [
         {
           icon: faChrome,
@@ -391,7 +400,7 @@ export const projects = {
     },
     {
       title: "PicSome",
-      description: "A React E-Commerce project that uses a fetch API call to display Images including functional components to favorite images, add them to the cart and checkout.",
+      description: "A React e-commerce project that uses a fetch API call to display images, including functional components to favorite images, add them to the cart, and checkout.",
       linkIcons: [
         {
           icon: faChrome,
@@ -405,7 +414,7 @@ export const projects = {
     },
     {
       title: "StarGaze",
-      description: "A React Single page application that uses fetch API requests to explore the most starred projects on GitHub with filter by date range and languages functionality.",
+      description: "A React single-page application that uses fetch API requests to explore the most starred projects on GitHub with filter by date range and languages functionality.",
       linkIcons: [
         {
           icon: faChrome,
@@ -432,7 +441,7 @@ export const projects = {
       ]
     },
     {
-      title: "Chrome New tab Extension",
+      title: "Chrome New Tab Extension",
       description: "A Chrome extension leveraging fetch API requests to get weather, Bitcoin price, and display the current time when you open a new tab.",
       linkIcons: [
         {
@@ -516,11 +525,11 @@ export const projects = {
       ]
     },
   ],
-}
+};
 
 export const contact = {
   title: "Get in touch",
-  description: "Lets schedule a meeting, feel free to reach out directly by email at James@JamesTsetsekas.com.",
+  description: "Let's schedule a meeting. Feel free to reach out directly by email at James@JamesTsetsekas.com.",
   buttons: [
     {
       title: "Email Me",
@@ -528,7 +537,7 @@ export const contact = {
       isPrimary: true,
     },
   ]
-}
+};
 
 // SEARCH ENGINE
 export const SEO = {
@@ -536,7 +545,7 @@ export const SEO = {
   title: "James Tsetsekas | Full Stack Web Developer",
   description: "I create responsive & dynamic web apps.",
   image: profile.src,
-}
+};
 
 export const links = {
   image: profile.src,
@@ -580,4 +589,4 @@ export const links = {
       iconb: faBoltLightning,
     },
   ]
-}
+};

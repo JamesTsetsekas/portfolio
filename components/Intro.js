@@ -7,11 +7,11 @@ const { publicRuntimeConfig } = getConfig()
 
 export const Intro = ({ greeting, title, description, image, buttons }) => {
 	return (
-    <div className="bg-secondary py-5 px-5 rounded-3">
+		<div className="bg-secondary py-5 px-5 rounded-3">
 			<div className="container">
 				<div className=" row align-items-center">
 					<div className="col-sm-6">
-            <h2 className="text-primary fw-bold display-3 greeting"><span className="wave">{greeting.emoji}</span>{greeting.text[0]}<br />{greeting.text[1]}{title}</h2>
+						<h2 className="text-primary fw-bold display-3 greeting"><span className="wave">{greeting.emoji}</span>{greeting.text[0]}<br />{greeting.text[1]}<span className="highlight">{title}</span></h2>
 						<p>{description}</p>
 						<div className="text-center">
 							{buttons.map((value, index) => (
@@ -41,7 +41,7 @@ export const Intro = ({ greeting, title, description, image, buttons }) => {
 
 export const About = ({ title, description }) => {
 	return (
-    <div id="about" className="bg-white py-5 px-5 border border-secondary rounded-3">
+		<div id="about" className="bg-white py-5 px-5 border border-secondary rounded-3">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="px-sm-5">

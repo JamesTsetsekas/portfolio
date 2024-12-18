@@ -18,11 +18,17 @@
 // $inverted-font: #FFFFFF;
 
 // bootstrap overrides
-$primary: #2b2d42;
-$secondary: #edf2f4;
-$tertiary: #ef233c;
-$quaternary: #d90429;
+$primary: #4d4d4d;
+$secondary: #dadada;
+$tertiary: #F29727;
+$quaternary: #F27F1B;
 $light: #edf2f4;
+
+.highlight {
+  color: #FF9900; // Changed to rgba with less opacity
+  font-weight: 900;
+  font-size: 1.2em;
+}
 
 // original colors
 // $primary: #365B6D;

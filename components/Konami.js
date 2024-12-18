@@ -29,6 +29,15 @@ const Konami = () => {
     }
   };
 
+  const formatPrice = (price) => {
+    if (price >= 1000000) {
+      return (price / 1000000).toFixed(1) + 'M';
+    } else if (price >= 1000) {
+      return (price / 1000).toFixed(1) + 'K';
+    }
+    return price;
+  };
+
   const fetchBitcoinPrice = async () => {
     try {
       const response = await fetch('https://bitpay.com/rates');
@@ -37,12 +46,21 @@ const Konami = () => {
       const price = usdRate.rate;
       setBitcoinPrice(price);
 
-      if (price > 100000 && !showBitcoinConfetti) {
+      const lastDismissed = localStorage.getItem('btcDismissedTime');
+      const lastAllTimeHigh = localStorage.getItem('btcAllTimeHigh') || 0;
+      const now = new Date().getTime();
+      const oneDay = 24 * 60 * 60 * 1000;
+
+      if (price > 100000 && (!lastDismissed || now - lastDismissed > oneDay)) {
         setShowBitcoinMessage(true);
         setShowBitcoinConfetti(true);
       } else {
         setShowBitcoinMessage(false);
         setShowBitcoinConfetti(false);
+      }
+
+      if (price > lastAllTimeHigh) {
+        localStorage.setItem('btcAllTimeHigh', price);
       }
     } catch (error) {
       console.error('Error fetching bitcoin price:', error);
@@ -85,6 +103,12 @@ const Konami = () => {
     return () => clearInterval(intervalId);
   }, []);
 
+  const dismissBitcoinMessage = () => {
+    setShowBitcoinMessage(false);
+    setShowBitcoinConfetti(false);
+    localStorage.setItem('btcDismissedTime', new Date().getTime());
+  };
+
   return (
     <div style={{
       position: 'fixed',
@@ -119,15 +143,12 @@ const Konami = () => {
               fontWeight: 'bold',
               color: 'white', // White text color
               backgroundColor: '#FFA500', // Orange background color
-              padding: '20px', // Padding for better visibility
+              padding: '40px 20px 20px 20px', // Added padding to the top
               borderRadius: '10px', // Rounded corners
             }}
           >
             <button
-              onClick={() => {
-                setShowBitcoinMessage(false);
-                setShowBitcoinConfetti(false);
-              }}
+              onClick={dismissBitcoinMessage}
               style={{
                 position: 'absolute',
                 top: '10px',
@@ -151,7 +172,7 @@ const Konami = () => {
               &times;
             </button>
             <div>
-              1 BTC {'>'} $100K
+              BTC = {formatPrice(bitcoinPrice)}{bitcoinPrice > localStorage.getItem('btcAllTimeHigh') ? ' New all time high!' : ''}
               <br />
               <small style={{ fontSize: '12px' }}>Press Escape to acknowledge and hide</small>
             </div>
