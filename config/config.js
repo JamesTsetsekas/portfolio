@@ -159,12 +159,12 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
-      title: "Junior Cybersecurity Analyst",
-      description: "This Junior Cybersecurity Analyst Career Path prepares you for the entry-level Cisco Certified Support Technician (CCST) Cybersecurity certification and entry-level cybersecurity positions such as Cybersecurity Technician, Junior Cybersecurity Analyst, or Tier 1 Help Desk Support roles. You will learn vital skills like threat intelligence, network security, and risk management to protect yourself and organizations from cyber attacks. ",
+      title: "Networking Basics",
+      description: "This 22 Hour course covers the foundation of networking and network devices, media, and protocols. You will observe data flowing through a network and configure devices to connect to networks. Finally, you will learn how to use different network applications and protocols to accomplish networking tasks.",
       certificate: [
         {
           icon: faCertificate,
-          link: "https://www.netacad.com/career-paths/cybersecurity"
+          link: "https://www.credly.com/badges/ca0b3839-0bf9-43b1-8538-4cca7c28fabc"
         }
       ],
       icons: [
@@ -180,7 +180,7 @@ export const skills = {
       ]
     }, {
       title: "Introduction to Cybersecurity",
-      description: "This introductory course takes you inside the world of cybersecurity. You will learn cybersecurity basics to protect your personal digital life and gain insights into the biggest security challenges companies, governments, and educational institutions face today. Cybersecurity professionals who can protect and defend an organization’s network are in high demand.",
+      description: "This 6 Hour introductory course takes you inside the world of cybersecurity. You will learn cybersecurity basics to protect your personal digital life and gain insights into the biggest security challenges companies, governments, and educational institutions face today.",
       certificate: [
         {
           icon: faCertificate,
