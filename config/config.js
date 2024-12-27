@@ -26,7 +26,21 @@ import {
   faWordpressSimple,
   faPaypal
 } from '@fortawesome/free-brands-svg-icons';
-import { faCode, faDatabase, faChalkboardTeacher, faUsers, faLayerGroup, faCertificate, faBitcoinSign, faBoltLightning, faComputer, faNetworkWired, faLink, faBolt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faCode,
+  faDatabase,
+  faChalkboardTeacher,
+  faUsers, faLayerGroup,
+  faCertificate,
+  faBitcoinSign,
+  faBoltLightning,
+  faComputer,
+  faNetworkWired,
+  faLink,
+  faBolt,
+  faShieldAlt,
+  faShieldVirus
+} from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
   name: "James Tsetsekas",
@@ -145,6 +159,46 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "Junior Cybersecurity Analyst",
+      description: "This Junior Cybersecurity Analyst Career Path prepares you for the entry-level Cisco Certified Support Technician (CCST) Cybersecurity certification and entry-level cybersecurity positions such as Cybersecurity Technician, Junior Cybersecurity Analyst, or Tier 1 Help Desk Support roles. You will learn vital skills like threat intelligence, network security, and risk management to protect yourself and organizations from cyber attacks. ",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.netacad.com/career-paths/cybersecurity"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    }, {
+      title: "Introduction to Cybersecurity",
+      description: "This introductory course takes you inside the world of cybersecurity. You will learn cybersecurity basics to protect your personal digital life and gain insights into the biggest security challenges companies, governments, and educational institutions face today. Cybersecurity professionals who can protect and defend an organization’s network are in high demand.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/3ab633a6-577c-4dab-8cbf-d624a2b2c993/"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    }, {
       title: "Scrimba Frontend Developer Bootcamp",
       description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
       certificate: [
