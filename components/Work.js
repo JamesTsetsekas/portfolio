@@ -22,12 +22,25 @@ export const WhatIDo = ({ title, cards }) => {
 }
 
 export const Skills = ({ title, cards }) => {
+  const [displayedCards, setDisplayedCards] = useState(3);
+  const totalCards = cards.length;
+  const [loading, setLoading] = useState(false);
+  const [isButtonHovered, setIsButtonHovered] = useState(false);
+
+  const loadMoreCards = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setDisplayedCards(displayedCards + 3);
+      setLoading(false);
+    }, 150);
+  };
+
   return (
     <div id="skills" className="bg-secondary py-5 px-5 rounded-3">
       <div className="container">
         <h1 className="text-primary fw-bold">{title}</h1>
         <div className="d-flex flex-row flex-wrap justify-content-center">
-          {cards.map((value, index) => (
+          {cards.slice(0, displayedCards).map((value, index) => (
             <Card
               key={index}
               title={value.title}
@@ -36,6 +49,23 @@ export const Skills = ({ title, cards }) => {
               cert={value.certificate} />
           ))}
         </div>
+        {displayedCards < totalCards && (
+          <div className="text-center">
+            <button
+              type="button"
+              className={`btn ${isButtonHovered ? 'btn-light' : 'btn-dark'}`}
+              onClick={loadMoreCards}
+              onMouseEnter={() => setIsButtonHovered(true)}
+              onMouseLeave={() => setIsButtonHovered(false)}
+            >
+              {loading ? (
+                <div className={`spinner ${isButtonHovered ? 'black' : 'white'}`} />
+              ) : (
+                'Load more'
+              )}
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -75,8 +105,8 @@ export const Projects = ({ title, cards }) => {
               type="button"
               className="btn btn-outline-light"
               onClick={loadMoreCards}
-              onMouseEnter={() => setIsButtonHovered(true)} // Set hover state when mouse enters button
-              onMouseLeave={() => setIsButtonHovered(false)} // Reset hover state when mouse leaves button
+              onMouseEnter={() => setIsButtonHovered(true)}
+              onMouseLeave={() => setIsButtonHovered(false)}
             >
               {loading ? (
                 <div className={`spinner ${isButtonHovered ? 'black' : 'white'}`} />
@@ -113,7 +143,7 @@ export const Card = ({ title, description, icons, linkIcons, cert }) => {
         ))}
 
         {linkIcons && linkIcons.map((value, index) => (
-          value.link ? (  // Check if link is defined
+          value.link ? (
             <Link key={index} href={value.link}>
               <a target="_blank" rel="noreferrer">
                 <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
@@ -127,4 +157,3 @@ export const Card = ({ title, description, icons, linkIcons, cert }) => {
     </div>
   );
 }
-
