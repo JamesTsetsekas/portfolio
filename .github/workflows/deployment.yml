@@ -22,7 +22,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [22.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -39,6 +39,8 @@ jobs:
     - run: npm ci
     # - run: npm run prebuild # build automatically runs prebuild
     - run: npm run build
+      env:
+        NODE_OPTIONS: --openssl-legacy-provider
     - run: npm run export
     - run: touch ./out/.nojekyll
     
