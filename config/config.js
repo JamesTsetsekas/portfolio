@@ -275,7 +275,7 @@ export const projects = {
   cards: [
     {
       title: "DiceLN - Lightning Network Dice Game",
-      description: "A full-stack web app dice game that uses the Bitcoin Lightning Network for instant deposits and withdrawals. The game is provably fair and can be played with any amount of satoshis. It includes a chat feature and is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Contact me for a demonstration, to play, or to learn more about the Lightning Network! Currently closed source.",
+      description: "A full-stack web app dice game that uses the Bitcoin Lightning Network for instant deposits and withdrawals. The game is provably fair and can be played with any amount of satoshis. It includes a chat feature and is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Video Demo availible, Currently closed source.",
       linkIcons: [
         {
           icon: faNodeJs,
@@ -285,6 +285,10 @@ export const projects = {
         },
         {
           icon: faBolt,
+        },
+        {
+          icon: faChrome,
+          link: "https://youtu.be/0MBuNj__rIQ",
         },
       ]
     },
@@ -607,8 +611,14 @@ export const links = {
   description: "Full-Stack Web Developer",
   cards: [
     {
-      title: "My website",
+      title: "My Portfolio Website",
       link: "https://jamestsetsekas.com/",
+      icon: faChrome,
+      iconb: faLink,
+    },
+    {
+      title: "My Blog",
+      link: "https://blog.jamestsetsekas.com/",
       icon: faChrome,
       iconb: faLink,
     },
@@ -625,8 +635,8 @@ export const links = {
       iconb: faLinkedinIn
     },
     {
-      title: "My Twitter",
-      link: "https://twitter.com/JamesTsetsekas",
+      title: "My X",
+      link: "https://x.com/JamesTsetsekas",
       icon: faTwitter,
       iconb: faTwitterSquare,
     },
