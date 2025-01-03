@@ -607,7 +607,7 @@ export const links = {
   description: "Full-Stack Web Developer",
   cards: [
     {
-      title: "My Portfolio Website",
+      title: "My Portfolio",
       link: "https://jamestsetsekas.com/",
       icon: faChrome,
       iconb: faLink,
