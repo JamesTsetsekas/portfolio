@@ -328,7 +328,7 @@ export const projects = {
     },
     {
       title: "JCBTC Meetup Store",
-      description: "A collection of currated items sold exclusivly for bitcoin!",
+      description: "Jersey City Bitcoin Meetup Store, A collection of currated items sold exclusivly for bitcoin!",
       linkIcons: [
         {
           icon: faBolt,
