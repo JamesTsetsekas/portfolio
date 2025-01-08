@@ -327,6 +327,22 @@ export const projects = {
       ]
     },
     {
+      title: "JCBTC Meetup Store",
+      description: "A collection of currated items sold exclusivly for bitcoin!",
+      linkIcons: [
+        {
+          icon: faBolt,
+        },
+        {
+          icon: faPhp,
+        },
+        {
+          icon: faChrome,
+          link: "https://btc.jerseycitybitcoin.com/",
+        }
+      ]
+    },
+    {
       title: "OLM Customer Portal",
       description: "Lead developer on a WordPress WooCommerce B2B e-commerce platform with web, iOS, and Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales and traffic reporting, and predictive analytics to maximize sales and minimize waste. Developed with custom PHP, cron jobs, WordPress plugins, themes, SAP, and single sign-on integrations.",
       linkIcons: [
