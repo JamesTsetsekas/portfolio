@@ -220,7 +220,7 @@ export const skills = {
       ]
     }, {
       title: "Scrimba Frontend Developer Bootcamp",
-      description: "Approximately 80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
+      description: "80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
       certificate: [
         {
           icon: faCertificate,
@@ -244,7 +244,7 @@ export const skills = {
     },
     {
       title: "FreeCodeCamp.org Front End Libraries Developer Certification",
-      description: "Approximately 300 hours of coursework covering how to create powerful Single Page Applications (SPAs) with React and Redux, and style them with Bootstrap and Sass.",
+      description: "300 hours of coursework covering how to create powerful Single Page Applications (SPAs) with React and Redux, and style them with Bootstrap and Sass.",
       certificate: [
         {
           icon: faCertificate,
@@ -268,11 +268,32 @@ export const skills = {
     },
     {
       title: "FreeCodeCamp.org JavaScript Algorithms and Data Structures Developer Certification",
-      description: "Approximately 300 hours of coursework covering the fundamentals of JavaScript, including variables, arrays, objects, loops, and functions, as well as object-oriented programming (OOP) and functional programming (FP).",
+      description: "300 hours of coursework covering the fundamentals of JavaScript, including variables, arrays, objects, loops, and functions, as well as object-oriented programming (OOP) and functional programming (FP).",
       certificate: [
         {
           icon: faCertificate,
           link: "https://www.freecodecamp.org/certification/jamestsetsekas/javascript-algorithms-and-data-structures"
+        },
+      ],
+      icons: [
+        {
+          icon: faFreeCodeCamp,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faLayerGroup,
+        }
+      ]
+    },
+    {
+      title: "FreeCodeCamp.org Responsive Web Design Developer Certification ",
+      description: "300 hours of coursework covering how to make web pages that respond to different screen sizes.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.freecodecamp.org/certification/jamestsetsekas/responsive-web-design"
         },
       ],
       icons: [
