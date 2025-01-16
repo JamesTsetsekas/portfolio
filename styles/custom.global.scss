@@ -202,14 +202,16 @@ a {
 }
 
 .wave {
-  animation-name: wave-animation;
+  // animation-name: wave-animation;
   /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;
+  // animation-duration: 2.5s;
   /* Change to speed up or slow down */
-  animation-iteration-count: infinite;
+  // animation-iteration-count: infinite;
   /* Never stop waving :) */
-  transform-origin: 70% 70%;
+  // transform-origin: 70% 70%;
   /* Pivot around the bottom-left palm */
+  width: 80px;
+  height: 80px;
   display: inline-block;
 }
 

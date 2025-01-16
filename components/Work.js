@@ -22,7 +22,7 @@ export const WhatIDo = ({ title, cards }) => {
 }
 
 export const Skills = ({ title, cards }) => {
-  const [displayedCards, setDisplayedCards] = useState(3);
+  const [displayedCards, setDisplayedCards] = useState(6);
   const totalCards = cards.length;
   const [loading, setLoading] = useState(false);
   const [isButtonHovered, setIsButtonHovered] = useState(false);

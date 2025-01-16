@@ -159,6 +159,26 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "Networking Devices and Initial Configuration",
+      description: "This 22 Hour course covers the essentials of network devices and how to configure them. Learn the characteristics and benefits of Cloud and Virtualization technologies. Explore how to provide Internet Protocol (IP) addresses to devices both manually and automatically. Using this knowledge, you will calculate an IP addressing scheme, configure Cisco devices to create a small network, and test for connectivity issues.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/e9b4658e-ac62-4446-b8cf-a0bb04613600"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    }, {
       title: "Networking Basics",
       description: "This 22 Hour course covers the foundation of networking and network devices, media, and protocols. You will observe data flowing through a network and configure devices to connect to networks. Finally, you will learn how to use different network applications and protocols to accomplish networking tasks.",
       certificate: [
