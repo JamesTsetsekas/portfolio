@@ -159,6 +159,26 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "Endpoint Security",
+      description: "This 27 Hour course covers how to assess the network, operating systems, and endpoints for vulnerabilities, and how to secure the network. You will also gain skills to maintain the integrity, confidentiality, and availability in your network and your data.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/53a5ab72-7d6f-4947-a0ab-9488fef939cd"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    }, {
       title: "Networking Devices and Initial Configuration",
       description: "This 22 Hour course covers the essentials of network devices and how to configure them. Learn the characteristics and benefits of Cloud and Virtualization technologies. Explore how to provide Internet Protocol (IP) addresses to devices both manually and automatically. Using this knowledge, you will calculate an IP addressing scheme, configure Cisco devices to create a small network, and test for connectivity issues.",
       certificate: [
