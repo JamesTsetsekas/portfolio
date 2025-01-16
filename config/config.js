@@ -159,6 +159,27 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "Network Defense",
+      description: "This 27 Hour course covers ways to monitor your network and how to evaluate security alerts. Delve into the tools and techniques used to protect a network, including access control, firewalls, cloud security, and cryptography. These monitoring and defense tools, along with others, work together to create a layered defense-in-depth cybersecurity strategy. The knowledge and skills that you learn will help you defend networks against many types of attacks and quickly react to any exploits that may occur.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/a5dc3ba3-af6c-4034-b82f-bfbdc5030465"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    },
+    {
       title: "Endpoint Security",
       description: "This 27 Hour course covers how to assess the network, operating systems, and endpoints for vulnerabilities, and how to secure the network. You will also gain skills to maintain the integrity, confidentiality, and availability in your network and your data.",
       certificate: [
@@ -178,7 +199,8 @@ export const skills = {
           icon: faNetworkWired,
         }
       ]
-    }, {
+    },
+    {
       title: "Networking Devices and Initial Configuration",
       description: "This 22 Hour course covers the essentials of network devices and how to configure them. Learn the characteristics and benefits of Cloud and Virtualization technologies. Explore how to provide Internet Protocol (IP) addresses to devices both manually and automatically. Using this knowledge, you will calculate an IP addressing scheme, configure Cisco devices to create a small network, and test for connectivity issues.",
       certificate: [
@@ -198,7 +220,8 @@ export const skills = {
           icon: faNetworkWired,
         }
       ]
-    }, {
+    },
+    {
       title: "Networking Basics",
       description: "This 22 Hour course covers the foundation of networking and network devices, media, and protocols. You will observe data flowing through a network and configure devices to connect to networks. Finally, you will learn how to use different network applications and protocols to accomplish networking tasks.",
       certificate: [
@@ -218,7 +241,8 @@ export const skills = {
           icon: faNetworkWired,
         }
       ]
-    }, {
+    },
+    {
       title: "Introduction to Cybersecurity",
       description: "This 6 Hour introductory course takes you inside the world of cybersecurity. You will learn cybersecurity basics to protect your personal digital life and gain insights into the biggest security challenges companies, governments, and educational institutions face today.",
       certificate: [
@@ -238,7 +262,8 @@ export const skills = {
           icon: faNetworkWired,
         }
       ]
-    }, {
+    },
+    {
       title: "Scrimba Frontend Developer Bootcamp",
       description: "80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
       certificate: [
