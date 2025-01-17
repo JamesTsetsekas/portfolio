@@ -8,6 +8,7 @@ const Konami = () => {
   const [bitcoinPrice, setBitcoinPrice] = useState(null);
   const [showBitcoinMessage, setShowBitcoinMessage] = useState(false);
   const [showBitcoinConfetti, setShowBitcoinConfetti] = useState(false);
+  const [bitcoinFeatureEnabled, setBitcoinFeatureEnabled] = useState(true); // Toggle for Bitcoin feature
 
   const handleKeyDown = (event) => {
     const { key } = event;
@@ -39,6 +40,8 @@ const Konami = () => {
   };
 
   const fetchBitcoinPrice = async () => {
+    if (!bitcoinFeatureEnabled) return; // Check if Bitcoin feature is enabled
+
     try {
       const response = await fetch('https://bitpay.com/rates');
       const data = await response.json();
@@ -51,7 +54,7 @@ const Konami = () => {
       const now = new Date().getTime();
       const oneDay = 24 * 60 * 60 * 1000;
 
-      if (price > 100000 && (!lastDismissed || now - lastDismissed > oneDay)) {
+      if (price > 250000 && (!lastDismissed || now - lastDismissed > oneDay)) {
         setShowBitcoinMessage(true);
         setShowBitcoinConfetti(true);
       } else {
@@ -101,7 +104,7 @@ const Konami = () => {
     fetchBitcoinPrice();
     const intervalId = setInterval(fetchBitcoinPrice, 60000); // Fetch every minute
     return () => clearInterval(intervalId);
-  }, []);
+  }, [bitcoinFeatureEnabled]); // Re-fetch if the feature is toggled
 
   const dismissBitcoinMessage = () => {
     setShowBitcoinMessage(false);
@@ -179,7 +182,7 @@ const Konami = () => {
           </div>
         </div>
       )}
-      {showBitcoinConfetti && <Confetti colors={['#FFA500']} />} {/* Orange confetti for Bitcoin price over $100,000 */}
+      {showBitcoinConfetti && <Confetti colors={['#FFA500']} />} {/* Orange confetti for Bitcoin price over $250,000 */}
     </div>
   );
 };
