@@ -159,6 +159,27 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "Junior Cybersecurity Analyst",
+      description: "This 120 Hour course prepares you for the entry-level Cisco Certified Support Technician (CCST) Cybersecurity certification and entry-level cybersecurity positions such as Cybersecurity Technician, Junior Cybersecurity Analyst, or Tier 1 Help Desk Support roles. You will learn vital skills like threat intelligence, network security, and risk management to protect yourself and organizations from cyber attacks.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/710e77b2-beb7-4812-b0c9-2c791b0a25ee"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    },
+    {
       title: "Cyber Threat Management",
       description: "This 27 Hour course explores governance in cybersecurity and threat management. Learn to develop policies and ensure your organization complies with ethics standards and legal and regulatory frameworks. You will also gain skills for managing threats, such as how to assess a network for vulnerabilities, manage risks, and respond to security incidents.",
       certificate: [
