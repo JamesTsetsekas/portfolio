@@ -159,6 +159,27 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "Cyber Threat Management",
+      description: "This 27 Hour course explores governance in cybersecurity and threat management. Learn to develop policies and ensure your organization complies with ethics standards and legal and regulatory frameworks. You will also gain skills for managing threats, such as how to assess a network for vulnerabilities, manage risks, and respond to security incidents.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/cd9f929a-2943-4a85-ab89-83796d97848c"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    },
+    {
       title: "Network Defense",
       description: "This 27 Hour course covers ways to monitor your network and how to evaluate security alerts. Delve into the tools and techniques used to protect a network, including access control, firewalls, cloud security, and cryptography. These monitoring and defense tools, along with others, work together to create a layered defense-in-depth cybersecurity strategy. The knowledge and skills that you learn will help you defend networks against many types of attacks and quickly react to any exploits that may occur.",
       certificate: [
