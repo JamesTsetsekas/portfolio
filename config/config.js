@@ -180,7 +180,7 @@ export const skills = {
       ]
     },
     {
-      title: "Junior Cybersecurity Analyst",
+      title: "Ethical Hacker",
       description: "This 70 Hour course prepares you with an Ethical Hacker skillset and give you a solid understanding of offensive security. You will become proficient in the art of scoping, executing, and reporting on vulnerability assessments, while recommending mitigation strategies. Follow an engaging gamified narrative throughout the course and get lots of practice with hands-on labs inspired by real-world scenarios.",
       certificate: [
         {
