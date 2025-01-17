@@ -160,6 +160,27 @@ export const skills = {
   cards: [
     {
       title: "Junior Cybersecurity Analyst",
+      description: "This 70 Hour course prepares you with an Ethical Hacker skillset and give you a solid understanding of offensive security. You will become proficient in the art of scoping, executing, and reporting on vulnerability assessments, while recommending mitigation strategies. Follow an engaging gamified narrative throughout the course and get lots of practice with hands-on labs inspired by real-world scenarios.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/0e61d610-228d-4f1e-af3a-fbfa37c012b4"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    },
+    {
+      title: "Junior Cybersecurity Analyst",
       description: "This 120 Hour course prepares you for the entry-level Cisco Certified Support Technician (CCST). You will learn vital skills like threat intelligence, network security, and risk management to protect yourself and organizations from cyber attacks.",
       certificate: [
         {
