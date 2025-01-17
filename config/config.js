@@ -180,6 +180,96 @@ export const skills = {
       ]
     },
     {
+      title: "Scrimba Frontend Developer Bootcamp",
+      description: "80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://scrimba.com/certificate/u3bwdkfb/gfrontend"
+        }
+      ],
+      icons: [
+        {
+          icon: faHtml5,
+        },
+        {
+          icon: faCss3,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faReact,
+        },
+      ]
+    },
+    {
+      title: "FreeCodeCamp.org Front End Libraries Developer Certification",
+      description: "300 hours of coursework covering how to create powerful Single Page Applications (SPAs) with React and Redux, and style them with Bootstrap and Sass.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.freecodecamp.org/certification/jamestsetsekas/front-end-development-libraries"
+        }
+      ],
+      icons: [
+        {
+          icon: faFreeCodeCamp,
+        },
+        {
+          icon: faReact,
+        },
+        {
+          icon: faBootstrap,
+        },
+        {
+          icon: faSass,
+        },
+      ]
+    },
+    {
+      title: "FreeCodeCamp.org JavaScript Algorithms and Data Structures Developer Certification",
+      description: "300 hours of coursework covering the fundamentals of JavaScript, including variables, arrays, objects, loops, and functions, as well as object-oriented programming (OOP) and functional programming (FP).",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.freecodecamp.org/certification/jamestsetsekas/javascript-algorithms-and-data-structures"
+        },
+      ],
+      icons: [
+        {
+          icon: faFreeCodeCamp,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faLayerGroup,
+        }
+      ]
+    },
+    {
+      title: "FreeCodeCamp.org Responsive Web Design Developer Certification ",
+      description: "300 hours of coursework covering how to make web pages that respond to different screen sizes.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.freecodecamp.org/certification/jamestsetsekas/responsive-web-design"
+        },
+      ],
+      icons: [
+        {
+          icon: faFreeCodeCamp,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faLayerGroup,
+        }
+      ]
+    },
+    {
       title: "Cyber Threat Management",
       description: "This 27 Hour course explores governance in cybersecurity and threat management. Learn to develop policies and ensure your organization complies with ethics standards and legal and regulatory frameworks. You will also gain skills for managing threats, such as how to assess a network for vulnerabilities, manage risks, and respond to security incidents.",
       certificate: [
@@ -302,96 +392,6 @@ export const skills = {
         },
         {
           icon: faNetworkWired,
-        }
-      ]
-    },
-    {
-      title: "Scrimba Frontend Developer Bootcamp",
-      description: "80+ hours of teacher-led group sessions and solo projects covering HTML, CSS, JavaScript, React, responsive design, UI design, Git, peer code review, and mentoring.",
-      certificate: [
-        {
-          icon: faCertificate,
-          link: "https://scrimba.com/certificate/u3bwdkfb/gfrontend"
-        }
-      ],
-      icons: [
-        {
-          icon: faHtml5,
-        },
-        {
-          icon: faCss3,
-        },
-        {
-          icon: faJsSquare,
-        },
-        {
-          icon: faReact,
-        },
-      ]
-    },
-    {
-      title: "FreeCodeCamp.org Front End Libraries Developer Certification",
-      description: "300 hours of coursework covering how to create powerful Single Page Applications (SPAs) with React and Redux, and style them with Bootstrap and Sass.",
-      certificate: [
-        {
-          icon: faCertificate,
-          link: "https://www.freecodecamp.org/certification/jamestsetsekas/front-end-development-libraries"
-        }
-      ],
-      icons: [
-        {
-          icon: faFreeCodeCamp,
-        },
-        {
-          icon: faReact,
-        },
-        {
-          icon: faBootstrap,
-        },
-        {
-          icon: faSass,
-        },
-      ]
-    },
-    {
-      title: "FreeCodeCamp.org JavaScript Algorithms and Data Structures Developer Certification",
-      description: "300 hours of coursework covering the fundamentals of JavaScript, including variables, arrays, objects, loops, and functions, as well as object-oriented programming (OOP) and functional programming (FP).",
-      certificate: [
-        {
-          icon: faCertificate,
-          link: "https://www.freecodecamp.org/certification/jamestsetsekas/javascript-algorithms-and-data-structures"
-        },
-      ],
-      icons: [
-        {
-          icon: faFreeCodeCamp,
-        },
-        {
-          icon: faJsSquare,
-        },
-        {
-          icon: faLayerGroup,
-        }
-      ]
-    },
-    {
-      title: "FreeCodeCamp.org Responsive Web Design Developer Certification ",
-      description: "300 hours of coursework covering how to make web pages that respond to different screen sizes.",
-      certificate: [
-        {
-          icon: faCertificate,
-          link: "https://www.freecodecamp.org/certification/jamestsetsekas/responsive-web-design"
-        },
-      ],
-      icons: [
-        {
-          icon: faFreeCodeCamp,
-        },
-        {
-          icon: faJsSquare,
-        },
-        {
-          icon: faLayerGroup,
         }
       ]
     },
