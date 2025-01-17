@@ -159,6 +159,27 @@ export const skills = {
   title: "Skills & Certifications",
   cards: [
     {
+      title: "JavaScript Essentials 1",
+      description: "This 40-hour course covers how interactive web and mobile applications are created with JavaScript. Learn to program your own applications with no prior knowledge required. This course is aligned to the JSE – Certified Entry-Level JavaScript Programmer Certification, developed in collaboration with the JS Institute. Programming skills open you up to careers in almost any industry and are required for advanced web, mobile app, or game development roles.",
+      certificate: [
+        {
+          icon: faCertificate,
+          link: "https://www.credly.com/badges/1dfc1018-a876-4ace-9549-313b962ede4a"
+        }
+      ],
+      icons: [
+        {
+          icon: faShieldAlt,
+        },
+        {
+          icon: faComputer,
+        },
+        {
+          icon: faNetworkWired,
+        }
+      ]
+    },
+    {
       title: "Junior Cybersecurity Analyst",
       description: "This 70 Hour course prepares you with an Ethical Hacker skillset and give you a solid understanding of offensive security. You will become proficient in the art of scoping, executing, and reporting on vulnerability assessments, while recommending mitigation strategies. Follow an engaging gamified narrative throughout the course and get lots of practice with hands-on labs inspired by real-world scenarios.",
       certificate: [
