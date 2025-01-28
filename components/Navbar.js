@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 
 export const Nav = ({ title, links }) => {
 
@@ -34,7 +34,9 @@ export const Nav = ({ title, links }) => {
         >
           {links.map((value, index) => (
             <Link key={index} href={value.link}>
-              <a className="nav-link">{value.title}</a>
+              <a className="nav-link" target={value.target === '_blank' ? '_blank' : '_self'}>
+                {value.title}
+              </a>
             </Link>
           ))}
         </div>

@@ -61,6 +61,11 @@ export const navigation = {
       title: "Links",
       link: "/links",
     },
+    {
+      title: "Blog",
+      link: "https://blog.jamestsetsekas.com/",
+      target: "_blank",
+    },
   ],
 };
 
