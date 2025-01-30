@@ -464,6 +464,38 @@ export const projects = {
       ]
     },
     {
+      title: "Bitcoin Price Converter",
+      description: "A Bitcoin converter to US Dollars, GBP, or Euro to Bitcoin and Satoshis or Sats and the other way around. Built with Node.js and JavaScript.",
+      linkIcons: [
+        {
+          icon: faNodeJs,
+        },
+        {
+          icon: faJsSquare,
+        },
+        {
+          icon: faChrome,
+          link: "https://jamestsetsekas.github.io/satscalc/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/satscalc",
+        },
+      ]
+    },
+    {
+      title: "WordPress WooCommerce Phoenixd Server Custom Payment Gateway",
+      description: "A custom payment gateway for WooCommerce that uses the Phoenixd server API to process Lightning Network payments non-custodially with very little setup and no Lightning node or channel management. Built with WordPress, WooCommerce, and PHP.",
+      linkIcons: [
+        {
+          icon: faWordpressSimple,
+        },
+        {
+          icon: faPhp,
+        },
+      ]
+    },
+    {
       title: "RightBytes / DishPatch",
       description: "Lead developer on RightBytes, an e-commerce online food ordering platform that includes functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for web, iOS, and Android applications. Mobile apps leverage both PHP and Node backend APIs, with Stripe and PayPal integrations for payments, and DoorDash integration or self-managed solutions for deliveries.",
       linkIcons: [
@@ -768,7 +800,7 @@ export const projects = {
           link: "https://github.com/JamesTsetsekas/Invoice-creator",
         },
       ]
-    },
+    }
   ],
 };
 
