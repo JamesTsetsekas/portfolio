@@ -112,7 +112,7 @@ export const work = {
   cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I create responsive websites using HTML5, CSS, JavaScript, and the MERN (MongoDB, Express.js, React, Node.js) and LAMP (Linux, Apache, MySQL, PHP) tech stacks. Additionally, I enjoy working with Sanity, WordPress, CakePHP, Laravel, Symfony, Angular, Vue.js, Bootstrap, Chakra UI, and Tailwind CSS.",
+      description: "I'm a Full Stack Web Developer who loves building applications using the best tools for the job—whether it's JavaScript, PHP, React, Node.js, or WordPress. I enjoy crafting clean, scalable code and working with teams that value quality. When I'm not coding, I teach and mentor developers, contribute to Bitcoin projects, and explore new tech. Let's build something awesome!",
       icons: [
         {
           icon: faCode,
@@ -132,8 +132,8 @@ export const work = {
       ]
     },
     {
-      title: "Bitcoin Enthusiast",
-      description: "I am passionate about learning and teaching others about Bitcoin. I contribute to many open-source Bitcoin-related projects and organize and attend Bitcoin meetups and conferences. I am a Bitcoin ⚡Lightning Network⚡ Node Operator. Contact me to open a channel, get help with your node, or learn more about the Lightning Network.",
+      title: "Bitcoin Enthusiast & Lightning Network Advocate",
+      description: "I’m deeply passionate about Bitcoin and its potential to reshape finance. I contribute to open-source Bitcoin projects, run a ⚡ Lightning Network node, and actively participate in meetups and conferences. Whether you're looking to open a channel, optimize your node, or dive deeper into Bitcoin, I’m always happy to help!",
       icons: [
         {
           icon: faBoltLightning,
@@ -147,8 +147,8 @@ export const work = {
       ]
     },
     {
-      title: "Teacher & Mentor",
-      description: "I teach, mentor, and provide code reviews for hundreds of students through coding course communities and meetups.",
+      title: "Teacher, Mentor & Lifelong Learner",
+      description: "I’m passionate about sharing knowledge and continuously expanding my own. I teach, mentor, and provide code reviews for hundreds of students through coding communities and meetups. Whether it's helping others break into tech or diving into new technologies myself, I thrive on learning and teaching in equal measure.",
       icons: [
         {
           icon: faChalkboardTeacher,
