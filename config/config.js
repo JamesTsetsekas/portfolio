@@ -71,39 +71,40 @@ export const navigation = {
 };
 
 export const intro = {
-  greeting: {
-    emoji: "👋",
-    text: [" Hey,", "I'm "]
-  },
-  title: "James Tsetsekas",
-  description: "I'm a Full Stack Web Developer specializing in building web applications using HTML, CSS, JavaScript, and PHP. I have extensive experience with front-end development libraries like React, Vue, and Angular, as well as algorithms, data structures, back-end development, and APIs with Node.js. I am passionate about working with teams that value quality and clean code principles. In my free time, I teach and mentor hundreds of students through coding communities and meetups.",
-  image: profile.src,
-  buttons: [
-    {
-      title: "Contact Me",
-      link: "#contact",
-      isPrimary: true,
+    greeting: {
+        emoji: "👋",
+        text: [" Hey,", "I'm "]
     },
-    {
-      title: "Resume",
-      link: "https://drive.google.com/file/d/1eiKzle8AcAT-6E8ut5n2vl-d3FKoYAs8/view?usp=sharing",
-      isPrimary: false,
-    },
-    {
-      title: "⚡ Bitcoin Tip ⚡",
-      link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
-      isPrimary: false,
-    },
-  ],
+    title: "James Tsetsekas",
+    description: "I'm a Full Stack Web Developer who thrives on building high-quality, scalable web applications. With expertise in JavaScript, PHP, React, Vue, Angular, and Node.js, I develop intuitive user experiences and powerful back-end systems. I bring a strong foundation in algorithms, data structures, and clean code principles, ensuring performance and maintainability.",
+    "Beyond development, I’m a mentor and lifelong learner, teaching and guiding aspiring developers in coding communities and meetups. Whether you're looking for a collaborator, problem solver, or tech leader, I’d love to connect and build something great together!",
+    image: profile.src,
+    buttons: [{
+            title: "Contact Me",
+            link: "#contact",
+            isPrimary: true,
+        },
+        {
+            title: "Resume",
+            link: "https://drive.google.com/file/d/1eiKzle8AcAT-6E8ut5n2vl-d3FKoYAs8/view?usp=sharing",
+            isPrimary: false,
+        },
+        {
+            title: "⚡ Bitcoin Tip ⚡",
+            link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
+            isPrimary: false,
+        },
+    ],
 };
 
 export const about = {
   title: "About Me",
   description: [
-    "I'm a Full Stack Web Developer with a strong background in object-oriented programming, specializing in building web applications using HTML, CSS, JavaScript, and PHP. I have extensive experience with front-end development libraries like React, Vue, and Angular, as well as algorithms, data structures, back-end development, and APIs with Node.js. I completed Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s Front End Development Libraries, Back End Development, APIs, and JavaScript Algorithms and Data Structures courses. I am passionate about working with teams that value quality and clean code principles. In my free time, I teach and mentor hundreds of students through coding communities and meetups.",
-    "I have experience in development, leadership, and management. I started my career at KPMG as an IT Engineer, then moved on to become a System Administrator at Novartis, the largest pharmaceutical company in the world. Following that, I worked as a Software Engineer at Realogy, the world’s largest franchisor of residential real estate brokerages, where I developed LeadRouter, a web-based real-estate listing sales lead tool. At Realogy, I provided leadership as a subject matter expert on best practices and developed an intranet for technical documentation of development tools and APIs. I was the Lead Developer at a large construction and real estate development company, where I developed highly dynamic websites and applications for residential and commercial properties using HTML, CSS, Bootstrap, JavaScript, PHP, WordPress, Angular, custom WordPress PHP plugins, and contact forms. I then worked for an IT Managed Service Provider as a Full Stack Web Developer, developing responsive single-page web applications and dashboards for mobile and desktop, APIs, system integrations, and browser extensions to optimize CRM workflows using JavaScript, Express.js, Node.js, Axios, React, CSS, Bootstrap, and Chakra.",
-    "Currently, I am a Full Stack Web Developer at OLM Foods, where I work on RightBytes, an e-commerce online food ordering platform that includes functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for web, iOS, and Android applications. Mobile apps leverage both PHP and Node backend APIs, with Stripe and PayPal integrations for payments, and DoorDash integration or self-managed solutions for deliveries. I also develop our WordPress WooCommerce B2B e-commerce portal, used by thousands of users to order and manage products to sell in their stores, generate sales and traffic reporting, and predictive analytics to maximize sales and minimize waste, with custom PHP, cron jobs, WordPress plugins, themes, SAP, and single sign-on integrations.",
-    "When I’m not working, I focus on my hobbies, which include Bitcoin, the Lightning Network, attending and organizing coding and IT meetups, conferences and seminars, real estate, finance, travel, skiing, dogs, building computers and servers, self-hosting websites and media servers, and reading. One of my favorite books at the moment is 'The Pragmatic Programmer' by Andy Hunt and Dave Thomas.",
+    "I'm a Full Stack Web Developer with a strong foundation in object-oriented programming and a passion for building scalable web applications. I specialize in JavaScript, PHP, React, Node.js, and various modern frameworks, crafting everything from dynamic front-end experiences to robust back-end systems.",
+    "My career began in IT engineering and system administration at KPMG and Novartis before transitioning into software development at Realogy, where I built and led projects for real estate technology solutions. I later became a Lead Developer in the construction and real estate sector, delivering high-performance web applications.",
+    "Currently, I develop e-commerce and enterprise solutions at OLM Foods, working on platforms that power online ordering, payments, and B2B logistics using technologies like WooCommerce, PHP, Node.js, and API integrations.",
+    "Beyond coding, I’m a lifelong learner, mentor, and Bitcoin enthusiast, actively contributing to open-source projects, running a ⚡ Lightning Network node, and engaging with tech communities through meetups and conferences.",
+    "Let’s connect and build something amazing!",
   ],
 };
 
