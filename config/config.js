@@ -76,10 +76,10 @@ export const intro = {
         text: [" Hey,", "I'm "]
     },
     title: "James Tsetsekas",
-    description: "I'm a Full Stack Web Developer who thrives on building high-quality, scalable web applications. With expertise in JavaScript, PHP, React, Vue, Angular, and Node.js, I develop intuitive user experiences and powerful back-end systems. I bring a strong foundation in algorithms, data structures, and clean code principles, ensuring performance and maintainability.",
-    "Beyond development, I’m a mentor and lifelong learner, teaching and guiding aspiring developers in coding communities and meetups. Whether you're looking for a collaborator, problem solver, or tech leader, I’d love to connect and build something great together!",
+    description: "I'm a Full Stack Web Developer who thrives on building high-quality, scalable web applications. With expertise in JavaScript, PHP, React, Vue, Angular, and Node.js, I develop intuitive user experiences and powerful back-end systems. I bring a strong foundation in algorithms, data structures, and clean code principles, ensuring performance and maintainability. Beyond development, I’m a mentor and lifelong learner, teaching and guiding aspiring developers in coding communities and meetups. Whether you're looking for a collaborator, problem solver, or tech leader, I’d love to connect and build something great together!",
     image: profile.src,
-    buttons: [{
+    buttons: [
+        {
             title: "Contact Me",
             link: "#contact",
             isPrimary: true,
