@@ -39,7 +39,8 @@ import {
   faLink,
   faBolt,
   faShieldAlt,
-  faShieldVirus
+  faShieldVirus,
+  faShoppingCart
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -448,6 +449,25 @@ export const skills = {
 export const projects = {
   title: "Projects",
   cards: [
+    {
+      title: "WP WooCommerce LN Store",
+      description: "A Proof of Concept E-Commerce Store built with WordPress WooCommerce and integrated with Lightning Network payments. This project demonstrates the capability of using Lightning Network for instant and low-fee transactions in an e-commerce setting. Visit the store at https://store.jamestsetsekas.com/.",
+      linkIcons: [
+        {
+          icon: faWordpress,
+        },
+        {
+          icon: faShoppingCart,
+        },
+        {
+          icon: faBolt,
+        },
+        {
+          icon: faChrome,
+          link: "https://store.jamestsetsekas.com/",
+        }
+      ]
+    },
     {
       title: "DiceLN - Lightning Network Dice Game",
       description: "A full-stack web app dice game that uses the Bitcoin Lightning Network for instant deposits and withdrawals. The game is provably fair and can be played with any amount of satoshis. It includes a chat feature and is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Contact me for a demonstration, to play, or to learn more about the Lightning Network! Currently closed source.",
