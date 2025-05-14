@@ -32,7 +32,7 @@ export const Skills = ({ title, cards }) => {
     setTimeout(() => {
       setDisplayedCards(displayedCards + 3);
       setLoading(false);
-    }, 150);
+    }, 50);
   };
 
   return (
@@ -72,7 +72,7 @@ export const Skills = ({ title, cards }) => {
 }
 
 export const Projects = ({ title, cards }) => {
-  const [displayedCards, setDisplayedCards] = useState(3);
+  const [displayedCards, setDisplayedCards] = useState(6);
   const totalCards = cards.length;
   const [loading, setLoading] = useState(false);
   const [isButtonHovered, setIsButtonHovered] = useState(false);
@@ -82,7 +82,7 @@ export const Projects = ({ title, cards }) => {
     setTimeout(() => {
       setDisplayedCards(displayedCards + 3);
       setLoading(false);
-    }, 150);
+    }, 50);
   };
 
   return (
