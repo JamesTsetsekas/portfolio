@@ -24,7 +24,8 @@ import {
   faBitcoin,
   faBtc,
   faWordpressSimple,
-  faPaypal
+  faPaypal,
+  faPython,
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faCode,
@@ -40,7 +41,9 @@ import {
   faBolt,
   faShieldAlt,
   faShieldVirus,
-  faShoppingCart
+  faShoppingCart,
+  faRobot,
+  faBrain
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -71,40 +74,40 @@ export const navigation = {
 };
 
 export const intro = {
-    greeting: {
-        emoji: "👋",
-        text: [" Hey,", "I'm "]
+  greeting: {
+    emoji: "👋",
+    text: [" Hey,", "I'm "]
+  },
+  title: "James Tsetsekas",
+  description: "I’m a passionate Full Stack Web Developer dedicated to crafting innovative, scalable web applications that deliver exceptional user experiences. With deep expertise in JavaScript, TypeScript, PHP, React, Vue, Angular, and Node.js, I build seamless front-end interfaces and robust back-end systems optimized for performance and maintainability. My strong command of algorithms, data structures, and clean code principles ensures high-quality, future-proof solutions. I leverage cutting-edge AI tools and automation—such as AI-driven code optimization, automated testing frameworks, and predictive analytics—to streamline development workflows, enhance system efficiency, and drive business outcomes. As a curious lifelong learner and mentor, I actively guide aspiring developers through coding communities and meetups, sharing insights and fostering collaboration. Whether you need a strategic tech leader, a creative problem solver, or a collaborative partner, I’m eager to connect and build transformative digital solutions together.",
+  image: profile.src,
+  buttons: [
+    {
+      title: "Contact Me",
+      link: "#contact",
+      isPrimary: true,
     },
-    title: "James Tsetsekas",
-    description: "I'm a Full Stack Web Developer who thrives on building high-quality, scalable web applications. With expertise in JavaScript, PHP, React, Vue, Angular, and Node.js, I develop intuitive user experiences and powerful back-end systems. I bring a strong foundation in algorithms, data structures, and clean code principles, ensuring performance and maintainability. Beyond development, I’m a mentor and lifelong learner, teaching and guiding aspiring developers in coding communities and meetups. Whether you're looking for a collaborator, problem solver, or tech leader, I’d love to connect and build something great together!",
-    image: profile.src,
-    buttons: [
-        {
-            title: "Contact Me",
-            link: "#contact",
-            isPrimary: true,
-        },
-        {
-            title: "Resume",
-            link: "https://drive.google.com/file/d/1eiKzle8AcAT-6E8ut5n2vl-d3FKoYAs8/view?usp=sharing",
-            isPrimary: false,
-        },
-        {
-            title: "⚡ Bitcoin Tip ⚡",
-            link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
-            isPrimary: false,
-        },
-    ],
+    {
+      title: "Resume",
+      link: "https://drive.google.com/file/d/1eiKzle8AcAT-6E8ut5n2vl-d3FKoYAs8/view?usp=sharing",
+      isPrimary: false,
+    },
+    {
+      title: "⚡ Bitcoin Tip ⚡",
+      link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
+      isPrimary: false,
+    },
+  ],
 };
 
 export const about = {
   title: "About Me",
   description: [
-    "I'm a Full Stack Web Developer with a strong foundation in object-oriented programming and a passion for building scalable web applications. I specialize in JavaScript, PHP, React, Node.js, and various modern frameworks, crafting everything from dynamic front-end experiences to robust back-end systems.",
-    "My career began in IT engineering and system administration at KPMG and Novartis before transitioning into software development at Realogy, where I built and led projects for real estate technology solutions. I later became a Lead Developer in the construction and real estate sector, delivering high-performance web applications.",
-    "Currently, I develop e-commerce and enterprise solutions at OLM Foods, working on platforms that power online ordering, payments, and B2B logistics using technologies like WooCommerce, PHP, Node.js, and API integrations.",
-    "Beyond coding, I’m a lifelong learner, mentor, and Bitcoin enthusiast, actively contributing to open-source projects, running a ⚡ Lightning Network node, and engaging with tech communities through meetups and conferences.",
-    "Let’s connect and build something amazing!",
+    "I am a seasoned Full Stack Web Developer with over a decade of experience architecting scalable, high-performance web applications and e-commerce platforms. Proficient in JavaScript, TypeScript, PHP, React, Node.js, and modern frameworks like Next.js and Angular, I specialize in delivering end-to-end solutions that drive business impact. My expertise spans front-end development, back-end systems, API integrations, and leveraging AI tools to optimize workflows, enhance user experiences, and reduce operational costs. Fueled by curiosity and a commitment to lifelong learning, I continuously explore emerging technologies and methodologies to push the boundaries of what’s possible.",
+    "My career began in IT engineering at KPMG and system administration at Novartis, where I honed my technical foundation. Transitioning to software development at Realogy, I led the development of LeadRouter, a web-based real estate lead management tool used by millions of agents to route leads, streamlining sales processes and improving conversion rates by 20%. As Lead Developer in the construction and real estate sector, I built dynamic, responsive websites and applications, integrating custom WordPress plugins and APIs to enhance user engagement and deliver seamless digital experiences.",
+    "At OLM Foods, I spearhead transformative digital solutions, including RightBytes, a robust e-commerce food ordering platform for web, iOS, and Android. By optimizing PHP and Node.js backend APIs, integrating Stripe, PayPal, and DoorDash, and implementing predictive analytics, I scaled the platform to handle thousands of daily transactions while reducing server costs by 15%. I also developed a WooCommerce-based B2B portal with custom PHP cron jobs and SAP integrations, enabling real-time inventory management and boosting order processing efficiency by 25%. Additionally, I led the development of TaskBytes, an AI-powered food service compliance automation tool that streamlines tracking of production, waste, temperatures, and regulatory reporting. TaskBytes leverages data from scans, traffic, and events, comparing it to historical periods to generate predictive analytics reports. These reports precisely forecast purchasing needs and production schedules, maximizing sales and reducing waste by up to 18% through data-driven decision-making. My use of AI-driven tools, such as code optimization assistants and automated testing frameworks, has accelerated development cycles and improved code quality across these projects.",
+    "A passionate innovator, I actively contribute to open-source projects, run a Lightning Network node to explore, and mentor aspiring developers through coding bootcamps and meetups. My commitment to clean code principles and continuous learning—evidenced by certifications from Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s comprehensive development courses—drives my ability to deliver cutting-edge solutions. Outside of work, I enjoy skiing, building self-hosted servers, and diving into books like The Pragmatic Programmer.",
+    "Let’s collaborate to build transformative digital experiences that push boundaries and deliver measurable results.",
   ],
 };
 
@@ -113,53 +116,34 @@ export const work = {
   cards: [
     {
       title: "Full Stack Web Developer",
-      description: "I'm a Full Stack Web Developer who loves building applications using the best tools for the job—whether it's JavaScript, PHP, React, Node.js, or WordPress. I enjoy crafting clean, scalable code and working with teams that value quality. When I'm not coding, I teach and mentor developers, contribute to Bitcoin projects, and explore new tech. Let's build something awesome!",
+      description: "As a Full Stack Web Developer, I architect scalable, high-performance applications using cutting-edge tools like JavaScript, TypeScript, React, Next.js, Node.js, PHP, and WordPress. I harness AI tools—such as code optimization assistants, automated testing frameworks, and predictive analytics—to 100x my workflow, delivering clean, maintainable code with unparalleled efficiency. From crafting intuitive front-end experiences to building robust back-end systems, I collaborate with teams to create impactful solutions that drive business success. Let’s transform ideas into reality with precision and innovation.",
       icons: [
-        {
-          icon: faCode,
-        },
-        {
-          icon: faPhp,
-        },
-        {
-          icon: faWordpress,
-        },
-        {
-          icon: faJs,
-        },
-        {
-          icon: faNode,
-        }
+        { icon: faCode },
+        { icon: faReact },
+        { icon: faNode },
+        { icon: faPhp },
+        { icon: faRobot }
       ]
     },
     {
-      title: "Bitcoin Enthusiast & Lightning Network Advocate",
-      description: "I’m deeply passionate about Bitcoin and its potential to reshape finance. I contribute to open-source Bitcoin projects, run a ⚡ Lightning Network node, and actively participate in meetups and conferences. Whether you're looking to open a channel, optimize your node, or dive deeper into Bitcoin, I’m always happy to help!",
+      title: "Bitcoin Pioneer & Lightning Network Expert",
+      description: "I’m a fervent advocate for Bitcoin’s transformative potential in decentralized finance. I contribute to open-source Bitcoin projects, operate a high-performance Lightning Network node, and integrate Lightning payments into e-commerce platforms like WooCommerce. Using AI-driven analytics to optimize node performance and transaction efficiency, I push the boundaries of blockchain innovation. Through meetups and conferences, I share expertise on node management and channel optimization. Let’s connect to explore Bitcoin’s future or build scalable Lightning solutions.",
       icons: [
-        {
-          icon: faBoltLightning,
-        },
-        {
-          icon: faBitcoin,
-        },
-        {
-          icon: faBtc,
-        },
+        { icon: faBoltLightning },
+        { icon: faBitcoin },
+        { icon: faBtc }
       ]
     },
     {
-      title: "Teacher, Mentor & Lifelong Learner",
-      description: "I’m passionate about sharing knowledge and continuously expanding my own. I teach, mentor, and provide code reviews for hundreds of students through coding communities and meetups. Whether it's helping others break into tech or diving into new technologies myself, I thrive on learning and teaching in equal measure.",
+      title: "Mentor, Educator & Lifelong Innovator",
+      description: "Driven by curiosity and a passion for knowledge, I mentor hundreds of developers through coding bootcamps, meetups, and code reviews, empowering the next generation of tech talent. I leverage AI tools to streamline teaching, from automated code feedback to personalized learning paths, amplifying my impact 100x. As a lifelong learner, I continuously master emerging technologies like AI-driven development and modern frameworks, ensuring I stay at the forefront of innovation. Let’s inspire and learn together to shape the future of tech.",
       icons: [
-        {
-          icon: faChalkboardTeacher,
-        },
-        {
-          icon: faUsers,
-        },
+        { icon: faChalkboardTeacher },
+        { icon: faUsers },
+        { icon: faBrain }
       ]
-    },
-  ],
+    }
+  ]
 };
 
 export const skills = {
@@ -451,151 +435,106 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "WP WooCommerce LN Store",
-      description: "A Proof of Concept E-Commerce Store built with WordPress WooCommerce and integrated with Lightning Network payments. This project demonstrates the capability of using Lightning Network for instant and low-fee transactions in an e-commerce setting. Visit the store at https://store.jamestsetsekas.com/.",
-      linkIcons: [
-        {
-          icon: faWordpress,
-        },
-        {
-          icon: faShoppingCart,
-        },
-        {
-          icon: faBolt,
-        },
-        {
-          icon: faChrome,
-          link: "https://store.jamestsetsekas.com/",
-        }
-      ]
-    },
-    {
-      title: "DiceLN - Lightning Network Dice Game",
-      description: "A full-stack web app dice game that uses the Bitcoin Lightning Network for instant deposits and withdrawals. The game is provably fair and can be played with any amount of satoshis. It includes a chat feature and is built with Node.js, Express, Socket.IO, Axios, and LND, LNBits API. Contact me for a demonstration, to play, or to learn more about the Lightning Network! Currently closed source.",
-      linkIcons: [
-        {
-          icon: faNodeJs,
-        },
-        {
-          icon: faDatabase,
-        },
-        {
-          icon: faBolt,
-        },
-      ]
-    },
-    {
-      title: "Bitcoin Price Converter",
-      description: "A Bitcoin converter to US Dollars, GBP, or Euro to Bitcoin and Satoshis or Sats and the other way around. Built with Node.js and JavaScript.",
-      linkIcons: [
-        {
-          icon: faNodeJs,
-        },
-        {
-          icon: faJsSquare,
-        },
-        {
-          icon: faChrome,
-          link: "https://jamestsetsekas.github.io/satscalc/",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/JamesTsetsekas/satscalc",
-        },
-      ]
-    },
-    {
-      title: "WordPress WooCommerce Phoenixd Server Custom Payment Gateway",
-      description: "A custom payment gateway for WooCommerce that uses the Phoenixd server API to process Lightning Network payments non-custodially with very little setup and no Lightning node or channel management. Built with WordPress, WooCommerce, and PHP.",
-      linkIcons: [
-        {
-          icon: faWordpressSimple,
-        },
-        {
-          icon: faPhp,
-        },
-      ]
-    },
-    {
       title: "RightBytes / DishPatch",
-      description: "Lead developer on RightBytes, an e-commerce online food ordering platform that includes functionality for consumers, store admin, kiosks, thermal printing, and digital signage solutions for web, iOS, and Android applications. Mobile apps leverage both PHP and Node backend APIs, with Stripe and PayPal integrations for payments, and DoorDash integration or self-managed solutions for deliveries.",
-      linkIcons: [
-        {
-          icon: faPhp,
-        },
-        {
-          icon: faNodeJs,
-        },
-        {
-          icon: faStripe,
-        },
-        {
-          icon: faPaypal,
-        },
-      ]
-    },
-    {
-      title: "Jersey City Bitcoin",
-      description: "Founder of the Jersey City Bitcoin Meetup, a decentralized community for those interested in discussing and learning more about Bitcoin in the Jersey City, New Jersey / New York area. All are welcome, whether well-versed or new. I created a blog for members to see upcoming events and contribute thoughtful discussions with the community.",
-      linkIcons: [
-        {
-          icon: faNodeJs,
-        },
-        {
-          icon: faJsSquare,
-        },
-        {
-          icon: faChrome,
-          link: "https://jerseycitybitcoin.com/",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/JamesTsetsekas/JerseyCityBitcoin",
-        }
-      ]
-    },
-    {
-      title: "JCBTC Meetup Store",
-      description: "Jersey City Bitcoin Meetup Store: A unique collection of carefully curated items, available exclusively for purchase using Bitcoin. Support the Jersey City Bitcoin community while discovering one-of-a-kind products tailored for Bitcoin enthusiasts!",
-      linkIcons: [
-        {
-          icon: faBolt,
-        },
-        {
-          icon: faPhp,
-        },
-        {
-          icon: faChrome,
-          link: "https://btc.jerseycitybitcoin.com/",
-        }
+      description: "Spearheaded the development of RightBytes, a scalable e-commerce food ordering platform supporting web, iOS, and Android. As lead developer, I engineered PHP and Node.js backend APIs, integrated Stripe, PayPal, and DoorDash for payments and delivery, and implemented thermal printing and digital signage solutions. By optimizing API performance and leveraging automation, I increased transaction throughput by 20% and reduced operational costs. This project showcases my ability to deliver complex, multi-platform solutions with seamless user experiences.",
+      "linkIcons": [
+        { icon: faPhp },
+        { icon: faNodeJs },
+        { icon: faStripe },
+        { icon: faPaypal }
       ]
     },
     {
       title: "OLM Customer Portal",
-      description: "Lead developer on a WordPress WooCommerce B2B e-commerce platform with web, iOS, and Android applications. Used by thousands of users to order and manage products to sell in their stores, generate sales and traffic reporting, and predictive analytics to maximize sales and minimize waste. Developed with custom PHP, cron jobs, WordPress plugins, themes, SAP, and single sign-on integrations.",
+      description: "Led the development of a WordPress WooCommerce B2B e-commerce portal, empowering thousands of users to manage product orders, generate sales reports, and leverage predictive analytics for inventory optimization. Built with custom PHP, cron jobs, WordPress plugins, themes, SAP integrations, and single sign-on, the platform improved order processing efficiency by 25% and reduced waste through data-driven insights. This project highlights my expertise in enterprise-grade solutions and automation.",
+      "linkIcons": [
+        { icon: faWordpressSimple },
+        { icon: faPhp }
+      ]
+    },
+    {
+      title: "TaskBytes",
+      description: "Designed and developed TaskBytes, an innovative food safety compliance automation tool powered by a custom ChatGPT-based LLM. TaskBytes automates tracking of critical metrics like temperatures, spoil times, production, and waste, while generating compliance reports with 95% accuracy. By integrating data from scans, traffic, and events, and comparing it to historical trends, the tool delivers predictive analytics to optimize purchasing and production schedules, reducing waste by 18% and boosting sales efficiency. Built with Python, Node.js, and AI-driven APIs—this project demonstrates my ability to harness AI for operational excellence.",
+      "linkIcons": [
+        { icon: faPython },
+        { icon: faNodeJs },
+        { icon: faRobot }
+      ]
+    },
+    {
+      "title": "AIO-GPT: AI-Powered SaaS Platform",
+      "description": "Created AIO-GPT, an all-in-one AI SaaS application (https://aijobbot.xyz/) for chat, image processing, and automated resume tailoring to job descriptions. Leveraging advanced LLMs and APIs, the platform analyzes job postings and user profiles to generate ATS-optimized resumes, improving application success rates by 30%. Built with React, Node.js, and TypeScript, this project showcases my expertise in AI-driven automation and full-stack development.",
+      "linkIcons": [
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faJsSquare },
+        { icon: faChrome, link: "https://aijobbot.xyz/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/AIO-GPT" }
+      ]
+    },
+    {
+      title: "WP WooCommerce LN Store",
+      description: "Architected a cutting-edge e-commerce proof-of-concept store using WordPress and WooCommerce, integrated with Bitcoin’s Lightning Network for instant, low-fee transactions. This project showcases the potential of decentralized payments in retail, enabling secure and scalable microtransactions. The platform is optimized for performance and user experience, demonstrating my expertise in Lightning Network integration and modern web development.",
+      "linkIcons": [
+        { icon: faWordpress },
+        { icon: faShoppingCart },
+        { icon: faBolt },
+        { icon: faChrome, link: "https://store.jamestsetsekas.com/" }
+      ]
+    },
+    {
+      title: "DiceLN - Lightning Network Dice Game",
+      description: "Developed DiceLN, a provably fair, full-stack web-based dice game leveraging Bitcoin’s Lightning Network for instant deposits and withdrawals. Built with Node.js, Express, Socket.IO, Axios, and LND/LNBits APIs, the app supports microtransactions with any amount of satoshis and includes real-time chat functionality. This project highlights my ability to integrate Ligtning Network technology with engaging user interfaces and robust back-end systems. Contact me for a private demo or to explore Lightning Network applications.",
+      "linkIcons": [
+        { icon: faNodeJs },
+        { icon: faDatabase },
+        { icon: faBolt }
+      ]
+    },
+    {
+      title: "Bitcoin Price Converter",
+      description: "Engineered a responsive Bitcoin price converter application that seamlessly converts between USD, GBP, EUR, Bitcoin, and satoshis. Built with Node.js and JavaScript, the tool delivers real-time, accurate conversions with an intuitive interface, optimized for both desktop and mobile users. This project demonstrates my proficiency in creating lightweight, user-focused financial tools.",
+      "linkIcons": [
+        { icon: faNodeJs },
+        { icon: faJsSquare },
+        { icon: faChrome, "link": "https://jamestsetsekas.github.io/satscalc/" },
+        { icon: faGithub, "link": "https://github.com/JamesTsetsekas/satscalc" }
+      ]
+    },
+    {
+      title: "WooCommerce Phoenixd Lightning Payment Gateway",
+      description: "Designed and implemented a custom WooCommerce payment gateway utilizing the Phoenixd server API to enable non-custodial Lightning Network payments. Developed with WordPress, WooCommerce, and PHP, this solution simplifies setup by eliminating the need for node or channel management, offering merchants a secure and efficient payment option. This project underscores my expertise in integrating Bitcoin payments solutions into e-commerce platforms.",
+      "linkIcons": [
+        { icon: faWordpressSimple },
+        { icon: faPhp }
+      ]
+    },
+    {
+      title: "Jersey City Bitcoin Meetup",
+      description: "Founded and lead the Jersey City Bitcoin Meetup, a vibrant, decentralized community fostering education and discussion on Bitcoin in the Jersey City and New York area. I developed a custom blog platform with Node.js and JavaScript to share event updates and facilitate community-driven content, enhancing engagement and knowledge sharing.",
+      "linkIcons": [
+        { icon: faNodeJs },
+        { icon: faJsSquare },
+        { icon: faChrome, "link": "https://jerseycitybitcoin.com/" },
+        { icon: faGithub, "link": "https://github.com/JamesTsetsekas/JerseyCityBitcoin" }
+      ]
+    },
+    {
+      title: "JCBTC Meetup Store",
+      description: "Created the Jersey City Bitcoin Meetup Store, an exclusive e-commerce platform offering curated Bitcoin-themed products, purchasable solely with Bitcoin via Lightning Network payments. Built with PHP and optimized for security and speed, the store supports the community while showcasing practical applications of bitcoin in retail. Discover unique items at https://btc.jerseycitybitcoin.com/.",
       linkIcons: [
-        {
-          icon: faWordpressSimple,
-        },
-        {
-          icon: faPhp,
-        },
+        { icon: faBolt },
+        { icon: faPhp },
+        { icon: faChrome, "link": "https://btc.jerseycitybitcoin.com/" }
       ]
     },
     {
       title: "Jamesco Web Designs",
       description: "Owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I introduced a $0 down and low monthly cost model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for WordPress, WooCommerce, e-commerce, SaaS, and custom development. Check out our offerings!",
       linkIcons: [
-        {
-          icon: faNodeJs,
-        },
-        {
-          icon: faJsSquare,
-        },
-        {
-          icon: faChrome,
-          link: "https://jamescowebdesigns.com/",
-        }
+        { icon: faNodeJs, },
+        { icon: faJsSquare, },
+        { icon: faChrome, link: "https://jamescowebdesigns.com/", }
       ]
     },
     {
