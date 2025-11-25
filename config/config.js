@@ -104,9 +104,9 @@ export const about = {
   title: "About Me",
   description: [
     "I am a seasoned Full Stack Web Developer with over a decade of experience architecting scalable, high-performance web applications and e-commerce platforms. Proficient in JavaScript, TypeScript, PHP, React, Node.js, and modern frameworks like Next.js and Angular, I specialize in delivering end-to-end solutions that drive business impact. My expertise spans front-end development, back-end systems, API integrations, and leveraging AI tools to optimize workflows, enhance user experiences, and reduce operational costs. Fueled by curiosity and a commitment to lifelong learning, I continuously explore emerging technologies and methodologies to push the boundaries of what’s possible.",
-    "My career began in IT engineering at KPMG and system administration at Novartis, where I honed my technical foundation. Transitioning to software development at Realogy, I led the development of LeadRouter, a web-based real estate lead management tool used by millions of agents to route leads, streamlining sales processes and improving conversion rates by 20%. As Lead Developer in the construction and real estate sector, I built dynamic, responsive websites and applications, integrating custom WordPress plugins and APIs to enhance user engagement and deliver seamless digital experiences.",
-    "At OLM Foods, I spearhead transformative digital solutions, including RightBytes, a robust e-commerce food ordering platform for web, iOS, and Android. By optimizing PHP and Node.js backend APIs, integrating Stripe, PayPal, and DoorDash, and implementing predictive analytics, I scaled the platform to handle thousands of daily transactions while reducing server costs by 50%. I also developed a WooCommerce-based B2B portal with custom PHP cron jobs and SAP integrations, enabling real-time inventory management and boosting order processing efficiency by 25%. Additionally, I led the development of TaskBytes, an AI-powered food service compliance automation tool that streamlines tracking of production, waste, temperatures, and regulatory reporting. TaskBytes leverages data from scans, traffic, and events, comparing it to historical periods to generate predictive analytics reports. These reports precisely forecast purchasing needs and production schedules, maximizing sales and reducing waste by up to 18% through data-driven decision-making. My use of AI-driven tools, such as code optimization assistants and automated testing frameworks, has accelerated development cycles and improved code quality across these projects.",
-    "A passionate innovator, I actively contribute to open-source projects, run a Lightning Network node to explore, and mentor aspiring developers through coding bootcamps and meetups. My commitment to clean code principles and continuous learning—evidenced by certifications from Scrimba’s Frontend Developer Bootcamp and Free Code Camp’s comprehensive development courses—drives my ability to deliver cutting-edge solutions. Outside of work, I enjoy skiing, building self-hosted servers, and diving into books like The Pragmatic Programmer.",
+    "My career began in IT engineering at KPMG and system administration at Novartis, where I honed my technical foundation. Transitioning to software development at Realogy, I led the development of LeadRouter, a web-based real estate lead management tool used by millions of agents to route leads, streamlining sales processes and improving conversion rates by 20%. At OLM Foods (now part of Performance Food Group), I spearheaded transformative digital solutions, including RightBytes, a scalable e-commerce food ordering platform for web, iOS, and Android. I optimized PHP and Node.js backend APIs, integrated Stripe, PayPal, and DoorDash, and developed a WooCommerce-based B2B portal with SAP integrations, reducing server costs by 50% and improving order processing efficiency by 25%. I also led the development of TaskBytes, an AI-powered food service compliance automation tool that uses predictive analytics to optimize purchasing and production schedules, reducing waste by up to 18%.",
+    "Currently at Satmo, a Bitcoin startup, I'm building the future of decentralized payments by developing comprehensive Lightning Network payment integrations across major e-commerce platforms. I architected and implemented payment gateway plugins for WordPress/WooCommerce, Wix, and Shopify, enabling merchants to accept instant Bitcoin Lightning payments with minimal setup. These solutions integrate with custom ACINQ/phoenixd backends, feature real-time exchange rates, automatic payment verification, webhook security tokens, QR code generation, and seamless user experiences. I also work on the Satmo B2C mobile app with a team of developers, a React Native application built with Expo and TypeScript that enables users to send and receive Lightning payments, scan QR codes, integrate with merchant platforms and Strike, and features biometric authentication and push notifications. By leveraging modern technologies like Next.js, React, Node.js, and TypeScript, I'm helping merchants worldwide accept Bitcoin payments while providing users with intuitive mobile payment experiences.",
+    "A passionate Bitcoin advocate and innovator, I'm dedicated to advancing Lightning Network adoption through my work at Satmo and by contributing to open-source Bitcoin projects. In 2022, I founded the Jersey City Bitcoin Meetup, which hosts monthly Socratic seminar Bitcoin education meetups, fostering community learning and discussion. I run a Lightning Network node, actively mentor aspiring developers through coding bootcamps and meetups, and share expertise on Bitcoin and Lightning Network technology. My commitment to clean code principles and continuous learning—evidenced by certifications from Scrimba's Frontend Developer Bootcamp and Free Code Camp's comprehensive development courses—drives my ability to deliver cutting-edge solutions. Outside of work, I enjoy skiing, building self-hosted servers, and diving into books like The Pragmatic Programmer.",
     "Let’s collaborate to build transformative digital experiences that push boundaries and deliver measurable results.",
   ],
 };
@@ -434,6 +434,46 @@ export const skills = {
 export const projects = {
   title: "Projects",
   cards: [
+    {
+      title: "Satmo WordPress Payment Plugin",
+      description: "Developed a comprehensive WordPress WooCommerce payment gateway plugin that integrates Bitcoin Lightning Network payments via a custom ACINQ/phoenixd backend. Features include real-time exchange rates, automatic payment verification, QR code generation, webhook security tokens, and seamless WooCommerce Blocks support. The plugin enables merchants to accept instant Lightning payments with minimal setup, eliminating the need for node management.",
+      linkIcons: [
+        { icon: faWordpressSimple },
+        { icon: faPhp },
+        { icon: faBolt },
+        { icon: faShoppingCart }
+      ]
+    },
+    {
+      title: "Satmo Wix Payment Plugin",
+      description: "Built a Payment Provider Service Plugin (PPSP) for Wix e-commerce platforms, enabling Bitcoin Lightning Network payments through a custom ACINQ/phoenixd backend. The solution includes a Next.js external payment page hosted on Firebase, webhook integration for automatic order updates, and seamless deeplink support for mobile wallets. Merchants can easily configure and accept Lightning payments directly within their Wix stores.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faBolt },
+        { icon: faShoppingCart }
+      ]
+    },
+    {
+      title: "Satmo Shopify Payment Extension",
+      description: "Created a Shopify payment extension that enables Bitcoin Lightning Network payments through a custom ACINQ/phoenixd backend. Features include a Next.js external checkout page, real-time payment tracking, automatic order fulfillment via webhooks, and a thank you page extension for seamless customer experience. The extension integrates with Shopify's manual payment methods and provides merchants with a secure, low-fee payment option.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faBolt },
+        { icon: faShoppingCart }
+      ]
+    },
+    {
+      title: "Satmo B2C Mobile App",
+      description: "Developed a modern React Native mobile application using Expo and TypeScript for Bitcoin Lightning Network payments. The app enables users to send and receive Bitcoin payments instantly, features QR code scanning, merchant integration, Strike payment platform integration, and real-time transaction tracking. Built with a beautiful dark theme UI, biometric authentication, push notifications, and offline support for core functionality.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faJsSquare },
+        { icon: faBolt },
+        { icon: faBitcoin }
+      ]
+    },
     {
       title: "RightBytes / DishPatch",
       description: "Spearheaded the development of RightBytes, a scalable e-commerce food ordering platform supporting web, iOS, and Android. As lead developer, I engineered PHP and Node.js backend APIs, integrated Stripe, PayPal, and DoorDash for payments and delivery, and implemented thermal printing and digital signage solutions. By optimizing API performance and leveraging automation, I increased transaction throughput by 20% and reduced operational costs. This project showcases my ability to deliver complex, multi-platform solutions with seamless user experiences.",

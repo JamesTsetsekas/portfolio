@@ -54,7 +54,7 @@ const Konami = () => {
       const now = new Date().getTime();
       const oneDay = 24 * 60 * 60 * 1000;
 
-      if (price > 250000 && (!lastDismissed || now - lastDismissed > oneDay)) {
+      if (price > 150000 && (!lastDismissed || now - lastDismissed > oneDay)) {
         setShowBitcoinMessage(true);
         setShowBitcoinConfetti(true);
       } else {
@@ -182,7 +182,7 @@ const Konami = () => {
           </div>
         </div>
       )}
-      {showBitcoinConfetti && <Confetti colors={['#FFA500']} />} {/* Orange confetti for Bitcoin price over $250,000 */}
+      {showBitcoinConfetti && <Confetti colors={['#FFA500']} />} {/* Orange confetti for Bitcoin price over $150,000 */}
     </div>
   );
 };
