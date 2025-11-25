@@ -456,7 +456,7 @@ export const projects = {
     },
     {
       title: "Satmo Shopify Payment Extension",
-      description: "Created a Shopify payment extension that enables Bitcoin Lightning Network payments through a custom ACINQ/phoenixd backend. Features include a Next.js external checkout page, real-time payment tracking, automatic order fulfillment via webhooks, and a thank you page extension for seamless customer experience. The extension integrates with Shopify's manual payment methods and provides merchants with a secure, low-fee payment option.",
+      description: "Created a Shopify payment extension that enables Bitcoin Lightning Network payments through a custom ACINQ/phoenixd backend. Features include a Next.js external checkout app, and  real-time payment tracking, automatic order fulfillment via webhooks. The extension integrates with Shopify's manual payment methods and provides merchants with a secure, low-fee payment option.",
       linkIcons: [
         { icon: faReact },
         { icon: faNodeJs },
