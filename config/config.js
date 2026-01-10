@@ -435,6 +435,16 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "VibesIntel - AI Desktop Assistant",
+      description: "Built VibesIntel, an invisible desktop assistant that provides real-time AI insights during meetings, interviews, and presentations. Developed with Electron and React frontend, Node.js/Express backend API with PostgreSQL, and integrated Google Gemini AI for screenshot analysis, audio transcription, and contextual chat. Features translucent always-on-top window, global hotkeys, usage tracking, and subscription-based SaaS architecture with FREE, PRO, and PRO UNDETECTABLE tiers.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faRobot },
+        { icon: faComputer }
+      ]
+    },
+    {
       title: "Satmo WordPress Payment Plugin",
       description: "Developed a comprehensive WordPress WooCommerce payment gateway plugin that integrates Bitcoin Lightning Network payments via a custom ACINQ/phoenixd backend. Features include real-time exchange rates, automatic payment verification, QR code generation, webhook security tokens, and seamless WooCommerce Blocks support. The plugin enables merchants to accept instant Lightning payments with minimal setup, eliminating the need for node management.",
       linkIcons: [
@@ -472,16 +482,6 @@ export const projects = {
         { icon: faJsSquare },
         { icon: faBolt },
         { icon: faBitcoin }
-      ]
-    },
-    {
-      title: "VibesIntel - AI Desktop Assistant",
-      description: "Built VibesIntel, an invisible desktop assistant that provides real-time AI insights during meetings, interviews, and presentations. Developed with Electron and React frontend, Node.js/Express backend API with PostgreSQL, and integrated Google Gemini AI for screenshot analysis, audio transcription, and contextual chat. Features translucent always-on-top window, global hotkeys, usage tracking, and subscription-based SaaS architecture with FREE, PRO, and PRO UNDETECTABLE tiers.",
-      linkIcons: [
-        { icon: faReact },
-        { icon: faNodeJs },
-        { icon: faRobot },
-        { icon: faComputer }
       ]
     },
     {
