@@ -441,7 +441,8 @@ export const projects = {
         { icon: faReact },
         { icon: faNodeJs },
         { icon: faRobot },
-        { icon: faComputer }
+        { icon: faComputer },
+        { icon: faChrome, link: "https://vibesintel.com/" }
       ]
     },
     {
