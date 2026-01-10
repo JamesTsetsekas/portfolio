@@ -475,6 +475,16 @@ export const projects = {
       ]
     },
     {
+      title: "VibesIntel - AI Desktop Assistant",
+      description: "Built VibesIntel, an invisible desktop assistant that provides real-time AI insights during meetings, interviews, and presentations. Developed with Electron and React frontend, Node.js/Express backend API with PostgreSQL, and integrated Google Gemini AI for screenshot analysis, audio transcription, and contextual chat. Features translucent always-on-top window, global hotkeys, usage tracking, and subscription-based SaaS architecture with FREE, PRO, and PRO UNDETECTABLE tiers.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faRobot },
+        { icon: faComputer }
+      ]
+    },
+    {
       title: "RightBytes / DishPatch",
       description: "Spearheaded the development of RightBytes, a scalable e-commerce food ordering platform supporting web, iOS, and Android. As lead developer, I engineered PHP and Node.js backend APIs, integrated Stripe, PayPal, and DoorDash for payments and delivery, and implemented thermal printing and digital signage solutions. By optimizing API performance and leveraging automation, I increased transaction throughput by 20% and reduced operational costs. This project showcases my ability to deliver complex, multi-platform solutions with seamless user experiences.",
       "linkIcons": [
