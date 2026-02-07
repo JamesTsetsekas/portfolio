@@ -435,6 +435,15 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "LNBits OpenClaw / AI Agent Skill",
+      description: "An LNBits extension with QR code support, published as an OpenClaw AI agent skill on ClawHub. Enables Lightning Network payment workflows with QR code generation, integrable with AI agents and automation. Built for the ClawHub ecosystem to extend LNBits functionality for agent-driven Bitcoin payments.",
+      linkIcons: [
+        { icon: faBolt },
+        { icon: faRobot },
+        { icon: faChrome, link: "https://clawhub.ai/JamesTsetsekas/lnbits-with-qrcode" }
+      ]
+    },
+    {
       title: "VibesIntel - AI Desktop Assistant",
       description: "Built VibesIntel, an invisible desktop assistant that provides real-time AI insights during meetings, interviews, and presentations. Developed with Electron and React frontend, Node.js/Express backend API with PostgreSQL, and integrated Google Gemini AI for screenshot analysis, audio transcription, and contextual chat. Features translucent always-on-top window, global hotkeys, usage tracking, and subscription-based SaaS architecture with FREE, PRO, and PRO UNDETECTABLE tiers.",
       linkIcons: [
