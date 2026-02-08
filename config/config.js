@@ -440,7 +440,8 @@ export const projects = {
       linkIcons: [
         { icon: faBolt },
         { icon: faRobot },
-        { icon: faChrome, link: "https://clawhub.ai/JamesTsetsekas/lnbits-with-qrcode" }
+        { icon: faChrome, link: "https://clawhub.ai/JamesTsetsekas/lnbits-with-qrcode" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/openclaw-skill-lnbits" }
       ]
     },
     {
