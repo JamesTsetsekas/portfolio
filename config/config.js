@@ -26,6 +26,7 @@ import {
   faWordpressSimple,
   faPaypal,
   faPython,
+  faEthereum,
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faCode,
@@ -44,7 +45,9 @@ import {
   faShoppingCart,
   faRobot,
   faBrain,
-  faChartLine
+  faChartLine,
+  faGavel,
+  faServer,
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -80,7 +83,7 @@ export const intro = {
     text: [" Hey,", "I'm "]
   },
   title: "James Tsetsekas",
-  description: "Full stack developer with 14+ years building web apps, payment systems, and Bitcoin infrastructure. Currently at Satmo architecting Lightning Network payment plugins for e-commerce. Founded the Jersey City Bitcoin Meetup and Socratic Seminar.",
+  description: "Full stack developer with 14+ years building web apps, payment systems, and Bitcoin infrastructure. Fully immersed in AI, building with it every day. Currently at Satmo architecting Lightning Network payment plugins for e-commerce. Founded the Jersey City Bitcoin Meetup and Socratic Seminar.",
   image: profile.src,
   buttons: [
     {
@@ -105,7 +108,7 @@ export const about = {
   title: "About Me",
   description: [
     "I'm a full stack developer with 14+ years of experience. Currently at Satmo building Bitcoin Lightning Network payment plugins for WooCommerce, Wix, and Shopify - self-custodial, non-custodial key management, the full merchant integration stack. Before that I built e-commerce platforms, food ordering systems, and internal tools at companies ranging from Fortune 500 (Novartis, Realogy) to startups.",
-    "I founded the Jersey City Bitcoin Meetup where I run monthly Socratic seminars on protocol development and Lightning infrastructure. I run my own Lightning nodes, contribute to open-source Bitcoin projects, and I'm always building something - whether that's an AI desktop assistant, a Lightning-powered gaming platform, or a financial analytics tool. Outside of code: skiing, self-hosting everything, and reading The Pragmatic Programmer for the third time.",
+    "I'm fully immersed in AI - building DynamisAI, a managed AI hosting platform, and working daily with LLMs for code generation, architecture review, and automated trading systems. My open-source work includes DTCC-inspired digital securities settlement engines on Ethereum and DAML, Bitcoin on-chain analytics tools, and a provably fair Lightning-powered gaming platform. I founded the Jersey City Bitcoin Meetup where I run monthly Socratic seminars on protocol development and Lightning infrastructure. Outside of code: skiing and self-hosting everything.",
   ],
 };
 
@@ -122,8 +125,17 @@ export const work = {
       ]
     },
     {
+      title: "AI & Automation",
+      description: "Building DynamisAI, a managed AI hosting platform for businesses. I work daily with LLMs for code generation, architecture review, and automated workflows. Built production trading bots, analytics pipelines, and multi-model agent systems using Claude, Gemini, and Codex.",
+      icons: [
+        { icon: faRobot },
+        { icon: faBrain },
+        { icon: faServer }
+      ]
+    },
+    {
       title: "Full Stack Product Development",
-      description: "Web apps, mobile apps, SaaS platforms - I build the whole thing. React, Next.js, Node.js, TypeScript, Python, PostgreSQL, Redis. Recent projects include a cross-platform AI desktop assistant, a provably fair Lightning gaming platform with 13 games, and financial analytics tools.",
+      description: "Web apps, mobile apps, SaaS platforms - I build the whole thing. React, Next.js, Node.js, TypeScript, Python, PostgreSQL, Redis. Projects span fintech settlement engines, gaming platforms, e-commerce systems, and financial analytics tools.",
       icons: [
         { icon: faCode },
         { icon: faReact },
@@ -132,7 +144,7 @@ export const work = {
     },
     {
       title: "Community & Open Source",
-      description: "I founded the Jersey City Bitcoin Meetup, a monthly Socratic Seminar covering protocol development and Lightning infrastructure. I mentor developers, contribute to open-source Bitcoin projects, and believe the best way to learn is to build and share.",
+      description: "I founded the Jersey City Bitcoin Meetup, a monthly Socratic Seminar covering protocol development and Lightning infrastructure. I mentor developers, contribute to open-source Bitcoin and fintech projects, and believe the best way to learn is to build and share.",
       icons: [
         { icon: faUsers },
         { icon: faChalkboardTeacher },
@@ -215,7 +227,7 @@ export const skills = {
       ]
     },
     {
-      title: "FreeCodeCamp.org Responsive Web Design Developer Certification ",
+      title: "FreeCodeCamp.org Responsive Web Design Developer Certification",
       description: "300 hours of coursework covering how to make web pages that respond to different screen sizes.",
       certificate: [
         {
@@ -237,7 +249,7 @@ export const skills = {
     },
     {
       title: "JavaScript Essentials 1",
-      description: "This 40-hour course covers how interactive web and mobile applications are created with JavaScript. Learn to program your own applications with no prior knowledge required. This course is aligned to the JSE – Certified Entry-Level JavaScript Programmer Certification, developed in collaboration with the JS Institute. Programming skills open you up to careers in almost any industry and are required for advanced web, mobile app, or game development roles.",
+      description: "This 40-hour course covers how interactive web and mobile applications are created with JavaScript. Learn to program your own applications with no prior knowledge required. This course is aligned to the JSE - Certified Entry-Level JavaScript Programmer Certification, developed in collaboration with the JS Institute.",
       certificate: [
         {
           icon: faCertificate,
@@ -258,7 +270,7 @@ export const skills = {
     },
     {
       title: "Ethical Hacker",
-      description: "This 70 Hour course prepares you with an Ethical Hacker skillset and give you a solid understanding of offensive security. You will become proficient in the art of scoping, executing, and reporting on vulnerability assessments, while recommending mitigation strategies. Follow an engaging gamified narrative throughout the course and get lots of practice with hands-on labs inspired by real-world scenarios.",
+      description: "This 70 Hour course prepares you with an Ethical Hacker skillset and give you a solid understanding of offensive security. You will become proficient in the art of scoping, executing, and reporting on vulnerability assessments, while recommending mitigation strategies.",
       certificate: [
         {
           icon: faCertificate,
@@ -300,7 +312,7 @@ export const skills = {
     },
     {
       title: "Cyber Threat Management",
-      description: "This 27 Hour course explores governance in cybersecurity and threat management. Learn to develop policies and ensure your organization complies with ethics standards and legal and regulatory frameworks. You will also gain skills for managing threats, such as how to assess a network for vulnerabilities, manage risks, and respond to security incidents.",
+      description: "This 27 Hour course explores governance in cybersecurity and threat management. Learn to develop policies and ensure your organization complies with ethics standards and legal and regulatory frameworks.",
       certificate: [
         {
           icon: faCertificate,
@@ -321,7 +333,7 @@ export const skills = {
     },
     {
       title: "Network Defense",
-      description: "This 27 Hour course covers ways to monitor your network and how to evaluate security alerts. Delve into the tools and techniques used to protect a network, including access control, firewalls, cloud security, and cryptography. These monitoring and defense tools, along with others, work together to create a layered defense-in-depth cybersecurity strategy. The knowledge and skills that you learn will help you defend networks against many types of attacks and quickly react to any exploits that may occur.",
+      description: "This 27 Hour course covers ways to monitor your network and how to evaluate security alerts. Delve into the tools and techniques used to protect a network, including access control, firewalls, cloud security, and cryptography.",
       certificate: [
         {
           icon: faCertificate,
@@ -363,7 +375,7 @@ export const skills = {
     },
     {
       title: "Networking Devices and Initial Configuration",
-      description: "This 22 Hour course covers the essentials of network devices and how to configure them. Learn the characteristics and benefits of Cloud and Virtualization technologies. Explore how to provide Internet Protocol (IP) addresses to devices both manually and automatically. Using this knowledge, you will calculate an IP addressing scheme, configure Cisco devices to create a small network, and test for connectivity issues.",
+      description: "This 22 Hour course covers the essentials of network devices and how to configure them. Learn the characteristics and benefits of Cloud and Virtualization technologies.",
       certificate: [
         {
           icon: faCertificate,
@@ -384,7 +396,7 @@ export const skills = {
     },
     {
       title: "Networking Basics",
-      description: "This 22 Hour course covers the foundation of networking and network devices, media, and protocols. You will observe data flowing through a network and configure devices to connect to networks. Finally, you will learn how to use different network applications and protocols to accomplish networking tasks.",
+      description: "This 22 Hour course covers the foundation of networking and network devices, media, and protocols. You will observe data flowing through a network and configure devices to connect to networks.",
       certificate: [
         {
           icon: faCertificate,
@@ -431,8 +443,77 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "Digital Securities Settlement Engine",
+      description: "Atomic Delivery vs. Payment (DvP) settlement engine for tokenized securities on Ethereum, inspired by DTCC's Project Ion. ERC-20 security tokens with compliance/KYC modules, CCP-gated settlement, role-based access control (issuer, compliance officer, transfer agent, CCP), and freeze/pause capabilities. Solidity 0.8.20, Hardhat, OpenZeppelin v5, ethers.js v6.",
+      linkIcons: [
+        { icon: faEthereum },
+        { icon: faGavel },
+        { icon: faShieldAlt },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/digital-securities-settlement" }
+      ]
+    },
+    {
+      title: "Bond Settlement on DAML",
+      description: "Multi-party bond issuance, trade matching, and atomic DvP settlement built on Canton/DAML. Models the full DTCC/NSCC/DTC clearing workflow with CCP novation, custodian banks, trade reporting, and regulatory observation. DAML's signatory/observer model enforces multi-party consent at every state change.",
+      linkIcons: [
+        { icon: faGavel },
+        { icon: faDatabase },
+        { icon: faShieldAlt },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/bond-settlement-daml" }
+      ]
+    },
+    {
+      title: "DynamisAI - Managed AI Hosting Platform",
+      description: "Managed AI hosting platform enabling businesses to deploy and configure AI agents with custom skills and automated workflows. Built with Next.js, Stripe-integrated billing, Sentry monitoring, and zero-downtime deployment pipelines. Consulting practice delivering custom AI solutions for clients.",
+      linkIcons: [
+        { icon: faRobot },
+        { icon: faReact },
+        { icon: faServer },
+        { icon: faChrome, link: "https://dynamisai.io" }
+      ]
+    },
+    {
+      title: "Fintech Analytics Suite",
+      description: "Comprehensive Bitcoin on-chain analytics and market cycle tools: Power Law regression, Pi Cycle Top indicator, Rainbow HPR model, ML-based price prediction (Random Forest), halving cycle analysis, Bollinger Bands, monthly/yearly returns heatmaps, and more. 25+ publication-quality charts in Python using matplotlib.",
+      linkIcons: [
+        { icon: faPython },
+        { icon: faChartLine },
+        { icon: faBitcoin },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/Fintech" }
+      ]
+    },
+    {
+      title: "Satmo - Bitcoin Lightning Payment Suite",
+      description: "Self-custodial Lightning Network payment gateway plugins for WooCommerce, Wix, and Shopify built on ACINQ's Phoenixd. Merchants get instant Bitcoin payments without managing channel capacity or node infrastructure. Real-time exchange rates, QR code generation, webhook-driven order fulfillment, and cross-platform plugin architecture.",
+      linkIcons: [
+        { icon: faBoltLightning },
+        { icon: faShoppingCart },
+        { icon: faWordpressSimple },
+        { icon: faBolt }
+      ]
+    },
+    {
+      title: "Satmo B2C Mobile App",
+      description: "React Native/Expo mobile app for Bitcoin Lightning payments. Send and receive Bitcoin instantly, QR code scanning, Strike API integration, merchant discovery, biometric authentication, push notifications, and offline support. Beautiful dark theme UI with real-time transaction tracking.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faBolt },
+        { icon: faBitcoin }
+      ]
+    },
+    {
+      title: "LNZap - Lightning Network Gaming Platform",
+      description: "Full-stack provably fair gaming platform with 13 games (dice, blackjack, poker, roulette, crash, mines, plinko, slots, and more). Lightning Network deposits/withdrawals via LNbits, real-time chat with /rain and /tip commands, and a complete admin panel. Next.js 15, React 19, PostgreSQL, Redis, WebSockets.",
+      linkIcons: [
+        { icon: faBolt },
+        { icon: faReact },
+        { icon: faDatabase },
+        { icon: faNodeJs }
+      ]
+    },
+    {
       title: "LNBits OpenClaw / AI Agent Skill",
-      description: "An LNBits extension with QR code support, published as an OpenClaw AI agent skill on ClawHub. Enables Lightning Network payment workflows with QR code generation, integrable with AI agents and automation. Built for the ClawHub ecosystem to extend LNBits functionality for agent-driven Bitcoin payments.",
+      description: "An LNBits extension with QR code support, published as an OpenClaw AI agent skill on ClawHub. Enables Lightning Network payment workflows with QR code generation, integrable with AI agents and automation.",
       linkIcons: [
         { icon: faBolt },
         { icon: faRobot },
@@ -442,78 +523,18 @@ export const projects = {
     },
     {
       title: "VibesIntel - AI Desktop Assistant",
-      description: "Built VibesIntel, an invisible desktop assistant that provides real-time AI insights during meetings, interviews, and presentations. Developed with Electron and React frontend, Node.js/Express backend API with PostgreSQL, and integrated Google Gemini AI for screenshot analysis, audio transcription, and contextual chat. Features translucent always-on-top window, global hotkeys, usage tracking, and subscription-based SaaS architecture with FREE, PRO, and PRO UNDETECTABLE tiers.",
+      description: "Invisible desktop assistant providing real-time AI insights during meetings, interviews, and presentations. Electron and React frontend, Node.js/Express backend with PostgreSQL, Google Gemini AI for screenshot analysis and audio transcription. SaaS architecture with subscription billing.",
       linkIcons: [
         { icon: faReact },
         { icon: faNodeJs },
         { icon: faRobot },
-        { icon: faComputer },
         { icon: faChrome, link: "https://vibesintel.com/" }
       ]
     },
     {
-      title: "LNZap - Lightning Network Gaming Platform",
-      description: "Built a full-stack provably fair gaming platform with 13 games (dice, blackjack, poker, roulette, crash, mines, plinko, slots, and more). Lightning Network deposits/withdrawals via LNbits, real-time chat with /rain and /tip commands, and a complete admin panel. Next.js 15, React 19, PostgreSQL, Redis, WebSockets.",
-      linkIcons: [
-        { icon: faBolt },
-        { icon: faReact },
-        { icon: faDatabase },
-        { icon: faNodeJs }
-      ]
-    },
-    {
-      title: "Satmo WordPress Payment Plugin",
-      description: "Developed a comprehensive WordPress WooCommerce payment gateway plugin that integrates Bitcoin Lightning Network payments via a custom ACINQ/phoenixd backend. Features include real-time exchange rates, automatic payment verification, QR code generation, webhook security tokens, and seamless WooCommerce Blocks support. The plugin enables merchants to accept instant Lightning payments with minimal setup, eliminating the need for node management.",
-      linkIcons: [
-        { icon: faWordpressSimple },
-        { icon: faPhp },
-        { icon: faBolt },
-        { icon: faShoppingCart }
-      ]
-    },
-    {
-      title: "Satmo Wix Payment Plugin",
-      description: "Built a Payment Provider Service Plugin (PPSP) for Wix e-commerce platforms, enabling Bitcoin Lightning Network payments through a custom ACINQ/phoenixd backend. The solution includes a Next.js external payment page hosted on Firebase, webhook integration for automatic order updates, and seamless deeplink support for mobile wallets. Merchants can easily configure and accept Lightning payments directly within their Wix stores.",
-      linkIcons: [
-        { icon: faReact },
-        { icon: faNodeJs },
-        { icon: faBolt },
-        { icon: faShoppingCart }
-      ]
-    },
-    {
-      title: "Satmo Shopify Payment Extension",
-      description: "Created a Shopify payment extension that enables Bitcoin Lightning Network payments through a custom ACINQ/phoenixd backend. Features include a Next.js external checkout app, and  real-time payment tracking, automatic order fulfillment via webhooks. The extension integrates with Shopify's manual payment methods and provides merchants with a secure, low-fee payment option.",
-      linkIcons: [
-        { icon: faReact },
-        { icon: faNodeJs },
-        { icon: faBolt },
-        { icon: faShoppingCart }
-      ]
-    },
-    {
-      title: "Satmo B2C Mobile App",
-      description: "Developed a modern React Native mobile application using Expo and TypeScript for Bitcoin Lightning Network payments. The app enables users to send and receive Bitcoin payments instantly, features QR code scanning, merchant integration, Strike payment platform integration, and real-time transaction tracking. Built with a beautiful dark theme UI, biometric authentication, push notifications, and offline support for core functionality.",
-      linkIcons: [
-        { icon: faReact },
-        { icon: faJsSquare },
-        { icon: faBolt },
-        { icon: faBitcoin }
-      ]
-    },
-    {
-      title: "QuantViz - Financial Analytics & ML Platform",
-      description: "Python-based financial charting and machine learning platform for market analysis. Predictive models, technical indicators, and interactive visualizations for equities and digital assets using pandas, scikit-learn, and Plotly.",
-      linkIcons: [
-        { icon: faPython },
-        { icon: faDatabase },
-        { icon: faChartLine }
-      ]
-    },
-    {
       title: "RightBytes / DishPatch",
-      description: "Spearheaded the development of RightBytes, a scalable e-commerce food ordering platform supporting web, iOS, and Android. As lead developer, I engineered PHP and Node.js backend APIs, integrated Stripe, PayPal, and DoorDash for payments and delivery, and implemented thermal printing and digital signage solutions. By optimizing API performance and leveraging automation, I increased transaction throughput by 20% and reduced operational costs. This project showcases my ability to deliver complex, multi-platform solutions with seamless user experiences.",
-      "linkIcons": [
+      description: "Scalable e-commerce food ordering platform for web, iOS, and Android. PHP and Node.js APIs, Stripe/PayPal/DoorDash integrations, thermal printing and digital signage. Increased transaction throughput by 20% and reduced operational costs.",
+      linkIcons: [
         { icon: faPhp },
         { icon: faNodeJs },
         { icon: faStripe },
@@ -521,84 +542,38 @@ export const projects = {
       ]
     },
     {
-      title: "OLM Customer Portal",
-      description: "Led the development of a WordPress WooCommerce B2B e-commerce portal, empowering thousands of users to manage product orders, generate sales reports, and leverage predictive analytics for inventory optimization. Built with custom PHP, cron jobs, WordPress plugins, themes, SAP integrations, and single sign-on, the platform improved order processing efficiency by 25% and reduced waste through data-driven insights. This project highlights my expertise in enterprise-grade solutions and automation.",
-      "linkIcons": [
-        { icon: faWordpressSimple },
-        { icon: faPhp }
-      ]
-    },
-    {
-      title: "TaskBytes",
-      description: "Designed and developed TaskBytes, an innovative food safety compliance automation tool powered by a custom ChatGPT-based LLM. TaskBytes automates tracking of critical metrics like temperatures, spoil times, production, and waste, while generating compliance reports with 95% accuracy. By integrating data from scans, traffic, and events, and comparing it to historical trends, the tool delivers predictive analytics to optimize purchasing and production schedules, reducing waste by 18% and boosting sales efficiency. Built with Python, Node.js, and AI-driven APIs-this project demonstrates my ability to harness AI for operational excellence.",
-      "linkIcons": [
+      title: "TaskBytes - AI Food Safety Compliance",
+      description: "AI-powered food safety compliance tool using Python, Node.js, and custom LLM APIs. Automates temperature tracking, production scheduling, and compliance reporting with 95% accuracy, reducing waste by 18%.",
+      linkIcons: [
         { icon: faPython },
         { icon: faNodeJs },
         { icon: faRobot }
       ]
     },
     {
-      "title": "AIO-GPT: AI-Powered SaaS Platform",
-      "description": "Created AIO-GPT, an all-in-one AI SaaS application (https://aijobbot.xyz/) for chat, image processing, and automated resume tailoring to job descriptions. Leveraging advanced LLMs and APIs, the platform analyzes job postings and user profiles to generate ATS-optimized resumes, improving application success rates by 30%. Built with React, Node.js, and TypeScript, this project showcases my expertise in AI-driven automation and full-stack development.",
-      "linkIcons": [
+      title: "AIO-GPT: AI-Powered SaaS Platform",
+      description: "All-in-one AI SaaS for chat, image processing, and automated resume tailoring to job descriptions. Analyzes job postings and generates ATS-optimized resumes, improving application success rates by 30%. React, Node.js, TypeScript.",
+      linkIcons: [
         { icon: faReact },
         { icon: faNodeJs },
-        { icon: faJsSquare },
+        { icon: faRobot },
         { icon: faChrome, link: "https://aijobbot.xyz/" },
         { icon: faGithub, link: "https://github.com/JamesTsetsekas/AIO-GPT" }
       ]
     },
     {
-      title: "WP WooCommerce LN Store",
-      description: "Architected a cutting-edge e-commerce proof-of-concept store using WordPress and WooCommerce, integrated with Bitcoin's Lightning Network for instant, low-fee transactions. This project showcases the potential of decentralized payments in retail, enabling secure and scalable microtransactions. The platform is optimized for performance and user experience, demonstrating my expertise in Lightning Network integration and modern web development.",
-      "linkIcons": [
-        { icon: faWordpress },
-        { icon: faShoppingCart },
-        { icon: faBolt },
-        { icon: faChrome, link: "https://store.jamestsetsekas.com/" }
-      ]
-    },
-    {
-      title: "DiceLN - Lightning Network Dice Game",
-      description: "Developed DiceLN, a provably fair, full-stack web-based dice game leveraging Bitcoin's Lightning Network for instant deposits and withdrawals. Built with Node.js, Express, Socket.IO, Axios, and LND/LNBits APIs, the app supports microtransactions with any amount of satoshis and includes real-time chat functionality. This project highlights my ability to integrate Ligtning Network technology with engaging user interfaces and robust back-end systems. Contact me for a private demo or to explore Lightning Network applications.",
-      "linkIcons": [
-        { icon: faNodeJs },
-        { icon: faDatabase },
-        { icon: faBolt }
-      ]
-    },
-    {
-      title: "Bitcoin Price Converter",
-      description: "Engineered a responsive Bitcoin price converter application that seamlessly converts between USD, GBP, EUR, Bitcoin, and satoshis. Built with Node.js and JavaScript, the tool delivers real-time, accurate conversions with an intuitive interface, optimized for both desktop and mobile users. This project demonstrates my proficiency in creating lightweight, user-focused financial tools.",
-      "linkIcons": [
-        { icon: faNodeJs },
-        { icon: faJsSquare },
-        { icon: faChrome, "link": "https://jamestsetsekas.github.io/satscalc/" },
-        { icon: faGithub, "link": "https://github.com/JamesTsetsekas/satscalc" }
-      ]
-    },
-    {
       title: "Jersey City Bitcoin Meetup",
-      description: "Founded and lead the Jersey City Bitcoin Meetup, a vibrant, decentralized community fostering education and discussion on Bitcoin in the Jersey City and New York area. I developed a custom blog platform with Node.js and JavaScript to share event updates and facilitate community-driven content, enhancing engagement and knowledge sharing.",
-      "linkIcons": [
+      description: "Founded and lead the Jersey City Bitcoin Meetup, a community fostering education and discussion on Bitcoin in the Jersey City and New York area. Custom blog platform with Node.js for event updates and community-driven content.",
+      linkIcons: [
         { icon: faNodeJs },
         { icon: faJsSquare },
-        { icon: faChrome, "link": "https://jerseycitybitcoin.com/" },
-        { icon: faGithub, "link": "https://github.com/JamesTsetsekas/JerseyCityBitcoin" }
-      ]
-    },
-    {
-      title: "JCBTC Meetup Store",
-      description: "Created the Jersey City Bitcoin Meetup Store, an exclusive e-commerce platform offering curated Bitcoin-themed products, purchasable solely with Bitcoin via Lightning Network payments. Built with PHP and optimized for security and speed, the store supports the community while showcasing practical applications of bitcoin in retail. Discover unique items at https://btc.jerseycitybitcoin.com/.",
-      linkIcons: [
-        { icon: faBolt },
-        { icon: faPhp },
-        { icon: faChrome, "link": "https://btc.jerseycitybitcoin.com/" }
+        { icon: faChrome, link: "https://jerseycitybitcoin.com/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/JerseyCityBitcoin" }
       ]
     },
     {
       title: "SatsSpend - NYC Bitcoin Business List",
-      description: "SatsSpend is a website of New York City area businesses that accept Bitcoin, including a searchable map and list. There are also some useful resources for spenders and receivers of Bitcoin towards the bottom of the page.",
+      description: "Directory of New York City area businesses that accept Bitcoin, with a searchable map and list. Useful resources for spenders and receivers of Bitcoin.",
       linkIcons: [
         {
           icon: faChrome,
@@ -611,50 +586,34 @@ export const projects = {
       ]
     },
     {
-      title: "Lightning Network Node",
-      description: "I run a Bitcoin Lightning Network node using lnd, with a BTCPay server instance. I love routing satoshis, and I'm always looking to open more channels. Contact me to open a channel or learn more about the Lightning Network.",
+      title: "Bitcoin Price Converter",
+      description: "Responsive Bitcoin price converter for USD, GBP, EUR, Bitcoin, and satoshis with real-time conversion rates. Built with Node.js and JavaScript, optimized for desktop and mobile.",
       linkIcons: [
+        { icon: faNodeJs },
+        { icon: faJsSquare },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/satscalc/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/satscalc" }
+      ]
+    },
+    {
+      title: "Lightning Network Node & POS",
+      description: "Bitcoin Lightning Network node using LND with a BTCPay server instance. Includes a Point of Sale terminal app for accepting Lightning payments with real-time USD/BTC conversion and QR code invoice generation.",
+      linkIcons: [
+        {
+          icon: faBolt,
+        },
+        {
+          icon: faBitcoin,
+        },
         {
           icon: faChrome,
           link: "https://btc.jamestsetsekas.com/apps/4Y4qW4zydTxQWWydQidcgjfT6v3F/pos",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/lightningnetwork/lnd",
-        },
-      ]
-    },
-    {
-      title: "Lightning Network Point of Sale Terminal",
-      description: "A Point of Sale Terminal app that makes accepting Bitcoin Lightning payments easy! Accessible from any internet-enabled device, the app calculates real-time USD/BTC conversion and generates a Bitcoin Lightning Network invoice QR code, confirming once paid. This can be easily integrated into any WordPress WooCommerce or other e-commerce solutions. Contact me for more information.",
-      linkIcons: [
-        {
-          icon: faChrome,
-          link: "https://btc.jamestsetsekas.com/apps/2cYmNXrnH6KaBBTmQMQNBbxXpQNg/pos",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/btcpayserver/btcpayserver",
-        },
-      ]
-    },
-    {
-      title: "Self-hosted HTML5 Speedtest Docker Container",
-      description: "Great for troubleshooting bandwidth, ping, and jitter issues. Free and open-source speed test. No Flash, No Java, No WebSocket. Download, upload, ping, jitter, IP address, ISP, distance from server (optional), telemetry (optional), results sharing (optional), multiple points of test (optional).",
-      linkIcons: [
-        {
-          icon: faChrome,
-          link: "https://speed.jamestsetsekas.com/",
-        },
-        {
-          icon: faGithub,
-          link: "https://github.com/librespeed/speedtest",
         },
       ]
     },
     {
       title: "Windows XP Minesweeper in React",
-      description: "Windows XP Minesweeper in React with Hooks and mobile support. Features include releasing double mouse press at the same time to open cells automatically, never game over for the first click, switch difficulty from the menu, and mobile support (long press for placing flags).",
+      description: "Windows XP Minesweeper in React with Hooks and mobile support. Never game over on first click, difficulty switching, and long press for placing flags on mobile.",
       linkIcons: [
         {
           icon: faChrome,
@@ -666,15 +625,6 @@ export const projects = {
         },
       ]
     },
-    {
-      title: "Jamesco Web Designs",
-      description: "Owner and sole developer at Jamesco Web Designs, specializing in affordable web design and development. Recognizing that many small businesses face budget constraints for upfront costs, I introduced a $0 down and low monthly cost model. This offers a more manageable solution, avoiding financial strain. Additionally, I provide services for WordPress, WooCommerce, e-commerce, SaaS, and custom development. Check out our offerings!",
-      linkIcons: [
-        { icon: faNodeJs, },
-        { icon: faJsSquare, },
-        { icon: faChrome, link: "https://jamescowebdesigns.com/", }
-      ]
-    }
   ],
 };
 
@@ -694,7 +644,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char
   title: "James Tsetsekas | Full Stack Developer & Bitcoin Engineer",
-  description: "Full stack developer building Bitcoin Lightning Network payment infrastructure and web applications.",
+  description: "Full stack developer building Bitcoin Lightning Network payment infrastructure, AI-powered platforms, and digital securities settlement systems.",
   image: profile.src,
 };
 
