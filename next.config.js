@@ -19,10 +19,6 @@ function getBasePath() {
 }
 
 const basePath = getBasePath()
-const analyticsEnabled =
-  process.env.CONTEXT === 'production' ||
-  process.env.VERCEL_ENV === 'production' ||
-  process.env.GITHUB_REF === 'refs/heads/main'
 console.warn(
   // "Are you publishing to <username>.github.io ? then [basePath] should be empty.\n" +
   // "Are you publishing to <username>.github.io/<repository> ? then [basePath] should be /<repository>.\n" +
@@ -35,7 +31,6 @@ const nextConfig = {
   assetPrefix: basePath,
   publicRuntimeConfig: {
     basePath: basePath,
-    analyticsEnabled: analyticsEnabled,
   },
 }
 

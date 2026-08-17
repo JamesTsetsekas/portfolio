@@ -15,10 +15,10 @@
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
+    "build": "next build",
     "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev -p 3001",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider next start",
-    "export": "cross-env NODE_OPTIONS=--openssl-legacy-provider next export",
+    "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
     "deploy": "npm run custom-domain && node scripts/pages.js jamestsetsekas master",
     "custom-domain": "node scripts/cname.js jamestsetsekas.com www.jamestsetsekas.com",
