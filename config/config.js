@@ -14,8 +14,17 @@ import {
   faGithubAlt,
   faLinkedinIn,
   faTwitterSquare,
+  faPhp,
   faJs,
+  faNodeJs,
+  faWordpress,
+  faLinux,
+  faNode,
+  faStripe,
   faBitcoin,
+  faBtc,
+  faWordpressSimple,
+  faPaypal,
   faPython,
   faEthereum,
 } from '@fortawesome/free-brands-svg-icons';
@@ -23,16 +32,22 @@ import {
   faCode,
   faDatabase,
   faChalkboardTeacher,
-  faUsers,
-  faLayerGroup,
+  faUsers, faLayerGroup,
   faCertificate,
+  faBitcoinSign,
   faBoltLightning,
   faComputer,
   faNetworkWired,
   faLink,
   faBolt,
   faShieldAlt,
+  faShieldVirus,
+  faShoppingCart,
   faRobot,
+  faBrain,
+  faChartLine,
+  faGavel,
+  faServer,
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -68,7 +83,7 @@ export const intro = {
     text: [" Hey,", "I'm "]
   },
   title: "James Tsetsekas",
-  description: "Full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. Currently working at Conduit on decentralized commerce built on Nostr with Bitcoin and Lightning payments, and with Great Plains Communications on React application development.",
+  description: "Full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. I work part-time at Conduit on open-source commerce built on Nostr with Bitcoin and Lightning payments, and I'm on a six-month React development contract with Great Plains Communications.",
   image: profile.src,
   buttons: [
     {
@@ -81,19 +96,14 @@ export const intro = {
       link: "https://github.com/JamesTsetsekas",
       isPrimary: false,
     },
-    {
-      title: "My Blog",
-      link: "https://blog.jamestsetsekas.com/",
-      isPrimary: false,
-    },
   ],
 };
 
 export const about = {
   title: "About Me",
   description: [
-    "I'm a full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. At Conduit, I work on open-source decentralized commerce built on Nostr, contributing React and TypeScript product features, protocol-aware workflows, encrypted messaging, privacy-focused checkout, and Bitcoin and Lightning payment experiences. I also develop React applications with Great Plains Communications.",
-    "My independent work includes Bitcoin market analytics, Lightning wallet tooling, digital-securities settlement prototypes, AI-assisted developer tools, and technical writing. I founded the Jersey City Bitcoin Meetup and Socratic Seminar, where I help create space for practical discussion around Bitcoin, Lightning, privacy, and protocol development. Outside of code, I ski and self-host more than I probably should.",
+    "I'm a full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. I work part-time at Conduit, contributing to an open-source decentralized commerce platform built on Nostr with Bitcoin and Lightning payments. My work spans React and TypeScript product features, protocol-aware workflows, encrypted messaging, and privacy-focused checkout. I'm also on a six-month contract with Great Plains Communications, developing React applications.",
+    "My independent work includes Bitcoin market analytics, Lightning wallet tools, digital-securities settlement prototypes, AI-assisted developer tools, and technical writing. I founded the Jersey City Bitcoin Meetup and Socratic Seminar, where I organize practical discussions around Bitcoin, Lightning, privacy, and protocol development. Outside of code, I ski and self-host more than I probably should.",
   ],
 };
 
@@ -101,43 +111,35 @@ export const work = {
   title: "What I Do",
   cards: [
     {
-      title: "Nostr Commerce at Conduit",
-      description: "I contribute to React and TypeScript product features for decentralized commerce on Nostr, including marketplace and merchant workflows, encrypted messaging, relay-aware state, and privacy-focused checkout.",
+      title: "Current Work",
+      description: "I work part-time at Conduit on React and TypeScript features for open-source Nostr commerce with Bitcoin and Lightning payments. I'm also on a six-month contract with Great Plains Communications developing React applications.",
       icons: [
         { icon: faNetworkWired },
         { icon: faReact },
-        { icon: faCode }
+        { icon: faBitcoin }
       ]
     },
     {
-      title: "Bitcoin & Lightning Payments",
-      description: "I build Bitcoin and Lightning payment experiences, wallet integrations, invoices, and non-custodial checkout flows with careful attention to privacy, reliability, and failure states.",
+      title: "Full-Stack Products & Payments",
+      description: "Across 14+ years, I've built web applications, e-commerce systems, internal tools, analytics, and payment workflows using React, TypeScript, Node.js, Python, Bitcoin, and Lightning.",
       icons: [
-        { icon: faBitcoin },
-        { icon: faBoltLightning },
-        { icon: faShieldAlt }
-      ]
-    },
-    {
-      title: "React Development at Great Plains",
-      description: "My work with Great Plains Communications focuses on React application development: clear interfaces, reusable components, maintainable front-end systems, and dependable product workflows.",
-      icons: [
+        { icon: faCode },
         { icon: faReact },
-        { icon: faJs },
-        { icon: faLayerGroup }
+        { icon: faBoltLightning }
       ]
     },
     {
-      title: "Open Source & Community",
-      description: "I build public software, maintain Bitcoin analytics and Lightning tools, write about technology, and organize the Jersey City Bitcoin Meetup and Socratic Seminar.",
+      title: "Open Source, AI & Community",
+      description: "I build public software and AI-assisted developer tools, write about technology, and organize the Jersey City Bitcoin Meetup and Socratic Seminar.",
       icons: [
         { icon: faGithub },
-        { icon: faUsers },
-        { icon: faChalkboardTeacher }
+        { icon: faRobot },
+        { icon: faUsers }
       ]
     }
   ]
 };
+
 export const skills = {
   title: "Skills & Certifications",
   cards: [
@@ -428,26 +430,86 @@ export const projects = {
   cards: [
     {
       title: "Conduit — Open-Source Nostr Commerce",
-      description: "Contributions to Conduit, an open-source decentralized commerce platform built on Nostr. My work spans React and TypeScript product flows, merchant and marketplace features, encrypted messaging, privacy-focused checkout, and Bitcoin and Lightning payment experiences.",
+      description: "My part-time work at Conduit focuses on an open-source decentralized commerce platform built on Nostr. I contribute across React and TypeScript marketplace and merchant features, encrypted messaging, privacy-focused checkout, and Bitcoin and Lightning payment flows.",
       linkIcons: [
         { icon: faNetworkWired },
         { icon: faBitcoin },
         { icon: faChrome, link: "https://conduit.market/" },
-        { icon: faGithub, link: "https://github.com/search?q=is%3Apr+author%3AJamesTsetsekas+org%3AConduit-BTC&type=pullrequests" }
+        { icon: faGithub, link: "https://github.com/Conduit-BTC" }
+      ]
+    },
+    {
+      title: "Digital Securities Settlement Engine",
+      description: "Atomic Delivery vs. Payment (DvP) settlement engine for tokenized securities on Ethereum, inspired by DTCC's Project Ion. ERC-20 security tokens with compliance/KYC modules, CCP-gated settlement, role-based access control (issuer, compliance officer, transfer agent, CCP), and freeze/pause capabilities. Solidity 0.8.20, Hardhat, OpenZeppelin v5, ethers.js v6.",
+      linkIcons: [
+        { icon: faEthereum },
+        { icon: faGavel },
+        { icon: faShieldAlt },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/digital-securities-settlement" }
+      ]
+    },
+    {
+      title: "Bond Settlement on DAML",
+      description: "Multi-party bond issuance, trade matching, and atomic DvP settlement built on Canton/DAML. Models the full DTCC/NSCC/DTC clearing workflow with CCP novation, custodian banks, trade reporting, and regulatory observation. DAML's signatory/observer model enforces multi-party consent at every state change.",
+      linkIcons: [
+        { icon: faGavel },
+        { icon: faDatabase },
+        { icon: faShieldAlt },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/bond-settlement-daml" }
+      ]
+    },
+    {
+      title: "DynamisAI - Managed AI Hosting Platform",
+      description: "Managed AI hosting platform enabling businesses to deploy and configure AI agents with custom skills and automated workflows. Built with Next.js, Stripe-integrated billing, Sentry monitoring, and zero-downtime deployment pipelines. Consulting practice delivering custom AI solutions for clients.",
+      linkIcons: [
+        { icon: faRobot },
+        { icon: faReact },
+        { icon: faServer },
+        { icon: faChrome, link: "https://dynamisai.io" }
       ]
     },
     {
       title: "Fintech Analytics Suite",
-      description: "A Python dashboard for Bitcoin market-cycle research, including Power Law, Pi Cycle, Rainbow, halving, return, volatility, and machine-learning views. Generated charts are published through a lightweight GitHub Pages dashboard.",
+      description: "Comprehensive Bitcoin on-chain analytics and market cycle tools: Power Law regression, Pi Cycle Top indicator, Rainbow HPR model, ML-based price prediction (Random Forest), halving cycle analysis, Bollinger Bands, monthly/yearly returns heatmaps, and more. 25+ publication-quality charts in Python using matplotlib.",
       linkIcons: [
         { icon: faPython },
+        { icon: faChartLine },
         { icon: faBitcoin },
         { icon: faChrome, link: "https://jamestsetsekas.github.io/Fintech/" },
         { icon: faGithub, link: "https://github.com/JamesTsetsekas/Fintech" }
       ]
     },
     {
-      title: "LNbits Wallet Manager Skill",
+      title: "Satmo - Bitcoin Lightning Payment Suite",
+      description: "Self-custodial Lightning Network payment gateway plugins for WooCommerce, Wix, and Shopify built on ACINQ's Phoenixd. Merchants get instant Bitcoin payments without managing channel capacity or node infrastructure. Real-time exchange rates, QR code generation, webhook-driven order fulfillment, and cross-platform plugin architecture.",
+      linkIcons: [
+        { icon: faBoltLightning },
+        { icon: faShoppingCart },
+        { icon: faWordpressSimple },
+        { icon: faBolt }
+      ]
+    },
+    {
+      title: "Satmo B2C Mobile App",
+      description: "React Native/Expo mobile app for Bitcoin Lightning payments. Send and receive Bitcoin instantly, QR code scanning, Strike API integration, merchant discovery, biometric authentication, push notifications, and offline support. Beautiful dark theme UI with real-time transaction tracking.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faBolt },
+        { icon: faBitcoin }
+      ]
+    },
+    {
+      title: "LNZap - Lightning Network Gaming Platform",
+      description: "Full-stack provably fair gaming platform with 13 games (dice, blackjack, poker, roulette, crash, mines, plinko, slots, and more). Lightning Network deposits/withdrawals via LNbits, real-time chat with /rain and /tip commands, and a complete admin panel. Next.js 15, React 19, PostgreSQL, Redis, WebSockets.",
+      linkIcons: [
+        { icon: faBolt },
+        { icon: faReact },
+        { icon: faDatabase },
+        { icon: faNodeJs }
+      ]
+    },
+    {
+      title: "LNbits Wallet Manager Skill for OpenClaw",
       description: "An OpenClaw skill for LNbits wallet workflows, including balance checks, Bolt11 invoice creation, decoding and payment, QR-code generation, explicit payment confirmation, and safe credential handling.",
       linkIcons: [
         { icon: faBolt },
@@ -457,32 +519,99 @@ export const projects = {
       ]
     },
     {
-      title: "Jersey City Bitcoin",
-      description: "The website and community behind the Jersey City Bitcoin Meetup and Socratic Seminar, with local events and practical discussion around Bitcoin, Lightning, privacy, and protocol development.",
+      title: "VibesIntel - AI Desktop Assistant",
+      description: "Invisible desktop assistant providing real-time AI insights during meetings, interviews, and presentations. Electron and React frontend, Node.js/Express backend with PostgreSQL, Google Gemini AI for screenshot analysis and audio transcription. SaaS architecture with subscription billing.",
       linkIcons: [
-        { icon: faBitcoin },
-        { icon: faUsers },
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faRobot },
+        { icon: faChrome, link: "https://vibesintel.com/" }
+      ]
+    },
+    {
+      title: "RightBytes / DishPatch",
+      description: "Scalable e-commerce food ordering platform for web, iOS, and Android. PHP and Node.js APIs, Stripe/PayPal/DoorDash integrations, thermal printing and digital signage. Increased transaction throughput by 20% and reduced operational costs.",
+      linkIcons: [
+        { icon: faPhp },
+        { icon: faNodeJs },
+        { icon: faStripe },
+        { icon: faPaypal }
+      ]
+    },
+    {
+      title: "TaskBytes - AI Food Safety Compliance",
+      description: "AI-powered food safety compliance tool using Python, Node.js, and custom LLM APIs. Automates temperature tracking, production scheduling, and compliance reporting with 95% accuracy, reducing waste by 18%.",
+      linkIcons: [
+        { icon: faPython },
+        { icon: faNodeJs },
+        { icon: faRobot }
+      ]
+    },
+    {
+      title: "AIO-GPT: AI-Powered SaaS Platform",
+      description: "All-in-one AI SaaS for chat, image processing, and automated resume tailoring to job descriptions. Analyzes job postings and generates ATS-optimized resumes, improving application success rates by 30%. React, Node.js, TypeScript.",
+      linkIcons: [
+        { icon: faReact },
+        { icon: faNodeJs },
+        { icon: faRobot },
+        { icon: faChrome, link: "https://aijobbot.xyz/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/AIO-GPT" }
+      ]
+    },
+    {
+      title: "Jersey City Bitcoin Meetup",
+      description: "Founded and lead the Jersey City Bitcoin Meetup, a community fostering education and discussion on Bitcoin in the Jersey City and New York area. Custom blog platform with Node.js for event updates and community-driven content.",
+      linkIcons: [
+        { icon: faNodeJs },
+        { icon: faJsSquare },
         { icon: faChrome, link: "https://jerseycitybitcoin.com/" },
         { icon: faGithub, link: "https://github.com/Jersey-City-Bitcoin/JerseyCityBitcoin" }
       ]
     },
     {
-      title: "Digital Securities Settlement Engine",
-      description: "An experimental Ethereum reference implementation for atomic delivery-versus-payment settlement, with ERC-20 security tokens, compliance controls, role-based access, and CCP-gated workflows.",
+      title: "SatsSpend - NYC Bitcoin Business List",
+      description: "Directory of New York City area businesses that accept Bitcoin, with a searchable map and list. Useful resources for spenders and receivers of Bitcoin.",
       linkIcons: [
-        { icon: faEthereum },
-        { icon: faShieldAlt },
-        { icon: faDatabase },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/digital-securities-settlement" }
+        {
+          icon: faChrome,
+          link: "https://jamestsetsekas.github.io/satsspend-newyorkcity/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/satsspend-newyorkcity",
+        },
       ]
     },
     {
-      title: "Bond Settlement on DAML",
-      description: "An experimental multi-party bond issuance, trade-matching, and atomic delivery-versus-payment workflow modeled in Canton and DAML, including CCP, custodian, and regulatory roles.",
+      title: "Bitcoin Price Converter",
+      description: "Responsive Bitcoin price converter for USD, GBP, EUR, Bitcoin, and satoshis with real-time conversion rates. Built with Node.js and JavaScript, optimized for desktop and mobile.",
       linkIcons: [
-        { icon: faDatabase },
-        { icon: faShieldAlt },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/bond-settlement-daml" }
+        { icon: faNodeJs },
+        { icon: faJsSquare },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/satscalc/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/satscalc" }
+      ]
+    },
+    {
+      title: "Lightning Network Node & POS",
+      description: "Bitcoin Lightning Network node using LND with a BTCPay server instance. Includes a Point of Sale terminal app for accepting Lightning payments with real-time USD/BTC conversion and QR code invoice generation.",
+      linkIcons: [
+        { icon: faBolt },
+        { icon: faBitcoin }
+      ]
+    },
+    {
+      title: "Windows XP Minesweeper in React",
+      description: "Windows XP Minesweeper in React with Hooks and mobile support. Never game over on first click, difficulty switching, and long press for placing flags on mobile.",
+      linkIcons: [
+        {
+          icon: faChrome,
+          link: "https://minesweeper-chi-fawn.vercel.app/",
+        },
+        {
+          icon: faGithub,
+          link: "https://github.com/JamesTsetsekas/Minesweeper",
+        },
       ]
     },
     {
@@ -508,7 +637,7 @@ export const projects = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Interested in React development, Nostr, or Bitcoin and Lightning? Feel free to reach out directly at James@JamesTsetsekas.com.",
+  description: "Let's schedule a meeting. Feel free to reach out directly by email at James@JamesTsetsekas.com.",
   buttons: [
     {
       title: "Email Me",
@@ -522,7 +651,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char
   title: "James Tsetsekas | Nostr, Bitcoin & React Developer",
-  description: "Full-stack developer working on Nostr commerce and Bitcoin Lightning payments at Conduit, plus React applications with Great Plains Communications.",
+  description: "Part-time at Conduit building open-source commerce with Nostr, Bitcoin, and Lightning, plus a six-month React contract with Great Plains Communications.",
   image: profile.src,
 };
 
@@ -568,8 +697,8 @@ export const links = {
       iconb: faNetworkWired,
     },
     {
-      title: "My Conduit Contributions",
-      link: "https://github.com/search?q=is%3Apr+author%3AJamesTsetsekas+org%3AConduit-BTC&type=pullrequests",
+      title: "Conduit GitHub",
+      link: "https://github.com/Conduit-BTC",
       icon: faGithub,
       iconb: faGithubAlt,
     },
