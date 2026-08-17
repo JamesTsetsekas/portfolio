@@ -83,13 +83,18 @@ export const intro = {
     text: [" Hey,", "I'm "]
   },
   title: "James Tsetsekas",
-  description: "Full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. I work part-time at Conduit on open-source commerce built on Nostr with Bitcoin and Lightning payments, and I'm on a six-month React development contract with Great Plains Communications.",
+  description: "Full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. My current work spans open-source commerce on Nostr with Bitcoin and Lightning at Conduit, alongside React application development with Great Plains Communications.",
   image: profile.src,
   buttons: [
     {
       title: "Contact Me",
       link: "#contact",
       isPrimary: true,
+    },
+    {
+      title: "Resume",
+      link: "https://drive.google.com/file/d/1eiKzle8AcAT-6E8ut5n2vl-d3FKoYAs8/view?usp=sharing",
+      isPrimary: false,
     },
     {
       title: "GitHub",
@@ -102,7 +107,7 @@ export const intro = {
 export const about = {
   title: "About Me",
   description: [
-    "I'm a full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. I work part-time at Conduit, contributing to an open-source decentralized commerce platform built on Nostr with Bitcoin and Lightning payments. My work spans React and TypeScript product features, protocol-aware workflows, encrypted messaging, and privacy-focused checkout. I'm also on a six-month contract with Great Plains Communications, developing React applications.",
+    "I'm a full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. At Conduit, I contribute to an open-source decentralized commerce platform built on Nostr with Bitcoin and Lightning payments. My work spans React and TypeScript product features, protocol-aware workflows, encrypted messaging, and privacy-focused checkout. I also develop React applications with Great Plains Communications.",
     "My independent work includes Bitcoin market analytics, Lightning wallet tools, digital-securities settlement prototypes, AI-assisted developer tools, and technical writing. I founded the Jersey City Bitcoin Meetup and Socratic Seminar, where I organize practical discussions around Bitcoin, Lightning, privacy, and protocol development. Outside of code, I ski and self-host more than I probably should.",
   ],
 };
@@ -112,7 +117,7 @@ export const work = {
   cards: [
     {
       title: "Current Work",
-      description: "I work part-time at Conduit on React and TypeScript features for open-source Nostr commerce with Bitcoin and Lightning payments. I'm also on a six-month contract with Great Plains Communications developing React applications.",
+      description: "At Conduit, I contribute React and TypeScript features for open-source Nostr commerce with Bitcoin and Lightning payments. I also develop React applications with Great Plains Communications.",
       icons: [
         { icon: faNetworkWired },
         { icon: faReact },
@@ -430,7 +435,7 @@ export const projects = {
   cards: [
     {
       title: "Conduit — Open-Source Nostr Commerce",
-      description: "My part-time work at Conduit focuses on an open-source decentralized commerce platform built on Nostr. I contribute across React and TypeScript marketplace and merchant features, encrypted messaging, privacy-focused checkout, and Bitcoin and Lightning payment flows.",
+      description: "My work at Conduit focuses on an open-source decentralized commerce platform built on Nostr. I contribute across React and TypeScript marketplace and merchant features, encrypted messaging, privacy-focused checkout, and Bitcoin and Lightning payment flows.",
       linkIcons: [
         { icon: faNetworkWired },
         { icon: faBitcoin },
@@ -651,7 +656,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char
   title: "James Tsetsekas | Nostr, Bitcoin & React Developer",
-  description: "Part-time at Conduit building open-source commerce with Nostr, Bitcoin, and Lightning, plus a six-month React contract with Great Plains Communications.",
+  description: "Full-stack developer building open-source Nostr commerce with Bitcoin and Lightning at Conduit, plus React applications with Great Plains Communications.",
   image: profile.src,
 };
 
