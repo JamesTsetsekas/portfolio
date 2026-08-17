@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 
 export const Nav = ({ title, links }) => {
@@ -8,7 +8,7 @@ export const Nav = ({ title, links }) => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-secondary">
+    <nav className="navbar navbar-expand-sm navbar-light site-nav" aria-label="Primary navigation">
       <div className="container">
         <Link href="/">
           {/* <Image src={Logo} alt="Logo" width="36" height="36" className="vertical-align-middle" /> */}
@@ -34,7 +34,12 @@ export const Nav = ({ title, links }) => {
         >
           {links.map((value, index) => (
             <Link key={index} href={value.link}>
-              <a className="nav-link" target={value.target === '_blank' ? '_blank' : '_self'}>
+              <a
+                className="nav-link"
+                target={value.target === '_blank' ? '_blank' : '_self'}
+                rel={value.target === '_blank' ? 'noopener noreferrer' : undefined}
+                onClick={() => setIsNavCollapsed(true)}
+              >
                 {value.title}
               </a>
             </Link>

@@ -1,159 +1,92 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link'
 
 export const WhatIDo = ({ title, cards }) => {
   return (
-    <div id="skills" className="bg-primary py-5 px-5 rounded-3">
+    <section id="focus" className="focus-section">
       <div className="container">
-        <h1 className="text-light fw-bold">{title}</h1>
-        <div className="d-flex flex-row flex-wrap justify-content-center">
+        <p className="section-kicker">Building now</p>
+        <h2 className="section-title">{title}</h2>
+        <div className="focus-grid">
           {cards.map((value, index) => (
             <Card
               key={index}
               title={value.title}
               description={value.description}
-              icons={value.icons} />
-          ))}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export const Skills = ({ title, cards }) => {
-  const [displayedCards, setDisplayedCards] = useState(6);
-  const totalCards = cards.length;
-  const [loading, setLoading] = useState(false);
-  const [isButtonHovered, setIsButtonHovered] = useState(false);
-
-  const loadMoreCards = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setDisplayedCards(displayedCards + 3);
-      setLoading(false);
-    }, 50);
-  };
-
-  return (
-    <div id="skills" className="bg-secondary py-5 px-5 rounded-3">
-      <div className="container">
-        <h1 className="text-primary fw-bold">{title}</h1>
-        <div className="d-flex flex-row flex-wrap justify-content-center">
-          {cards.slice(0, displayedCards).map((value, index) => (
-            <Card
-              key={index}
-              title={value.title}
-              description={value.description}
               icons={value.icons}
-              cert={value.certificate} />
+              variant="focus" />
           ))}
         </div>
-        {displayedCards < totalCards && (
-          <div className="text-center">
-            <button
-              type="button"
-              className={`btn ${isButtonHovered ? 'btn-light' : 'btn-dark'}`}
-              onClick={loadMoreCards}
-              onMouseEnter={() => setIsButtonHovered(true)}
-              onMouseLeave={() => setIsButtonHovered(false)}
-            >
-              {loading ? (
-                <div className={`spinner ${isButtonHovered ? 'black' : 'white'}`} />
-              ) : (
-                'Load more'
-              )}
-            </button>
-          </div>
-        )}
       </div>
-    </div>
+    </section>
   );
 }
 
 export const Projects = ({ title, cards }) => {
-  const [displayedCards, setDisplayedCards] = useState(6);
-  const totalCards = cards.length;
-  const [loading, setLoading] = useState(false);
-  const [isButtonHovered, setIsButtonHovered] = useState(false);
-
-  const loadMoreCards = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setDisplayedCards(displayedCards + 3);
-      setLoading(false);
-    }, 50);
-  };
-
   return (
-    <div id="projects" className="bg-primary py-5 px-5 rounded-3">
+    <section id="projects" className="projects-section">
       <div className="container">
-        <h1 className="text-light fw-bold">{title}</h1>
-        <div className="d-flex flex-row flex-wrap justify-content-center">
-          {cards.slice(0, displayedCards).map((value, index) => (
+        <div className="section-heading-row">
+          <div>
+            <p className="section-kicker">Selected work</p>
+            <h2 className="section-title">{title}</h2>
+          </div>
+          <p className="section-intro">A mix of current open-source work, protocol engineering, and independent products.</p>
+        </div>
+        <div className="project-grid">
+          {cards.map((value, index) => (
             <Card
               key={index}
               title={value.title}
               description={value.description}
               linkIcons={value.linkIcons}
+              variant="project"
             />
           ))}
         </div>
-        {displayedCards < totalCards && (
-          <div className="text-center">
-            <button
-              type="button"
-              className="btn btn-outline-light"
-              onClick={loadMoreCards}
-              onMouseEnter={() => setIsButtonHovered(true)}
-              onMouseLeave={() => setIsButtonHovered(false)}
-            >
-              {loading ? (
-                <div className={`spinner ${isButtonHovered ? 'black' : 'white'}`} />
-              ) : (
-                'Load more'
-              )}
-            </button>
-          </div>
-        )}
       </div>
-    </div>
+    </section>
   );
 };
 
-export const Card = ({ title, description, icons, linkIcons, cert }) => {
+export const Card = ({ title, description, icons, linkIcons, variant = 'default' }) => {
   return (
-    <div className="card py-3 px-3 mx-sm-3 my-3 card-work rounded-3" style={{ width: "20rem" }}>
-      <h4 className="text-primary">{title}</h4>
-      <p className="text-dark">{description}</p>
+    <article className={`card-work card-${variant}`}>
+      <h3>{title}</h3>
+      <p>{description}</p>
 
-      <div className="cert">
-        {cert && cert.map((value, index) => (
-          <Link key={index} href={value.link}>
-            <a target="_blank" rel="noreferrer">
-              <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="4x" />
-            </a>
-          </Link>
-        ))}
-      </div>
-
-      <div className="text-end">
+      <div className="card-meta">
         {icons && icons.map((value, index) => (
-          <FontAwesomeIcon key={index} className="icon-style mx-1" icon={value.icon} size="2x" />
+          <span className="tech-chip" key={index}>
+            <FontAwesomeIcon aria-hidden="true" className="icon-style" icon={value.icon} />
+            {value.label && <span>{value.label}</span>}
+          </span>
         ))}
 
         {linkIcons && linkIcons.map((value, index) => (
           value.link ? (
             <Link key={index} href={value.link}>
-              <a target="_blank" rel="noreferrer">
-                <FontAwesomeIcon className="icon-style mx-1" icon={value.icon} size="2x" />
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+                aria-label={value.label || `Open ${title}`}
+              >
+                <FontAwesomeIcon aria-hidden="true" className="icon-style" icon={value.icon} />
+                <span>{value.label || 'Open project'}</span>
               </a>
             </Link>
+          ) : value.label ? (
+            <span className="tech-chip" key={index}>
+              <FontAwesomeIcon aria-hidden="true" className="icon-style" icon={value.icon} />
+              <span>{value.label}</span>
+            </span>
           ) : (
-            <FontAwesomeIcon key={index} className="icon-style mx-1" icon={value.icon} size="2x" />
+            <FontAwesomeIcon aria-hidden="true" key={index} className="icon-style" icon={value.icon} />
           )
         ))}
       </div>
-    </div>
+    </article>
   );
 }

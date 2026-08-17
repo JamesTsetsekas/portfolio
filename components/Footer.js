@@ -3,22 +3,23 @@ import Link from 'next/link'
 
 export const Contact = ({ title, description, buttons }) => {
 	return (
-    <div id="contact" className="bg-white py-5 px-5 text-center rounded-3">
+    <section id="contact" className="contact-section text-center">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
-				<div className="px-sm-5">
+				<p className="section-kicker">Contact</p>
+				<h2 className="section-title">{title}</h2>
+				<div className="contact-copy">
 					<p>{description}</p>
-					<div className="">
+					<div className="contact-actions">
 						{buttons.map((value, index) => (
 							(value.isPrimary) ?
 								<Link key={index} href={value.link}>
-									<a className="btn btn-primary my-1 mx-3">
+									<a className="btn btn-primary">
 										{value.title}
 									</a>
 								</Link>
 								:
 								<Link key={index} href={value.link}>
-									<a className="btn btn-outline-primary my-1 mx-3">
+									<a className="btn btn-outline-primary">
 										{value.title}
 									</a>
 								</Link>
@@ -26,16 +27,16 @@ export const Contact = ({ title, description, buttons }) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 
 export const Footer = () => {
 	return (
-    <footer className="bg-secondary text-center py-2 px-5 rounded-3">
-			<div className="container text-muted">
+    <footer className="site-footer text-center">
+      <div className="container">
         <small>&copy; {new Date().getFullYear()} {" "}
-          <Link href="http://jamestsetsekas.com/">
+          <Link href="https://jamestsetsekas.com/">
 						<a>James Tsetsekas</a>
 					</Link>
 					.

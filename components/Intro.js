@@ -5,51 +5,75 @@ import Link from 'next/link'
 
 const { publicRuntimeConfig } = getConfig()
 
-export const Intro = ({ greeting, title, description, image, buttons }) => {
+export const Intro = ({ eyebrow, title, description, image, buttons, roles }) => {
 	return (
-		<div className="bg-secondary py-5 px-5 rounded-3">
-			<div className="container">
-				<div className=" row align-items-center">
-					<div className="col-sm-6">
-						<h2 className="text-primary fw-bold display-3 greeting"><span className="wave"><img alt="👋" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" src="/wave.webp" style={{ color: 'transparent', flex: '0 0 auto' }} className="wave" /></span>{greeting.text[0]}<br />{greeting.text[1]}<span className="highlight">{title}</span></h2>
-						<p>{description}</p>
-						<div className="text-center">
+		<section className="hero-section">
+			<div className="container hero-inner">
+				<div className="row align-items-center gy-5">
+					<div className="col-lg-7">
+						<p className="eyebrow">{eyebrow}</p>
+						<h1 className="hero-title">{title}</h1>
+						<p className="hero-description">{description}</p>
+						<div className="role-grid" aria-label="Current roles">
+							{roles.map((role) => (
+								<div className="role-item" key={role.company}>
+									<span className="role-company">{role.company}</span>
+									<span className="role-focus">{role.focus}</span>
+								</div>
+							))}
+						</div>
+						<div className="hero-actions">
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
 									<Link key={index} href={value.link}>
-										<a className="btn btn-primary my-1 mx-3">{value.title}</a>
+										<a className="btn btn-primary">{value.title}</a>
 									</Link>
 									:
 									<Link key={index} href={value.link}>
-										<a target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3">{value.title}</a>
+										<a target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary">{value.title}</a>
 									</Link>
 							))}
 						</div>
 					</div>
-					<div className="col-sm-6 text-center">
+					<div className="col-lg-5 text-center hero-portrait-wrap">
 						<img
-							className="img-fluid my-3 card-image" width="250"
-							height="250" src={publicRuntimeConfig.basePath + image}
+							className="img-fluid card-image" width="340"
+							height="340" src={publicRuntimeConfig.basePath + image}
 							alt="profile of James Tsetsekas"
+							loading="eager"
+							decoding="async"
 						/>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 
-export const About = ({ title, description }) => {
+export const About = ({ title, description, facts }) => {
 	return (
-		<div id="about" className="bg-white py-5 px-5 border border-secondary rounded-3">
+		<section id="about" className="about-section">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
-				<div className="px-sm-5">
+				<div className="row gy-4">
+					<div className="col-lg-5">
+						<p className="section-kicker">About</p>
+						<h2 className="section-title">{title}</h2>
+						<div className="fact-grid">
+							{facts.map((fact) => (
+								<div className="fact" key={fact.label}>
+									<strong>{fact.value}</strong>
+									<span>{fact.label}</span>
+								</div>
+							))}
+						</div>
+					</div>
+					<div className="col-lg-7 about-copy">
 					{description.map((value, index) => (
 						<p key={index} >{value}</p>
 					))}
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
