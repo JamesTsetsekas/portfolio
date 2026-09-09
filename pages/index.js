@@ -30,13 +30,13 @@ export default function Home() {
         title={work.title}
         cards={work.cards}
       />
-      <Skills
-        title={skills.title}
-        cards={skills.cards}
-      />
       <Projects
         title={projects.title}
         cards={projects.cards}
+      />
+      <Skills
+        title={skills.title}
+        cards={skills.cards}
       />
       <Contact
         title={contact.title}
