@@ -83,7 +83,7 @@ export const intro = {
     text: [" Hey,", "I'm "]
   },
   title: "James Tsetsekas",
-  description: "Full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. My current work spans open-source commerce on Nostr with Bitcoin and Lightning at Conduit, alongside React application development with Great Plains Communications.",
+  description: "Web & Digital Experience Developer at Great Plains Communications (now Rightfiber) and Product Engineer at Conduit. I build customer-facing React experiences and open-source Nostr commerce with Bitcoin and Lightning.",
   image: profile.src,
   buttons: [
     {
@@ -107,7 +107,8 @@ export const intro = {
 export const about = {
   title: "About Me",
   description: [
-    "I'm a full-stack developer with 14+ years of experience building web applications, payment systems, and developer tooling. At Conduit, I contribute to an open-source decentralized commerce platform built on Nostr with Bitcoin and Lightning payments. My work spans React and TypeScript product features, protocol-aware workflows, encrypted messaging, and privacy-focused checkout. I also develop React applications with Great Plains Communications.",
+    "I'm a Web & Digital Experience Developer at Great Plains Communications (now Rightfiber), where I build React applications for customer-facing digital experiences.",
+    "I also work as a Product Engineer at Conduit, an open-source decentralized commerce platform built on Nostr with Bitcoin and Lightning payments. My Conduit work spans React and TypeScript product features, protocol-aware workflows, encrypted messaging, privacy-focused checkout, and payment flows.",
     "My independent work includes Bitcoin market analytics, Lightning wallet tools, digital-securities settlement prototypes, AI-assisted developer tools, and technical writing. I founded the Jersey City Bitcoin Meetup and Socratic Seminar, where I organize practical discussions around Bitcoin, Lightning, privacy, and protocol development. Outside of code, I ski and self-host more than I probably should.",
   ],
 };
@@ -116,20 +117,20 @@ export const work = {
   title: "What I Do",
   cards: [
     {
-      title: "Current Work",
-      description: "At Conduit, I contribute React and TypeScript features for open-source Nostr commerce with Bitcoin and Lightning payments. I also develop React applications with Great Plains Communications.",
+      title: "Web & Digital Experience",
+      description: "At Great Plains Communications (now Rightfiber), I build and improve React applications for customer-facing digital experiences.",
       icons: [
-        { icon: faNetworkWired },
         { icon: faReact },
-        { icon: faBitcoin }
+        { icon: faChrome },
+        { icon: faCode }
       ]
     },
     {
-      title: "Full-Stack Products & Payments",
-      description: "Across 14+ years, I've built web applications, e-commerce systems, internal tools, analytics, and payment workflows using React, TypeScript, Node.js, Python, Bitcoin, and Lightning.",
+      title: "Product Engineering",
+      description: "At Conduit, I build React and TypeScript marketplace and merchant workflows for open-source Nostr commerce with Bitcoin and Lightning.",
       icons: [
-        { icon: faCode },
-        { icon: faReact },
+        { icon: faNetworkWired },
+        { icon: faBitcoin },
         { icon: faBoltLightning }
       ]
     },
@@ -435,12 +436,22 @@ export const projects = {
   cards: [
     {
       title: "Conduit — Open-Source Nostr Commerce",
-      description: "My work at Conduit focuses on an open-source decentralized commerce platform built on Nostr. I contribute across React and TypeScript marketplace and merchant features, encrypted messaging, privacy-focused checkout, and Bitcoin and Lightning payment flows.",
+      description: "As a Product Engineer at Conduit, I build React and TypeScript marketplace and merchant features for open-source commerce on Nostr, including encrypted messaging, privacy-focused checkout, and Bitcoin Lightning payment flows.",
       linkIcons: [
         { icon: faNetworkWired },
         { icon: faBitcoin },
         { icon: faChrome, link: "https://conduit.market/" },
         { icon: faGithub, link: "https://github.com/Conduit-BTC" }
+      ]
+    },
+    {
+      title: "nos2x Auto Approver — Nostr QA Signer",
+      description: "Chromium-only nos2x fork built for automated Nostr development and QA. It adds explicit host allowlists for unattended NIP-07 operations while retaining standard approval prompts on every other host, and is designed only for disposable test identities.",
+      linkIcons: [
+        { icon: faChrome },
+        { icon: faShieldAlt },
+        { icon: faNetworkWired },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/nos2x-auto-approver" }
       ]
     },
     {
@@ -655,15 +666,15 @@ export const contact = {
 // SEARCH ENGINE
 export const SEO = {
   // 50 - 60 char
-  title: "James Tsetsekas | Nostr, Bitcoin & React Developer",
-  description: "Full-stack developer building open-source Nostr commerce with Bitcoin and Lightning at Conduit, plus React applications with Great Plains Communications.",
+  title: "James Tsetsekas | Web & Product Engineer",
+  description: "Web & Digital Experience Developer at Great Plains Communications / Rightfiber and Product Engineer at Conduit, building React experiences and Nostr commerce.",
   image: profile.src,
 };
 
 export const links = {
   image: profile.src,
   title: "@JamesTsetsekas",
-  description: "Nostr, Bitcoin, Lightning & React developer",
+  description: "Web, product, Nostr & Bitcoin engineer",
   cards: [
     {
       title: "My Portfolio",
