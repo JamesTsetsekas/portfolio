@@ -7,6 +7,7 @@ I am a Web & Digital Experience Developer at Great Plains Communications (now Ri
 ## Featured work
 
 - [Conduit](https://conduit.market/) — open-source peer-to-peer commerce on Nostr with Bitcoin Lightning payments.
+- [Codex Reset Guard](https://github.com/JamesTsetsekas/CodexResetGuard) — an opt-in Windows tray app that redeems selected, existing banked Codex resets at a chosen usage threshold. [Download the latest release](https://github.com/JamesTsetsekas/CodexResetGuard/releases/latest).
 - [nos2x Auto Approver](https://github.com/JamesTsetsekas/nos2x-auto-approver) — a Chromium signer fork for repeatable Nostr development and QA with explicit host allowlists.
 - [Fintech Analytics Suite](https://github.com/JamesTsetsekas/Fintech) — Bitcoin market-cycle, on-chain, volatility, returns, and price-model visualizations.
 - [Digital Securities Settlement](https://github.com/JamesTsetsekas/digital-securities-settlement) — an Ethereum-based atomic DvP settlement prototype with compliance controls.

@@ -27,6 +27,7 @@ import {
   faPaypal,
   faPython,
   faEthereum,
+  faWindows,
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faCode,
@@ -48,6 +49,7 @@ import {
   faChartLine,
   faGavel,
   faServer,
+  faDownload,
 } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
@@ -442,6 +444,16 @@ export const projects = {
         { icon: faBitcoin },
         { icon: faChrome, link: "https://conduit.market/" },
         { icon: faGithub, link: "https://github.com/Conduit-BTC" }
+      ]
+    },
+    {
+      title: "Codex Reset Guard — Windows Tray App",
+      description: "An independent, portable Windows tray app that redeems your selected, existing banked Codex resets at a chosen usage threshold. Automatic resets are off by default. Choose the earliest-expiring allowed credit, set a finite reset allowance, and keep a reserve. Built in C# with persistent request recovery through the official Codex app-server.",
+      linkIcons: [
+        { icon: faWindows },
+        { icon: faShieldAlt },
+        { icon: faDownload, link: "https://github.com/JamesTsetsekas/CodexResetGuard/releases/latest" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/CodexResetGuard" }
       ]
     },
     {
