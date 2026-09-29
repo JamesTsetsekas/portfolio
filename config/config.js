@@ -471,7 +471,7 @@ export const projects = {
       linkIcons: [
         { icon: faRobot },
         { icon: faChartLine },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/jamestsetsekas" }
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/codex-activity-card" }
       ]
     },
     {
