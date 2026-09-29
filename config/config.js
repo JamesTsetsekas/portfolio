@@ -437,6 +437,15 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: "Astra Oneshots — Browser Game Collection",
+      description: "A public collection of eight browser-playable game vertical slices, spanning real-time strategy, action RPG, FPS, battle arena, battle royale, open-world adventure, and arcade driving. Built as static web games with a GitHub Pages showcase and local-first development workflow.",
+      linkIcons: [
+        { icon: faCode },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/astra-oneshots/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/astra-oneshots" }
+      ]
+    },
+    {
       title: "Conduit — Open-Source Nostr Commerce",
       description: "As a Product Engineer at Conduit, I build React and TypeScript marketplace and merchant features for open-source commerce on Nostr, including encrypted messaging, privacy-focused checkout, and Bitcoin Lightning payment flows.",
       linkIcons: [
