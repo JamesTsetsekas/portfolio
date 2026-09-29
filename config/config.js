@@ -466,6 +466,15 @@ export const projects = {
       ]
     },
     {
+      title: "Codex Activity Card — Daily GitHub Widget",
+      description: "A daily refreshed SVG card for my GitHub profile that turns aggregate Codex activity into a clear visual milestone. The public Node.js updater reads local app statistics and updates the profile asset without storing credentials in the repository.",
+      linkIcons: [
+        { icon: faRobot },
+        { icon: faChartLine },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/jamestsetsekas" }
+      ]
+    },
+    {
       title: "nos2x Auto Approver — Nostr QA Signer",
       description: "Chromium-only nos2x fork built for automated Nostr development and QA. It adds explicit host allowlists for unattended NIP-07 operations while retaining standard approval prompts on every other host, and is designed only for disposable test identities.",
       linkIcons: [
