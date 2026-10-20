@@ -85,7 +85,7 @@ export const intro = {
     text: [" Hey,", "I'm "]
   },
   title: "James Tsetsekas",
-  description: "Web & Digital Experience Developer at Great Plains Communications (now Rightfiber) and Product Engineer at Conduit. I build customer-facing React experiences and open-source Nostr commerce with Bitcoin and Lightning.",
+  description: "Web & Digital Experience Developer at RightFiber and Product Engineer at Conduit. I build customer-facing React experiences and open-source Nostr commerce with Bitcoin and Lightning.",
   image: profile.src,
   buttons: [
     {
@@ -109,7 +109,7 @@ export const intro = {
 export const about = {
   title: "About Me",
   description: [
-    "I'm a Web & Digital Experience Developer at Great Plains Communications (now Rightfiber), where I build React applications for customer-facing digital experiences.",
+    "I'm a Web & Digital Experience Developer at RightFiber, where I build React applications for customer-facing digital experiences.",
     "I also work as a Product Engineer at Conduit, an open-source decentralized commerce platform built on Nostr with Bitcoin and Lightning payments. My Conduit work spans React and TypeScript product features, protocol-aware workflows, encrypted messaging, privacy-focused checkout, and payment flows.",
     "My independent work includes Bitcoin market analytics, Lightning wallet tools, digital-securities settlement prototypes, AI-assisted developer tools, and technical writing. I founded the Jersey City Bitcoin Meetup and Socratic Seminar, where I organize practical discussions around Bitcoin, Lightning, privacy, and protocol development. Outside of code, I ski and self-host more than I probably should.",
   ],
@@ -120,7 +120,7 @@ export const work = {
   cards: [
     {
       title: "Web & Digital Experience",
-      description: "At Great Plains Communications (now Rightfiber), I build and improve React applications for customer-facing digital experiences.",
+      description: "At RightFiber, I build and improve React applications for customer-facing digital experiences.",
       icons: [
         { icon: faReact },
         { icon: faChrome },
@@ -697,7 +697,7 @@ export const contact = {
 export const SEO = {
   // 50 - 60 char
   title: "James Tsetsekas | Web & Product Engineer",
-  description: "Web & Digital Experience Developer at Great Plains Communications / Rightfiber and Product Engineer at Conduit, building React experiences and Nostr commerce.",
+  description: "Web & Digital Experience Developer at RightFiber and Product Engineer at Conduit, building React experiences and Nostr commerce.",
   image: profile.src,
 };
 
