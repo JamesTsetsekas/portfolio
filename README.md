@@ -2,7 +2,7 @@
 
 Source for [jamestsetsekas.com](https://jamestsetsekas.com/), my personal portfolio and project archive.
 
-I am a Web & Digital Experience Developer at Great Plains Communications (now Rightfiber) and a Product Engineer at [Conduit](https://conduit.market/). The site highlights my work across React, TypeScript, Nostr, Bitcoin Lightning, payments, fintech analytics, and developer tooling.
+I am a Web & Digital Experience Developer at RightFiber and a Product Engineer at [Conduit](https://conduit.market/). The site highlights my work across React, TypeScript, Nostr, Bitcoin Lightning, payments, fintech analytics, and developer tooling.
 
 ## Featured work
 
