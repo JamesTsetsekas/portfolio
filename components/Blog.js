@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import getConfig from 'next/config';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChrome } from '@fortawesome/free-brands-svg-icons';
 
 export const Blog = ({ initialPosts }) => {
   const [posts, setPosts] = useState(initialPosts);
@@ -23,7 +21,7 @@ export const Blog = ({ initialPosts }) => {
     <section id="blog" aria-labelledby="blog-title" className="bg-primary py-5 px-3 px-md-5 rounded-3">
       <div className="container">
         <h1 id="blog-title" className="text-light fw-bold">From the blog</h1>
-        <p className="text-light">Notes on Bitcoin, Nostr, AI, and building software.</p>
+        <p className="text-light">Notes on building software, AI, security, Bitcoin, and Nostr.</p>
         {posts.length > 0 ? (
           <>
             <div id="blog-posts" className="d-flex flex-row flex-wrap justify-content-center">
@@ -32,12 +30,9 @@ export const Blog = ({ initialPosts }) => {
                   <h2 className="h4"><a href={post.url} target="_blank" rel="noreferrer">{post.title}</a></h2>
                   <time dateTime={post.date} className="text-primary small mb-2">{post.dateLabel}</time>
                   <p className="text-dark">{post.description}</p>
-                  <div className="text-end mt-auto pt-2">
-                    <a href={post.url} target="_blank" rel="noreferrer"
-                      aria-label={`Read article: ${post.title}`}>
-                      <FontAwesomeIcon className="icon-style mx-1" icon={faChrome} size="2x" />
-                    </a>
-                  </div>
+                  <a href={post.url} target="_blank" rel="noreferrer"
+                    className="btn btn-outline-primary align-self-start mt-auto"
+                    aria-label={`Read article: ${post.title}`}>Read article</a>
                 </article>
               ))}
             </div>
