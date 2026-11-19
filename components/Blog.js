@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import getConfig from 'next/config';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChrome } from '@fortawesome/free-brands-svg-icons';
 
 export const Blog = ({ initialPosts }) => {
   const [posts, setPosts] = useState(initialPosts);
@@ -24,14 +26,18 @@ export const Blog = ({ initialPosts }) => {
         <p className="text-light">Notes on Bitcoin, Nostr, AI, and building software.</p>
         {posts.length > 0 ? (
           <>
-            <div id="blog-posts" className="blog-posts">
+            <div id="blog-posts" className="d-flex flex-row flex-wrap justify-content-center">
               {posts.slice(0, visible).map(post => (
-                <article key={post.url} className="blog-post card card-work bg-light py-3 px-3 rounded-3">
-                  <time dateTime={post.date} className="text-primary small">{post.dateLabel}</time>
-                  <h2 className="h4 mt-2"><a href={post.url}>{post.title}</a></h2>
+                <article key={post.url} className="blog-post card card-work py-3 px-3 mx-sm-3 my-3 rounded-3">
+                  <h2 className="h4"><a href={post.url} target="_blank" rel="noreferrer">{post.title}</a></h2>
+                  <time dateTime={post.date} className="text-primary small mb-2">{post.dateLabel}</time>
                   <p className="text-dark">{post.description}</p>
-                  <a href={post.url} className="btn btn-outline-primary align-self-start mt-auto"
-                    aria-label={`Read article: ${post.title}`}>Read article</a>
+                  <div className="text-end mt-auto pt-2">
+                    <a href={post.url} target="_blank" rel="noreferrer"
+                      aria-label={`Read article: ${post.title}`}>
+                      <FontAwesomeIcon className="icon-style mx-1" icon={faChrome} size="2x" />
+                    </a>
+                  </div>
                 </article>
               ))}
             </div>
@@ -42,7 +48,7 @@ export const Blog = ({ initialPosts }) => {
         ) : <p className="text-light">Explore the latest articles on my blog.</p>}
         <div className="d-flex flex-wrap justify-content-center gap-3 align-items-center mt-3">
           {visible < posts.length && (
-            <button type="button" className="btn btn-light" aria-controls="blog-posts"
+            <button type="button" className="btn btn-outline-light" aria-controls="blog-posts"
               onClick={() => setVisible(count => count + 6)}>Load more articles</button>
           )}
           <a className="btn btn-outline-light" href="https://blog.jamestsetsekas.com/">Visit the blog</a>
