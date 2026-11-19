@@ -139,27 +139,26 @@ $card-border-radius: 15px;
 
 // 5. Add additional custom code here
 .blog-posts {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0;
 }
 
 .blog-post {
-  padding: 1.5rem 0;
-  border-bottom: 1px solid rgba($primary, .3);
+  width: 20rem;
+  max-width: 100%;
   overflow-wrap: anywhere;
 
-  a {
+  h2 a {
     color: $primary;
+  }
+
+  h2 a:hover {
     text-decoration: underline;
     text-underline-offset: .2em;
   }
-
-  a:hover { color: #000; }
-}
-
-@media (max-width: 767.98px) {
-  .blog-posts { grid-template-columns: minmax(0, 1fr); }
 }
 
 html {
