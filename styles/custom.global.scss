@@ -138,6 +138,21 @@ $card-border-radius: 15px;
 
 
 // 5. Add additional custom code here
+.blog-post {
+  width: 20rem;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+
+  h2 a {
+    color: $primary;
+  }
+
+  h2 a:hover {
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

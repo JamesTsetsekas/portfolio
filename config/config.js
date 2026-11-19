@@ -73,8 +73,7 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://blog.jamestsetsekas.com/",
-      target: "_blank",
+      link: "/#blog",
     },
   ],
 };
@@ -437,15 +436,6 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "Astra Oneshots — Browser Game Collection",
-      description: "A public collection of eight browser-playable game vertical slices, spanning real-time strategy, action RPG, FPS, battle arena, battle royale, open-world adventure, and arcade driving. Built as static web games with a GitHub Pages showcase and local-first development workflow.",
-      linkIcons: [
-        { icon: faCode },
-        { icon: faChrome, link: "https://jamestsetsekas.github.io/astra-oneshots/" },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/astra-oneshots" }
-      ]
-    },
-    {
       title: "Conduit — Open-Source Nostr Commerce",
       description: "As a Product Engineer at Conduit, I build React and TypeScript marketplace and merchant features for open-source commerce on Nostr, including encrypted messaging, privacy-focused checkout, and Bitcoin Lightning payment flows.",
       linkIcons: [
@@ -456,13 +446,62 @@ export const projects = {
       ]
     },
     {
-      title: "Codex Reset Guard — Windows Tray App",
-      description: "An independent, portable Windows tray app that redeems your selected, existing banked Codex resets at a chosen usage threshold. Automatic resets are off by default. Choose the earliest-expiring allowed credit, set a finite reset allowance, and keep a reserve. Built in C# with persistent request recovery through the official Codex app-server.",
+      title: "Fintech Analytics Suite",
+      description: "An interactive Bitcoin analytics dashboard with a searchable chart terminal, cycle signals, historical phases, and device-local alerts. Python data pipelines power market and on-chain charts with zoom, overlays, pinned favorites, shareable views, and CSV/PNG export.",
+      linkIcons: [
+        { icon: faPython },
+        { icon: faChartLine },
+        { icon: faBitcoin },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/Fintech/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/Fintech" }
+      ]
+    },
+    {
+      title: "Reset Guard — Codex & Claude Usage Control",
+      description: "A portable C# Windows tray app for opt-in Codex reset automation and read-only Claude usage monitoring. Credit allowlists, thresholds, finite allowances, reserves, and persistent recovery control Codex resets; Claude alerts link to its own reset controls.",
       linkIcons: [
         { icon: faWindows },
         { icon: faShieldAlt },
-        { icon: faDownload, link: "https://github.com/JamesTsetsekas/CodexResetGuard/releases/latest" },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/CodexResetGuard" }
+        { icon: faDownload, link: "https://github.com/JamesTsetsekas/ResetGuard/releases/latest" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/ResetGuard" }
+      ]
+    },
+    {
+      title: "Oneshot Arcade — AI Browser Game Comparison",
+      description: "A playable comparison of AI-built browser games across eight original briefs and multiple coding models. A shared one-shot harness, side-by-side builds, screenshots, and source reports make each attempt explorable; earlier iterated builds are labeled separately.",
+      linkIcons: [
+        { icon: faCode },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/oneshot-arcade/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/oneshot-arcade" }
+      ]
+    },
+    {
+      title: "Oneshot Visuals — AI Visual Coding Comparison",
+      description: "Six original briefs, five AI coding agents, and one take each: SVG illustrations, animations, and interactive graphics compared side by side. The dashboard includes blind pair review and browser-local ratings in an exploratory collection.",
+      linkIcons: [
+        { icon: faCode },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/oneshot-visuals/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/oneshot-visuals" }
+      ]
+    },
+    {
+      title: "Digital Securities Settlement Engine",
+      description: "Atomic Delivery vs. Payment (DvP) settlement engine for tokenized securities on Ethereum, inspired by DTCC's Project Ion. ERC-20 security tokens with compliance/KYC modules, CCP-gated settlement, role-based access control (issuer, compliance officer, transfer agent, CCP), and freeze/pause capabilities. Solidity 0.8.20, Hardhat, OpenZeppelin v5, ethers.js v6.",
+      linkIcons: [
+        { icon: faEthereum },
+        { icon: faGavel },
+        { icon: faShieldAlt },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/digital-securities-settlement" }
+      ]
+    },
+    {
+      title: "Price HUD — GNOME Bitcoin Extension",
+      description: "A Bitcoin-first GNOME Shell extension with a compact top-bar price indicator, sats-per-dollar, and mempool fees. A configurable watchlist and chart view support crypto symbols plus stock and ETF symbols.",
+      linkIcons: [
+        { icon: faLinux },
+        { icon: faBitcoin },
+        { icon: faChartLine },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/price-hud" }
       ]
     },
     {
@@ -485,16 +524,6 @@ export const projects = {
       ]
     },
     {
-      title: "Digital Securities Settlement Engine",
-      description: "Atomic Delivery vs. Payment (DvP) settlement engine for tokenized securities on Ethereum, inspired by DTCC's Project Ion. ERC-20 security tokens with compliance/KYC modules, CCP-gated settlement, role-based access control (issuer, compliance officer, transfer agent, CCP), and freeze/pause capabilities. Solidity 0.8.20, Hardhat, OpenZeppelin v5, ethers.js v6.",
-      linkIcons: [
-        { icon: faEthereum },
-        { icon: faGavel },
-        { icon: faShieldAlt },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/digital-securities-settlement" }
-      ]
-    },
-    {
       title: "Bond Settlement on DAML",
       description: "Multi-party bond issuance, trade matching, and atomic DvP settlement built on Canton/DAML. Models the full DTCC/NSCC/DTC clearing workflow with CCP novation, custodian banks, trade reporting, and regulatory observation. DAML's signatory/observer model enforces multi-party consent at every state change.",
       linkIcons: [
@@ -512,17 +541,6 @@ export const projects = {
         { icon: faReact },
         { icon: faServer },
         { icon: faChrome, link: "https://dynamisai.io" }
-      ]
-    },
-    {
-      title: "Fintech Analytics Suite",
-      description: "Comprehensive Bitcoin on-chain analytics and market cycle tools: Power Law regression, Pi Cycle Top indicator, Rainbow HPR model, ML-based price prediction (Random Forest), halving cycle analysis, Bollinger Bands, monthly/yearly returns heatmaps, and more. 25+ publication-quality charts in Python using matplotlib.",
-      linkIcons: [
-        { icon: faPython },
-        { icon: faChartLine },
-        { icon: faBitcoin },
-        { icon: faChrome, link: "https://jamestsetsekas.github.io/Fintech/" },
-        { icon: faGithub, link: "https://github.com/JamesTsetsekas/Fintech" }
       ]
     },
     {

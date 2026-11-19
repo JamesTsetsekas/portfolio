@@ -6,8 +6,18 @@ import { Intro, About } from '../components/Intro';
 import { WhatIDo, Skills, Projects } from '../components/Work';
 import { about, contact, intro, navigation, projects, SEO, work, skills } from '../config/config';
 import Konami from '../components/Konami';
+import { Blog } from '../components/Blog';
+import { fetchPosts } from '../lib/blog';
 
-export default function Home() {
+export async function getStaticProps() {
+  try {
+    return { props: { blogPosts: await fetchPosts() } };
+  } catch {
+    return { props: { blogPosts: [] } };
+  }
+}
+
+export default function Home({ blogPosts }) {
   return (
     <Fragment>
       <Header seo={SEO} />
@@ -38,6 +48,7 @@ export default function Home() {
         title={skills.title}
         cards={skills.cards}
       />
+      <Blog initialPosts={blogPosts} />
       <Contact
         title={contact.title}
         description={contact.description}
