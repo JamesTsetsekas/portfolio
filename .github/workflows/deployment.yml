@@ -37,6 +37,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+    - run: npm run test:blog
     # - run: npm run prebuild # build automatically runs prebuild
     - run: npm run build
       env:
