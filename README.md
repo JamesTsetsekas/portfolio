@@ -14,6 +14,7 @@ I am a Web & Digital Experience Developer at RightFiber and a Product Engineer a
 - [Bond Settlement on DAML](https://github.com/JamesTsetsekas/bond-settlement-daml) — a multi-party bond issuance and settlement model on Canton/DAML.
 - [Oneshot Arcade](https://github.com/JamesTsetsekas/oneshot-arcade) - playable AI browser-game comparisons across original briefs.
 - [Oneshot Visuals](https://github.com/JamesTsetsekas/oneshot-visuals) - SVG, animation, and interactive visual coding comparisons.
+- [Pareto Frontier Explorer](https://github.com/JamesTsetsekas/pareto-frontier) - an interactive AI model cost-vs-score chart with the Pareto frontier, built on auto-refreshed ARC Prize leaderboard data. [Explore it](https://jamestsetsekas.github.io/pareto-frontier/).
 - [Price HUD](https://github.com/JamesTsetsekas/price-hud) - a Bitcoin-first GNOME Shell price and mempool-fee extension.
 
 ## Blog section
