@@ -486,7 +486,7 @@ export const projects = {
     },
     {
       title: "Pareto Frontier Explorer — AI Model Cost vs. Score",
-      description: "An interactive D3 chart of AI model cost against ARC-AGI score, with one line per model across reasoning-effort levels and the Pareto frontier of best value. Provider logos, pinnable tooltips, filters, shareable views, and PNG/CSV export; a scheduled GitHub Action keeps the leaderboard data current.",
+      description: "An interactive D3 chart of AI model cost against benchmark score, with the Pareto frontier of best value across the ARC Prize (ARC-AGI) and LiveBench leaderboards. One line per model across reasoning-effort levels, provider logos, pinnable tooltips, filters, shareable views, and PNG/CSV export; a scheduled GitHub Action keeps the data from both leaderboards current.",
       linkIcons: [
         { icon: faChartLine },
         { icon: faCode },
