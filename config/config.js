@@ -485,6 +485,16 @@ export const projects = {
       ]
     },
     {
+      title: "Pareto Frontier Explorer — AI Model Cost vs. Score",
+      description: "An interactive D3 chart of AI model cost against ARC-AGI score, with one line per model across reasoning-effort levels and the Pareto frontier of best value. Provider logos, pinnable tooltips, filters, shareable views, and PNG/CSV export; a scheduled GitHub Action keeps the leaderboard data current.",
+      linkIcons: [
+        { icon: faChartLine },
+        { icon: faCode },
+        { icon: faChrome, link: "https://jamestsetsekas.github.io/pareto-frontier/" },
+        { icon: faGithub, link: "https://github.com/JamesTsetsekas/pareto-frontier" }
+      ]
+    },
+    {
       title: "Digital Securities Settlement Engine",
       description: "Atomic Delivery vs. Payment (DvP) settlement engine for tokenized securities on Ethereum, inspired by DTCC's Project Ion. ERC-20 security tokens with compliance/KYC modules, CCP-gated settlement, role-based access control (issuer, compliance officer, transfer agent, CCP), and freeze/pause capabilities. Solidity 0.8.20, Hardhat, OpenZeppelin v5, ethers.js v6.",
       linkIcons: [
